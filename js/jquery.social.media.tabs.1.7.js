@@ -28,8 +28,7 @@
 					retweets: false,
 					replies: false,
 					images: '', // large w: 786 h: 346, thumb w: 150 h: 150, medium w: 600 h: 264, small w: 340 h 150
-					/* url: 'twitter.php', */
-					url: 'http://www.semhoun.fr/clientDirectory/dsin/twitter.php',
+					url: 'twitter.php',
 					icon: 'twitter.png'
 				},
 				facebook: {
@@ -254,32 +253,40 @@
 			if(this.o.method == 'slide'){
 				/***NCHO***/
 				/* le css de dscmt doit prendre en compte le choix de position et d'alignement sans ajout de classe */
+				/***/
 				var align = this.o.align == 'left' || this.o.align == 'right' ? 'align-'+this.o.align : 'align-top' ;
 				/* $a.addClass(this.o.location).addClass(align).css({position: this.o.position}); */
 				$a.addClass(this.o.location).addClass(align);
 			} else {
 				/***/
-				/* NCHO class static
+				/* NCHO class static => pas le cas ici
 				/***/
 				$a.addClass('static');
 			}
 			/***/
 			/* NCHO hauteur et largeur calculées
 			/***/
-			hb = this.o.height-parseInt($s.css('border-top-width'),10)-parseInt($s.css('padding-top'),10)-parseInt($s.css('border-bottom-width'),10)-parseInt($s.css('padding-bottom'),10);
-			wb = this.o.width-parseInt($s.css('border-right-width'),10)-parseInt($s.css('padding-right'),10)-parseInt($s.css('border-left-width'),10)-parseInt($s.css('padding-left'),10);
+			/***/
+			/* NCHO ici il faut remplacer par la hauteur et largeur de l'objet $a
+			/***/
+			/* hb = this.o.height-parseInt($s.css('border-top-width'),10)-parseInt($s.css('padding-top'),10)-parseInt($s.css('border-bottom-width'),10)-parseInt($s.css('padding-bottom'),10); */
+			/* hb = $a.height()-parseInt($s.css('border-top-width'),10)-parseInt($s.css('padding-top'),10)-parseInt($s.css('border-bottom-width'),10)-parseInt($s.css('padding-bottom'),10); */
+			/* wb = this.o.width-parseInt($s.css('border-right-width'),10)-parseInt($s.css('padding-right'),10)-parseInt($s.css('border-left-width'),10)-parseInt($s.css('padding-left'),10); */
 			/***/
 			/* NCHO ici taille et largeur de tab-content et tab-inner
 			/***/
-			$s.css({height: hb+'px', width: wb+'px'});
-			$('.tab-inner',$s).css({height: hb+'px', width: wb+'px'});
+			/* $s.css({height: hb+'px', width: wb+'px'}); */
+			/* $s.css({height: hb+'px'}); */
+			/* $('.tab-inner',$s).css({height: hb+'px', width: wb+'px'}); */
+			/* $('.tab-inner',$s).css({height: hb+'px'}); */
+			
 			
 			if(this.o.controls){
 				$c.append('<div class="controls"><ul><li><a href="#" class="play"></a></li><li><a href="#" class="prev"></a></li><li><a href="#" class="next"></a></li><li><a href="#" class="'+this.o.classClose+' close"></a></li></ul></div>');
 				/***/
 				/* NCHO ici la largeur de la partie controls
 				/***/
-				$('.controls',$c).css({width: wb+'px'});
+				/* $('.controls',$c).css({width: wb+'px'}); */
 			}
 			
 			if(this.o.method == 'slide'){
@@ -291,7 +298,7 @@
 				this.dcstatic($a,$t,$l);
 			}
 			if(this.o.loadOpen == true){
-				this.open($a);
+				this.open($a,$l);
 			}
 			this.slickTabs(this.o.start,$a,$t,$s);
 			this.addevents($a,$t,$s,$l);
@@ -308,7 +315,7 @@
 					}
 				} else {
 					if(!$('li.active',t).length && m == 'slide'){
-						self.open(a);
+						self.open(a,l);
 					}
 					self.slickTabs(i,a,t,s);
 				}
@@ -348,7 +355,7 @@
 			if(this.o.method == 'slide'){
 				$('.'+co).click(function(e){
 					if(!a.hasClass(ca)){
-						self.open(a);
+						self.open(a,l);
 					}
 					var i = parseInt($(this).attr('rel'),10) ? parseInt($(this).attr('rel'),10) : start ;
 					self.slickTabs(i,a,t,s);
@@ -364,7 +371,7 @@
 					if(a.hasClass(ca)){
 						self.close(a,l,s);
 					} else {
-						self.open(a);
+						self.open(a,l);
 						var i = parseInt($(this).attr('rel'),10) ? parseInt($(this).attr('rel'),10) : start ;
 						self.slickTabs(i,a,t,s);
 					}
@@ -374,7 +381,7 @@
 			$('.'+cs).click(function(e){
 				if(m == 'slide'){
 					if(!a.hasClass(ca)){
-						self.open(a);
+						self.open(a,l);
 					}
 				}
 				var i = parseInt($(this).attr('rel'),10) ? parseInt($(this).attr('rel'),10) : start ;
@@ -407,15 +414,22 @@
 			}
 		},
 		dcslide: function(a,t,s,l){ //NCHO Slide tab
-			t.css({position: 'absolute'});
-			s.css({position: 'relative'});
+			/****/
+			/* TOUTE CETTE FONCTION EST INUTILE ET DOIT ETRE REMPLACE AVEC DU CSS RESPONSIVE
+			/****/
+			/* t.css({position: 'absolute'}); */
+			/* s.css({position: 'relative'}); */
 			tw = l.outerWidth(true);
 			th = t.outerHeight();
+			
+			//p2 doit etre fait avec CSS responsive
+			
 			/***/
 			/* NCHO pour faire apparaître la fenêtre on se base sur la hauteur ou la largeur => dépend du positionnement des icones
 			/***/
 			/* var p1 = {marginLeft: '-'+this.o.width+'px', top: this.o.offset+'px', left: 0}; */
-			var p1 = {marginLeft: '-'+this.o.width+'px'};
+			/* var p1 = {marginLeft: '-'+this.o.width+'px'}; */
+			/* var p1 = {marginLeft: '-'+slideOffset+'px'}; */
 			var p2 = {top: 0, right: 0, marginRight: '-'+tw+'px', width: tw+'px'};
 			/***/
 			/* NCHO Il va falloir se baser sur le CSS existant et pas sur les paramètres de configuration
@@ -428,7 +442,8 @@
 				break;
 				case 'top':
 				/* p1 = {marginTop: '-'+this.o.height+'px', top: 0}; */
-				p1 = {marginTop: '-'+this.o.height+'px'};
+				/* p1 = {marginTop: '-'+this.o.height+'px'}; */
+				p1 = {marginTop: '-'+a.height()+'px'};
 				p2 = {bottom: 0, marginBottom: '-'+th+'px'};
 				if(this.o.align == 'left'){
 					/* a.css({left: this.o.offset+'px'}); */
@@ -451,7 +466,7 @@
 				}
 				break;
 			}
-			a.css(p1).addClass('sliding');
+			a.addClass('sliding');
 			t.css(p2);
 		},
 		dcstatic: function(a,t,l){
@@ -488,9 +503,45 @@
 				$('.controls .play').removeClass('play').addClass('pause');
 			}
 		},
-		open: function(a){
+		open: function(a,l){
+			/***/
+			/* Responsive Web Site so need to get position to decide how to slide tab
+			/***/
+			cssTop = a.css('top');
+			cssRight = a.css('right');
+			cssLeft = a.css('left');
+			cssBottom = a.css('bottom');
+			
+			cssFloat = l.css('float');
+			
+			slideOffset = Math.round(a.height() / $(window).height() * 100) ;
+						
+			var p1 = {top: "-=5px"},p2 = {top: 0},self = this;
+			
+			if ('auto' === cssBottom){
+				if ('left' === cssFloat){
+					p1 = {top: "-=5px"},p2 = {top: 0};
+				} else {
+					if ('auto' === cssRight){
+						p1 = {left: "-=5px"},p2 = {left: 0};
+					} else {
+						p1 = {right: "-=5px"},p2 = {right: 0};
+					}
+				}
+			} else {
+				if ('left' === cssFloat){
+					p1 = {bottom: "-=5px"},p2 = {bottom: 0};
+				} else {
+					if ('auto' === cssRight){
+						p1 = {left: "-=5px"},p2 = {left: 0};
+					} else {
+						p1 = {right: "-=5px"},p2 = {right: 0};
+					}
+				}
+			}
+			/*****/
+			/*
 			var p1 = {marginBottom: "-=5px"},p2 = {marginBottom: 0},self = this;
-			/* a.css({zIndex: this.o.zopen}); */
 			switch (this.o.location) {
 				case 'top': 
 				p1 = {marginTop: "-=5px"},p2 = {marginTop: 0};
@@ -502,6 +553,7 @@
 				p1 = {marginRight: "-=5px"},p2 = {marginRight: 0};
 				break;
 			}
+			*/
 			a.animate(p1, 100).animate(p2, this.o.speed).addClass(this.o.active);
 		},
 		close: function(a,l,s){
@@ -510,18 +562,63 @@
 		/***/
 			var self = this, ca = this.o.active;
 			if(a.hasClass(ca)){
-				var p = {"marginBottom": "-"+this.o.height+'px'};
-				switch (this.o.location) {
-					case 'top': 
-					p = {"marginTop": "-"+this.o.height+'px'};
-					break;
-					case 'left':
-					p = {"marginLeft": "-"+this.o.width+'px'};		
-					break;
-					case 'right': 
-					p = {"marginRight": "-"+this.o.width+'px'};
-					break;
+				/***/
+				/* Responsive Web Site so need to get position to decide how to slide tab
+				/***/
+				cssTop = a.css('top');
+				cssRight = a.css('right');
+				cssLeft = a.css('left');
+				cssBottom = a.css('bottom');
+				
+				cssFloat = l.css('float');
+				
+				slideOffset = Math.round(a.height() / $(window).height() * 100) ;
+							
+				var p = {top: '-'+slideOffset+'%'};
+				
+				if ('auto' === cssBottom){
+					if ('left' === cssFloat){
+						p = {top: '-'+slideOffset+'%'};
+						//p2 = {bottom: 0, marginBottom: '-'+th+'px'};
+					} else {
+						slideOffset = Math.round(a.width() / $(window).width() * 100) ;
+						if ('auto' === cssRight){
+							p = {left: '-'+slideOffset+'%'};
+							//p2 = {top: 0, right: 0, marginRight: '-'+tw+'px', width: tw+'px'};
+						} else {
+							p = {right: '-'+slideOffset+'%'};
+							//p2 = {top: 0, left: 0, marginLeft: '-'+tw+'px', width: tw+'px'};
+						}
+					}
+				} else {
+					if ('left' === cssFloat){
+						p = {bottom: '-'+slideOffset+'%'};
+						//p2 = {top: 0, marginTop: '-'+th+'px'};
+					} else {
+						slideOffset = Math.round(a.width() / $(window).width() * 100) ;
+						if ('auto' === cssRight){
+							p = {left: '-'+slideOffset+'%'};
+							//p2 = {top: 0, right: 0, marginRight: '-'+tw+'px', width: tw+'px'};
+						} else {
+							p = {right: '-'+slideOffset+'%'};
+							//p2 = {top: 0, left: 0, marginLeft: '-'+tw+'px', width: tw+'px'};
+						}
+					}
 				}
+				/*
+					var p = {"marginBottom": "-"+this.o.height+'px'};
+					switch (this.o.location) {
+						case 'top': 
+						p = {"marginTop": "-"+a.height()+'px'};
+						break;
+						case 'left':
+						p = {"marginLeft": "-"+this.o.width+'px'};		
+						break;
+						case 'right': 
+						p = {"marginRight": "-"+this.o.width+'px'};
+						break;
+					}
+				*/
 				a.animate(p, this.o.speed, function(){
 					a.removeClass(ca);
 					l.removeClass(ca);

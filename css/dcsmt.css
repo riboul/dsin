@@ -10,11 +10,13 @@
 	font-size: 1em;
 	color: #666;
 	
-	width: 27%;
 	position: fixed;
+	z-index: 9;
+	
+	width: 27%;
+	height: 70%;
 	top: 0;
 	right: 3%;
-	z-index: 9;
 }
 .active.dcsmt .dcsmt-slider {
 	box-shadow: 0 0 4px 1px rgba(0, 0, 0, 0.6);
@@ -26,9 +28,15 @@
 }
 .dcsmt-content {
 	position: relative;
+	
+	width: 100%;
+	height: 100%;
 }
 
 /* Tabs */
+.social-tabs{
+	position: absolute;
+}
 .social-tabs li {
 	padding: 3px 3px 3px 4px;
 	width: 27px;
@@ -125,12 +133,18 @@
 .dcsmt-slider {
 	clear: both;
 	overflow: hidden;
+	
+	width: 100%;
+	height: 100%;
 }
 .tab-content {
 	position: relative;
 	overflow: hidden;
 	z-index: 11;
 	background: url(../images/loader.gif) no-repeat center 200px;
+	
+	width: 94%;
+	height: 100%;
 }
 .tab-content ul {
 	font-size: 11px;
@@ -138,6 +152,8 @@
 .tab-content .tab-inner {
 	background: #fff;
 	overflow: hidden;
+	
+	height: 97%;
 }
 .tab-inner ul {
 	padding: 0 10px;
@@ -277,7 +293,8 @@
 	-moz-border-radius: 0 0 5px 5px;
 }
 .top .tab-content {
-	padding: 0 10px 10px 10px;
+	/* padding: 0 10px 10px 10px; */
+	padding: 0 3% 3% 3%;
 }
 /** Right **/
 .right .dcsmt-slider {
@@ -577,14 +594,17 @@
 /* Controls */
 .dcsmt .controls {
 	position: absolute;
-	left: 10px;
+	left: 3%;
 	height: 20px;
 	padding: 5px 0;
 	z-index: 12;
+	bottom: 3%;
 	/*
 	display: none;
 	*/
 	background: url(../images/bg_white.png) repeat 0 0;
+	
+	width: 94%;
 }
 .dcsmt .controls ul {
 	padding: 0 10px;
@@ -854,6 +874,18 @@
 	margin-top: 5px;
 }
 
+
+/******************************** TEST ***********************************************/
+/* @group -SMARTPHONE
+------------------------------------------------------------------------------------------*/
+@media all and (max-width: 860px){
+	.dcsmt {
+		right: 0;
+		top: 10%;
+	}
+}
+/* @end -SMARTPHONE */
+/******************************** END TEST ***********************************************/
 
 
 /* @group -SMARTPHONE
