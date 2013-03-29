@@ -862,7 +862,7 @@ textarea[placeholder] {
 ------------------------------------------------------------------------------------------*/
 @media all and (max-device-width: 480px){
 	body{
-		font-size: 220%;
+		/*font-size: 220%;*/
 	}
 	/* @group -HEADER
 	-------------------------------------*/
@@ -1018,7 +1018,7 @@ textarea[placeholder] {
 ------------------------------------------------------------------------------------------*/
 @media all and (max-device-width: 480px) and (orientation: landscape){
 	body{
-		font-size: 110%;
+		/*font-size: 110%;*/
 	}
 	
 	#mainNav > ul > li > a {
