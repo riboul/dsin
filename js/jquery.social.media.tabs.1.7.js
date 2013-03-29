@@ -413,61 +413,8 @@
 				});
 			}
 		},
-		dcslide: function(a,t,s,l){ //NCHO Slide tab
-			/****/
-			/* TOUTE CETTE FONCTION EST INUTILE ET DOIT ETRE REMPLACE AVEC DU CSS RESPONSIVE
-			/****/
-			/* t.css({position: 'absolute'}); */
-			/* s.css({position: 'relative'}); */
-			tw = l.outerWidth(true);
-			th = t.outerHeight();
+		dcslide: function(a,t,s,l){
 			
-			//p2 doit etre fait avec CSS responsive
-			
-			/***/
-			/* NCHO pour faire apparaître la fenêtre on se base sur la hauteur ou la largeur => dépend du positionnement des icones
-			/***/
-			/* var p1 = {marginLeft: '-'+this.o.width+'px', top: this.o.offset+'px', left: 0}; */
-			/* var p1 = {marginLeft: '-'+this.o.width+'px'}; */
-			/* var p1 = {marginLeft: '-'+slideOffset+'px'}; */
-			var p2 = {top: 0, right: 0, marginRight: '-'+tw+'px', width: tw+'px'};
-			/***/
-			/* NCHO Il va falloir se baser sur le CSS existant et pas sur les paramètres de configuration
-			/***/
-			switch(this.o.location){
-				case 'right':
-				/* p1 = {marginRight: '-'+this.o.width+'px', top: this.o.offset+'px', right: 0}; */
-				p1 = {marginRight: '-'+this.o.width+'px'};
-				p2 = {top: 0, left: 0, marginLeft: '-'+tw+'px', width: tw+'px'};
-				break;
-				case 'top':
-				/* p1 = {marginTop: '-'+this.o.height+'px', top: 0}; */
-				/* p1 = {marginTop: '-'+this.o.height+'px'}; */
-				p1 = {marginTop: '-'+a.height()+'px'};
-				p2 = {bottom: 0, marginBottom: '-'+th+'px'};
-				if(this.o.align == 'left'){
-					/* a.css({left: this.o.offset+'px'}); */
-					t.css({left: 0});
-				} else {
-					/* a.css({right: this.o.offset+'px'}); */
-					t.css({right: 0});
-				}
-				break;
-				case 'bottom':
-				/* p1 = {marginBottom: '-'+this.o.height+'px', bottom: 0}; */
-				p1 = {marginBottom: '-'+this.o.height+'px'};
-				p2 = {top: 0, marginTop: '-'+th+'px'};
-				if(this.o.align == 'left'){
-					/* a.css({left: this.o.offset+'px'}); */
-					t.css({left: 0});
-				} else {
-					/* a.css({right: this.o.offset+'px'}); */
-					t.css({right: 0});
-				}
-				break;
-			}
-			a.addClass('sliding');
-			t.css(p2);
 		},
 		dcstatic: function(a,t,l){
 			th = l.outerHeight();
