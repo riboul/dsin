@@ -3,6 +3,7 @@
  * Copyright (c) 2012 Design Chemical
  * http://www.designchemical.com/blog/index.php/premium-jquery-plugins/jquery-social-media-tabs-plugin/
  * Version 1.7 (23-02-2013)
+ * Modified by DSIN to fit WebSite design (29-03-2013)
  */
  
 (function($){
@@ -233,10 +234,6 @@
 			$(el).addClass(this.o.content).wrap('<div id="'+this.id+'" class="'+this.o.wrapper+'" />');
 			var $a = $('#'+this.id),$c = $('.'+this.o.content,$a),ca = 'active';
 			
-			/***/
-			/* NCHO ici largeur du div dcsmt
-			/***/
-			/* $a.css({width: this.o.width+'px'}); */
 			$c.append('<ul class="'+this.o.tabs+'"></ul>').append('<ul class="'+this.o.slider+'"></ul>');
 			
 			var tabs = this.o.tabs, slider = this.o.slider, slides = this.o.slides, self = this;
@@ -251,50 +248,18 @@
 			var $r = $('.'+this.o.slider,$a), $s = $('.'+this.o.slides,$a), $t = $('.'+this.o.tabs,$a), $l = $('li',$t);
 			
 			if(this.o.method == 'slide'){
-				/***NCHO***/
-				/* le css de dscmt doit prendre en compte le choix de position et d'alignement sans ajout de classe */
-				/***/
 				var align = this.o.align == 'left' || this.o.align == 'right' ? 'align-'+this.o.align : 'align-top' ;
-				/* $a.addClass(this.o.location).addClass(align).css({position: this.o.position}); */
-				/* $a.addClass(this.o.location).addClass(align); */
 			} else {
-				/***/
-				/* NCHO class static => pas le cas ici
-				/***/
 				$a.addClass('static');
 			}
-			/***/
-			/* NCHO hauteur et largeur calculées
-			/***/
-			/***/
-			/* NCHO ici il faut remplacer par la hauteur et largeur de l'objet $a
-			/***/
-			/* hb = this.o.height-parseInt($s.css('border-top-width'),10)-parseInt($s.css('padding-top'),10)-parseInt($s.css('border-bottom-width'),10)-parseInt($s.css('padding-bottom'),10); */
-			/* hb = $a.height()-parseInt($s.css('border-top-width'),10)-parseInt($s.css('padding-top'),10)-parseInt($s.css('border-bottom-width'),10)-parseInt($s.css('padding-bottom'),10); */
-			/* wb = this.o.width-parseInt($s.css('border-right-width'),10)-parseInt($s.css('padding-right'),10)-parseInt($s.css('border-left-width'),10)-parseInt($s.css('padding-left'),10); */
-			/***/
-			/* NCHO ici taille et largeur de tab-content et tab-inner
-			/***/
-			/* $s.css({height: hb+'px', width: wb+'px'}); */
-			/* $s.css({height: hb+'px'}); */
-			/* $('.tab-inner',$s).css({height: hb+'px', width: wb+'px'}); */
-			/* $('.tab-inner',$s).css({height: hb+'px'}); */
-			
 			
 			if(this.o.controls){
 				$c.append('<div class="controls"><ul><li><a href="#" class="play"></a></li><li><a href="#" class="prev"></a></li><li><a href="#" class="next"></a></li><li><a href="#" class="'+this.o.classClose+' close"></a></li></ul></div>');
-				/***/
-				/* NCHO ici la largeur de la partie controls
-				/***/
-				/* $('.controls',$c).css({width: wb+'px'}); */
 			}
 			
 			if(this.o.method == 'slide'){
 				this.dcslide($a,$t,$s,$l);
 			} else {
-				/***/
-				/* NCHO don't care => always use slide method
-				/***/
 				this.dcstatic($a,$t,$l);
 			}
 			if(this.o.loadOpen == true){
@@ -422,9 +387,6 @@
 			t.css({height: th+'px'});
 		},
 		slickTabs: function(i,a,t,s){
-			/***/
-			/* NCHO je ne sais pas encore a quoi ça sert
-			/***/
 			var self = this;
 			$('li',t).removeClass(this.o.active).eq(i).addClass(this.o.active);
 			s.removeClass('tab-active').hide().eq(i).addClass('tab-active').show();
@@ -451,18 +413,14 @@
 			}
 		},
 		open: function(a,l){
+			var ca = this.o.active;
 			/***/
 			/* Responsive Web Site so need to get position to decide how to slide tab
 			/***/
-			cssTop = a.css('top');
 			cssRight = a.css('right');
-			cssLeft = a.css('left');
 			cssBottom = a.css('bottom');
-			
 			cssFloat = l.css('float');
 			
-			slideOffset = Math.round(a.height() / $(window).height() * 100) ;
-						
 			var p1 = {top: "-=5px"},p2 = {top: 0},self = this;
 			
 			if ('auto' === cssBottom){
@@ -486,37 +444,21 @@
 					}
 				}
 			}
-			/*****/
-			/*
-			var p1 = {marginBottom: "-=5px"},p2 = {marginBottom: 0},self = this;
-			switch (this.o.location) {
-				case 'top': 
-				p1 = {marginTop: "-=5px"},p2 = {marginTop: 0};
-				break;
-				case 'left':
-				p1 = {marginLeft: "-=5px"},p2 = {marginLeft: 0};		
-				break;
-				case 'right': 
-				p1 = {marginRight: "-=5px"},p2 = {marginRight: 0};
-				break;
-			}
-			*/
 			a.animate(p1, 100).animate(p2, this.o.speed).addClass(this.o.active);
+			a.animate(p2, this.o.speed, function(){
+				a.removeClass('closed');
+				a.removeAttr('style');
+			});
+			a.addClass(ca);
 		},
 		close: function(a,l,s){
-		/***/
-		/* NCHO pour la partie slider il faut la recuperer a partir de nos classes css
-		/***/
 			var self = this, ca = this.o.active;
 			if(a.hasClass(ca)){
 				/***/
 				/* Responsive Web Site so need to get position to decide how to slide tab
 				/***/
-				cssTop = a.css('top');
 				cssRight = a.css('right');
-				cssLeft = a.css('left');
 				cssBottom = a.css('bottom');
-				
 				cssFloat = l.css('float');
 				
 				slideOffset = Math.round(a.height() / $(window).height() * 100) ;
@@ -526,47 +468,26 @@
 				if ('auto' === cssBottom){
 					if ('left' === cssFloat){
 						p = {top: '-'+slideOffset+'%'};
-						//p2 = {bottom: 0, marginBottom: '-'+th+'px'};
 					} else {
-						/*slideOffset = Math.round(a.width() / $(window).width() * 100) ;*/
-						slideOffset = '27%';
+						slideOffset = Math.round(a.width() / $(window).width() * 100) ;
 						if ('auto' === cssRight){
 							p = {left: '-'+slideOffset+'%'};
-							//p2 = {top: 0, right: 0, marginRight: '-'+tw+'px', width: tw+'px'};
 						} else {
 							p = {right: '-'+slideOffset+'%'};
-							//p2 = {top: 0, left: 0, marginLeft: '-'+tw+'px', width: tw+'px'};
 						}
 					}
 				} else {
 					if ('left' === cssFloat){
 						p = {bottom: '-'+slideOffset+'%'};
-						//p2 = {top: 0, marginTop: '-'+th+'px'};
 					} else {
 						slideOffset = Math.round(a.width() / $(window).width() * 100) ;
 						if ('auto' === cssRight){
 							p = {left: '-'+slideOffset+'%'};
-							//p2 = {top: 0, right: 0, marginRight: '-'+tw+'px', width: tw+'px'};
 						} else {
 							p = {right: '-'+slideOffset+'%'};
-							//p2 = {top: 0, left: 0, marginLeft: '-'+tw+'px', width: tw+'px'};
 						}
 					}
 				}
-				/*
-					var p = {"marginBottom": "-"+this.o.height+'px'};
-					switch (this.o.location) {
-						case 'top': 
-						p = {"marginTop": "-"+a.height()+'px'};
-						break;
-						case 'left':
-						p = {"marginLeft": "-"+this.o.width+'px'};		
-						break;
-						case 'right': 
-						p = {"marginRight": "-"+this.o.width+'px'};
-						break;
-					}
-				*/
 				a.animate(p, this.o.speed, function(){
 					a.removeClass(ca);
 					l.removeClass(ca);
