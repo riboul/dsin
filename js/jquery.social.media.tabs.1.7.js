@@ -528,7 +528,8 @@
 						p = {top: '-'+slideOffset+'%'};
 						//p2 = {bottom: 0, marginBottom: '-'+th+'px'};
 					} else {
-						slideOffset = Math.round(a.width() / $(window).width() * 100) ;
+						/*slideOffset = Math.round(a.width() / $(window).width() * 100) ;*/
+						slideOffset = '27%';
 						if ('auto' === cssRight){
 							p = {left: '-'+slideOffset+'%'};
 							//p2 = {top: 0, right: 0, marginRight: '-'+tw+'px', width: tw+'px'};
@@ -570,6 +571,8 @@
 					a.removeClass(ca);
 					l.removeClass(ca);
 					s.removeClass('tab-active');
+					a.addClass('closed');
+					a.removeAttr('style');
 				});
 				self.pauseTimer();
 			}

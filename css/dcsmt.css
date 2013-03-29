@@ -834,16 +834,19 @@
 	margin-top: 5px;
 }
 
+.closed{
+	top: -70%;
+}
 
 /******************************** TEST ***********************************************/
 /* @group -SMARTPHONE
 ------------------------------------------------------------------------------------------*/
-@media all and (max-width: 860px){
+@media all and (max-width: 1024px){
 	/* il va falloir positionner de cette maniere des largeur inferieur a 1024px */
 	.dcsmt {
 		right: 0;
 		top: 10%;
-		min-width: 280px;
+		/*min-width: 280px;*/
 
 		/* display: none; */
 	}
@@ -893,10 +896,27 @@
 	.dcsmt .social-tabs li{
 		float: none;
 	}
-	
+
+	.closed{
+		right: -27%;
+	}
+
 }
 /* @end -SMARTPHONE */
+@media all and (max-width: 860px){
+	/* il va falloir positionner de cette maniere des largeur inferieur a 1024px */
+	.dcsmt {
+		min-width: 280px;
+	}
+	.closed{
+		right: -280px;
+	}
+	/* display: none; */
+}
+
+
 /******************************** END TEST ***********************************************/
+
 
 
 /* @group -SMARTPHONE
