@@ -1,10 +1,3 @@
-/* Reset */
-.dcsmt ul, .dcsmt li, .dcsmt h3 {
-	padding: 0; 
-	margin: 0; 
-	list-style: none!important;
-}
-
 /* Main widget styles */
 .dcsmt {
 	font-size: 1em;
@@ -34,11 +27,14 @@
 }
 
 /* Tabs */
-.social-tabs{
+.dcsmt .social-tabs{
 	position: absolute;
+	/* padding: 0 8px 0 0; */
+	/* padding-left: 0;
+	padding-right: 8px; */
 }
 .social-tabs li {
-	padding: 3px 3px 3px 4px;
+	padding: 3px 4px;
 	width: 27px;
 	height: 26px;
 	/***NCHO**pour icones plus gdes*/
@@ -47,6 +43,9 @@
 	/***/
 	background: #777;
 	z-index: 10;
+	margin-right: 2px;
+	float: left;
+	border-radius: 0 0 5px 5px;
 }
 /***NCHO***/
 /* .social-tabs li  img{
@@ -75,22 +74,6 @@
 	border-radius: 5px 5px 0 0; 
 	-webkit-border-radius: 5px 5px 0 0;
 	-moz-border-radius: 5px 5px 0 0;
-}
-/** Top **/
-.top .social-tabs {
-	padding-left: 8px;
-}
-.top.align-right .social-tabs {
-	padding-left: 0;
-	padding-right: 8px;
-}
-.top .social-tabs li {
-	padding: 3px 4px;
-	margin-right: 2px;
-	float: left;
-	border-radius: 0 0 5px 5px; 
-	-webkit-border-radius: 0 0 5px 5px;
-	-moz-border-radius: 0 0 5px 5px;
 }
 /** Right **/
 .right .social-tabs {
@@ -136,6 +119,10 @@
 	
 	width: 100%;
 	height: 100%;
+	
+	border-radius: 0 0 10px 10px; 
+	-webkit-border-radius: 0 0 10px 10px;
+	-moz-border-radius: 0 0 10px 10px;
 }
 .tab-content {
 	position: relative;
@@ -145,6 +132,7 @@
 	
 	width: 94%;
 	height: 100%;
+	padding: 0 3% 3% 3%;
 }
 .tab-content ul {
 	font-size: 11px;
@@ -154,6 +142,10 @@
 	overflow: hidden;
 	
 	height: 97%;
+
+	border-radius: 0 0 5px 5px; 
+	-webkit-border-radius: 0 0 5px 5px;
+	-moz-border-radius: 0 0 5px 5px;
 }
 .tab-inner ul {
 	padding: 0 10px;
@@ -267,35 +259,7 @@
 	background: url(../images/instagram.png) no-repeat 0 1px;
 }
 
-/** Static **/
-.static .dcsmt-slider {
-	border-radius: 10px; 
-	-webkit-border-radius: 10px;
-	-moz-border-radius: 10px;
-}
-.static .tab-content {
-	padding: 10px;
-}
-.static .tab-inner {
-	border-radius: 5px; 
-	-webkit-border-radius: 5px;
-	-moz-border-radius: 5px;
-}
-/** Top **/
-.top .dcsmt-slider {
-	border-radius: 0 0 10px 10px; 
-	-webkit-border-radius: 0 0 10px 10px;
-	-moz-border-radius: 0 0 10px 10px;
-}
-.top .tab-inner {
-	border-radius: 0 0 5px 5px; 
-	-webkit-border-radius: 0 0 5px 5px;
-	-moz-border-radius: 0 0 5px 5px;
-}
-.top .tab-content {
-	/* padding: 0 10px 10px 10px; */
-	padding: 0 3% 3% 3%;
-}
+
 /** Right **/
 .right .dcsmt-slider {
 	border-radius: 10px 0 0 10px; 
@@ -652,10 +616,6 @@
 }
 /** Static **/
 .dcsmt.static .controls {
-	bottom: 10px;
-}
-/** Top **/
-.dcsmt.top .controls {
 	bottom: 10px;
 }
 /** Right **/

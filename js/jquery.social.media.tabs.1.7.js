@@ -256,7 +256,7 @@
 				/***/
 				var align = this.o.align == 'left' || this.o.align == 'right' ? 'align-'+this.o.align : 'align-top' ;
 				/* $a.addClass(this.o.location).addClass(align).css({position: this.o.position}); */
-				$a.addClass(this.o.location).addClass(align);
+				/* $a.addClass(this.o.location).addClass(align); */
 			} else {
 				/***/
 				/* NCHO class static => pas le cas ici
