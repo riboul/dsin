@@ -64,54 +64,6 @@
 	-moz-box-shadow: 0 0 4px 1px rgba(0, 0, 0, 0.6);
 	box-shadow: 0 0 4px 1px rgba(0, 0, 0, 0.6);
 }
-/** Static **/
-.static .social-tabs {
-	padding-left: 8px;
-}
-.static .social-tabs li {
-	float: left;
-	margin-right: 2px;
-	border-radius: 5px 5px 0 0; 
-	-webkit-border-radius: 5px 5px 0 0;
-	-moz-border-radius: 5px 5px 0 0;
-}
-/** Right **/
-.right .social-tabs {
-	padding-top: 8px;
-}
-.right .social-tabs li {
-	margin: 0 0 2px 0;
-	border-radius: 5px 0 0 5px; 
-	-webkit-border-radius: 5px 0 0 5px;
-	-moz-border-radius: 5px 0 0 5px;
-}
-/** Bottom **/
-.bottom .social-tabs {
-	padding-left: 8px;
-}
-.bottom.align-right .social-tabs {
-	padding-left: 0;
-	padding-right: 8px;
-}
-.bottom .social-tabs li {
-	padding: 4px 4px 2px 4px;
-	margin: 0 2px 0 0;
-	float: left;
-	border-radius: 5px 5px 0 0; 
-	-webkit-border-radius: 5px 5px 0 0;
-	-moz-border-radius: 5px 5px 0 0;
-}
-/** Left **/
-.left .social-tabs {
-	padding-top: 8px;
-}
-.left .social-tabs li {
-	margin: 0 0 2px 0;
-	border-radius: 0 5px 5px 0; 
-	-webkit-border-radius: 0 5px 5px 0;
-	-moz-border-radius: 0 5px 5px 0;
-}
-
 /* Tab Content */
 .dcsmt-slider {
 	clear: both;
@@ -135,7 +87,7 @@
 	padding: 0 3% 3% 3%;
 }
 .tab-content ul {
-	font-size: 11px;
+	font-size: 0.7em;
 }
 .tab-content .tab-inner {
 	background: #fff;
@@ -148,7 +100,7 @@
 	-moz-border-radius: 0 0 5px 5px;
 }
 .tab-inner ul {
-	padding: 0 10px;
+	padding: 0 0.65em;
 }
 .tab-inner .profile {
 	position: relative;
@@ -160,8 +112,8 @@
 	margin: 0;
 	padding: 5px 0 3px 26px;
 	position: relative;
-	font-size: 14px; 
-	line-height: 20px;
+	font-size: 1.2em; 
+	line-height: 1.4em;
 }
 .tab-inner .profile h3 a {
 	text-decoration: none;
@@ -257,50 +209,6 @@
 }
 .tab-instagram .profile h3 {
 	background: url(../images/instagram.png) no-repeat 0 1px;
-}
-
-
-/** Right **/
-.right .dcsmt-slider {
-	border-radius: 10px 0 0 10px; 
-	-moz-border-radius: 10px 0 0 10px;
-	-webkit-border-radius: 10px 0 0 10px;
-}
-.right .tab-inner {
-	border-radius: 5px 0 0 5px; 
-	-webkit-border-radius: 5px 0 0 5px;
-	-moz-border-radius: 5px 0 0 5px;
-}
-.right .tab-content {
-	padding: 10px 0 10px 10px;
-}
-/** Bottom **/
-.bottom .dcsmt-slider {
-	border-radius: 10px 10px 0 0; 
-	-webkit-border-radius: 10px 10px 0 0;
-	-moz-border-radius: 10px 10px 0 0;
-}
-.bottom .tab-inner {
-	border-radius: 5px 5px 0 0; 
-	-webkit-border-radius: 5px 5px 0 0;
-	-moz-border-radius: 5px 5px 0 0;
-}
-.bottom .tab-content {
-	padding: 10px 10px 0 10px;
-}
-/** Left **/
-.left .dcsmt-slider {
-	border-radius: 0 10px 10px 0; 
-	-webkit-border-radius: 0 10px 10px 0;
-	-moz-border-radius: 0 10px 10px 0;
-}
-.left .tab-inner {
-	border-radius: 0 5px 5px 0; 
-	-webkit-border-radius: 0 5px 5px 0;
-	-moz-border-radius: 0 5px 5px 0;
-}
-.left .tab-content {
-	padding: 10px 10px 10px 0;
 }
 /** Network specific colors **/
 .tab-content.tab-rss, .social-tabs li.active.dcsmt-rss, .social-tabs li.dcsmt-rss:hover, .tab-rss .dcsmt-btn {
@@ -614,24 +522,6 @@
 .dcsmt .controls .dcsmt-close:hover {
 	background-position: -80px -20px;
 }
-/** Static **/
-.dcsmt.static .controls {
-	bottom: 10px;
-}
-/** Right **/
-.dcsmt.right .controls {
-	bottom: 10px;
-	right: 0;
-}
-/** Bottom **/
-.dcsmt.bottom .controls {
-	bottom: 0;
-}
-/** Left **/
-.dcsmt.left .controls {
-	bottom: 10px;
-	left: 0;
-}
 /* twitter */
 .tab-twitter .tab-inner ul li a {
 	color: #38AEAE;
@@ -838,8 +728,9 @@
 	top: -70%;
 }
 
-/******************************** TEST ***********************************************/
-/* @group -SMARTPHONE
+
+
+/* @group -1024 PX
 ------------------------------------------------------------------------------------------*/
 @media all and (max-width: 1024px){
 	.dcsmt {
@@ -901,7 +792,11 @@
 	}
 
 }
-/* @end -SMARTPHONE */
+/* @end -1024 px */
+
+
+
+
 @media all and (max-width: 860px){
 	/* il va falloir positionner de cette maniere des largeur inferieur a 1024px */
 	.dcsmt {
@@ -944,6 +839,10 @@
 		padding: 3% 0 3% 3%;
 	}
 	
+	.tab-content ul {
+		font-size: 1em;
+	}
+	
 	.tab-content .tab-inner {
 		height: 100%;
 		width: 97%;
@@ -979,6 +878,10 @@
 	.dcsmt .social-tabs li{
 		float: none;
 	}
+	
+	.social-tabs li a img{
+		width: 100%;
+	}
 
 	.closed{
 		right: -57%;
@@ -1004,6 +907,10 @@
 		width: 47px;
 		height: 46px;
 		margin: 0 0 8px 0;
+	}
+	
+	.tab-content ul {
+		font-size: 1.2em;
 	}
 }
 /* @end -SMARTPHONE */
