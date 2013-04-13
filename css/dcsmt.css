@@ -31,7 +31,7 @@
 	position: absolute;
 	margin-bottom: -32px; /* li height + li padding */
 	bottom: 0;
-	right: 0;
+	right: 3%;
 }
 .social-tabs li {
 	padding: 3px 4px;
@@ -82,9 +82,9 @@
 	z-index: 11;
 	background: url(../images/loader.gif) no-repeat center 200px;
 	
-	width: 94%;
+	width: 98%;
 	height: 100%;
-	padding: 0 3% 3% 3%;
+	padding: 0 1% 1% 1%;
 }
 .tab-content ul {
 	font-size: 0.7em;
@@ -93,7 +93,7 @@
 	background: #fff;
 	overflow: hidden;
 	
-	height: 97%;
+	height: 99%;
 
 	border-radius: 0 0 5px 5px; 
 	-webkit-border-radius: 0 0 5px 5px;
@@ -749,13 +749,13 @@
 	
 	.tab-content {
 		width: 100%;
-		height: 97%;
-		padding: 3% 0 3% 3%;
+		height: 99%;
+		padding: 1% 0 1% 1%;
 	}
 	
 	.tab-content .tab-inner {
-		height: 100%;
-		width: 97%;
+		height: 99%;
+		width: 99%;
 	
 		border-radius: 5px 0 0 5px;
 		-webkit-border-radius: 5px 0 0 5px;
