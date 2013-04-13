@@ -54,11 +54,14 @@ jQuery(function (){
 // Handle logo display
 function handleLogoDisplay(window){
 	if (window.scrollTop() > 100){
-		$('#logo').addClass('retract');
+		$('#logo').addClass('retractTop');
+		$('#logoCBC').addClass('retractBottom');
 	} else {
-		$('#logo').removeClass('retract');
+		$('#logo').removeClass('retractTop');
+		$('#logoCBC').removeClass('retractBottom');
 	}
 }
+
 
 // Handle Menu Selection
 function handleMenuSelection(window){
@@ -169,6 +172,7 @@ function initDropDownMenu(){
 				$(this).parent().addClass("selected");
 				$(this).next(".subs").children().slideDown(200);
 				$('#logo').addClass('retract');
+				$('#logoCBC').addClass('retract');
 				//$("#logo").slideUp();
 			}
 		}

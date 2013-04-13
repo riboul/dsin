@@ -1,3 +1,10 @@
+/* Ajout de Skywalker le 09/04/2013 Importation de Font
+------------------------------------------------------------------------------------------*/
+@font-face {
+  font-family: "HelveticaN";
+  src: url(../font/LTe50259.ttf) format("truetype");
+}
+
 .ei-slider{
 	position: relative;
 	width: 100%;
@@ -43,11 +50,11 @@
 	left: 0;
 	/* margin-right: 45%; */
 	bottom: 0;
-	background: rgba(255,255,255,0.7);
-	
+	background: rgba(227,25,55,0.5);
 	top: 40%; 
 	bottom: auto; 
-	padding:2% 40% 2% 15%;
+	/* Update by SkyWalker */
+	padding:2% 35% 2% 15%;
 }
 .ei-title h2, .ei-title h3{
 	text-align: left;
@@ -56,11 +63,14 @@
 .ei-title h2{
 	font-size: 1.7sem;
 	line-height: 1.15em;
-	font-family: 'Playfair Display', serif;
-	font-style: italic;
-	color: rgb(231, 16, 16);
-	font-weight:900;
+	/*font-family: 'Playfair Display', serif;*/
+	font-family:"HelveticaN", Arial, sans-serif;
+	/*font-style: italic;*/
+	/*color: rgb(213, 16, 54);*/
+	color:#FFFFFF;
+	font-weight:700;
 	margin-bottom: 0.3em;
+	text-shadow:2px 2px 4px #0b0101;
 	/***/
 	/*retirer margin-bottom*/
 	/*
@@ -73,8 +83,11 @@
 }
 .ei-title h3{
 	font-size: 1.3em;
-	font-family: 'Open Sans Condensed', sans-serif;
-	color: #000;
+	/*font-family: 'Open Sans Condensed', sans-serif;*/
+	font-family:"HelveticaN", Arial, sans-serif;
+	text-align:justify;	
+	color: #FFFFFF;
+	text-shadow:1px 1px 4px #0b0101;	
 	/***/
 	/*
 	background: rgba(255,255,255,0.6);
@@ -207,15 +220,19 @@
 		left: 0px;
 		margin-left: 0px;
 		width: 100%;
-		text-align: center;
+		/*Updated by SkyWalker */	
+		text-align: justify;
 		top: auto;
 		bottom: 0;
-		background: #fff;
-		background: rgba(255,255,255,0.9);
+		/*Updated by SkyWalker */		
+		/*background: #fff;
+		background: rgba(255,255,255,0.9);*/
+		background: rgba(227,25,55,0.5);
 		padding: 1em 0 2em;
 	}
 	.ei-title h2, .ei-title h3{
-		text-align: center;
+		/*Updated by SkyWalker */	
+		text-align: justify;
 	}
 	.ei-title h2{
 		font-size: 1.5em;
@@ -242,15 +259,19 @@
 		left: 0px;
 		margin-left: 0px;
 		width: 100%;
-		text-align: center;
+		/*Updated by SkyWalker */	
+		text-align: justify;
 		top: auto;
 		bottom: 0;
-		background: #fff;
-		background: rgba(255,255,255,0.9);
+		/*Updated by SkyWalker */
+		/*background: #fff;
+		background: rgba(255,255,255,0.9);*/
+		background: rgba(227,25,55,0.5);
 		padding: 1em 0 2em;
 	}
 	.ei-title h2, .ei-title h3{
-		text-align: center;
+		/*Updated by SkyWalker */	
+		text-align: justify;
 	}
 	.ei-title h2{
 		font-size: 1.5em;
