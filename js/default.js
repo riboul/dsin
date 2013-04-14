@@ -7,6 +7,25 @@ jQuery(function (){
 		+ data-easing: the easing used for text transition
 	******/
 	
+	/* SUPORT DRAG N DROP */
+	/*
+	if (Modernizr.draganddrop) {
+	  // Browser supports HTML5 DnD.
+	  alert("supported");
+	} else {
+	  // Fallback to a library solution.
+	  alert("not supported");
+	}
+	*/
+	
+	// LOGO Animation
+	setTimeout(function(){
+		$('#logo').removeClass('retractTop');
+	}, 1000);
+	setTimeout(function(){
+		$('#logoCBC').removeClass('retractBottom');
+	}, 1500);
+	
 	// SlideShow Configuration 
 	$('#ei-slider').eislideshow({
 		animation			: 'center',
@@ -84,10 +103,15 @@ function handleMenuSelection(window){
 		$('.largeScreen #linkExpertise').parent().addClass(' active');
 		$('.smallScreen #linkExpertise').parent().addClass(' active');
 	}
-	if (window.scrollTop() >= $('#paroles').position().top - addingHeight){
+	if (window.scrollTop() >= $('#parolesClients').position().top - addingHeight){
 		navItems.removeClass('active');
-		$('.largeScreen #linkParoles').parent().addClass(' active');
-		$('.smallScreen #linkParoles').parent().addClass(' active');
+		$('.largeScreen #linkParolesClients').parent().addClass(' active');
+		$('.smallScreen #linkParolesClients').parent().addClass(' active');
+	}
+	if (window.scrollTop() >= $('#parolesExpert').position().top - addingHeight){
+		navItems.removeClass('active');
+		$('.largeScreen #linkParolesExpert').parent().addClass(' active');
+		$('.smallScreen #linkParolesExpert').parent().addClass(' active');
 	}
 	if (window.scrollTop() >= $('#media').position().top - addingHeight){
 		navItems.removeClass('active');

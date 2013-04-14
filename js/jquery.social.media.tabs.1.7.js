@@ -70,7 +70,7 @@
 					icon: 'google.png'
 				},
 				youtube: {
-					title: '',
+					title: 'Latest Videos',
 					link: false,
 					follow: '',
 					limit: 10,
@@ -581,7 +581,9 @@
 			case 'youtube': 
 			href = 'https://www.youtube.com/user/'+id;
 			if(o.subscribe){
-				c += '<iframe src="https://www.youtube.com/subscribe_widget?p='+id+'" class="youtube-subscribe" scrolling="no" frameBorder="0"></iframe>';
+				/* c += '<iframe src="https://www.youtube.com/subscribe_widget?p='+id+'" class="youtube-subscribe" scrolling="no" frameBorder="0"></iframe>'; */
+				/* NCHO title for youtube */
+				/* c = '<div class="profile"><h3></h3></div>'+c; */
 			}
 			c += stream;
 			url = 'https://gdata.youtube.com/feeds/base/users/'+id+'/'+o.feed+'?alt=rss&v=2&orderby=published&client=ytapi-youtube-profile';
@@ -713,16 +715,16 @@
 			break;
 		}
 		if(type != 'digg' && type != 'linkedin'){
-			if(o.follow){
+			/* if(o.follow){
 				p = o.follow != '' ? '<a href="'+href+'" class="dcsmt-btn btn-type-'+type+'">'+o.follow+'</a>' : '' ;
-			}
+			} */
 			t = o.title != '' ? o.title : '' ;
 			t = o.link ? '<a href="'+href+'" class="btn-type-'+type+'">'+t+'</a>' : t ;
 			/***/
 			/* NCHO suppresion du header profile
 			/***/
-			//c = t != '' ? '<div class="profile"><h3>'+t+'</h3>'+p+'</div>'+c : c ;
-			c = t != '' ? '<div class="profile"><h3></h3></div>'+c : c ;
+			c = t != '' ? '<div class="profile"><h3>'+t+'</h3>'+p+'</div>'+c : c ;
+			/* c = t != '' ? '<div class="profile"><h3></h3></div>'+c : c ; */
 		}
 		return c;
 	};

@@ -104,7 +104,7 @@
 }
 .tab-inner .profile {
 	position: relative;
-	padding: 10px;
+	padding: 20px 10px;
 	border-bottom: 1px solid #ccc;
 	background: #ececec;
 }
@@ -157,58 +157,58 @@
 }
 /** Network specific profile header **/
 .tab-rss .profile h3 {
-	background: url(../images/rss.png) no-repeat 0 1px;
+	background: url(../images/rss.png) no-repeat 100% 50%;
 }
 .tab-flickr .profile h3 {
-	background: url(../images/flickr.png) no-repeat 0 1px;
+	background: url(../images/flickr.png) no-repeat 100% 50%;
 }
 .tab-delicious .profile h3 {
-	background: url(../images/delicious.png) no-repeat 0 1px;
+	background: url(../images/delicious.png) no-repeat 100% 50%;
 }
 .tab-twitter .profile h3 {
-	background: url(../images/twitter.png) no-repeat 0 1px;
+	background: url(../images/twitter.png) no-repeat 100% 50%;
 }
 .tab-facebook .profile h3 {
-	background: url(../images/facebook.png) no-repeat 0 1px;
+	background: url(../images/facebook.png) no-repeat 100% 50%;
 }
 .tab-fblike .profile h3 {
-	background: url(../images/fblike.png) no-repeat 0 1px;
+	background: url(../images/fblike.png) no-repeat 100% 50%;
 }
 .tab-fbrec .profile h3 {
-	background: url(../images/fbrec.png) no-repeat 0 1px;
+	background: url(../images/fbrec.png) no-repeat 100% 50%;
 }
 .tab-google .profile h3 {
-	background: url(../images/google.png) no-repeat 0 1px;
+	background: url(../images/google.png) no-repeat 100% 50%;
 }
 .tab-youtube .profile h3 {
-	background: url(../images/youtube.png) no-repeat 0 1px;
+	background: url(../images/youtube.png) no-repeat 100% 50%;
 }
 .tab-pinterest .profile h3 {
-	background: url(../images/pinterest.png) no-repeat 0 1px;
+	background: url(../images/pinterest.png) no-repeat 100% 50%;
 }
 .tab-lastfm .profile h3 {
-	background: url(../images/lastfm.png) no-repeat 0 1px;
+	background: url(../images/lastfm.png) no-repeat 100% 50%;
 }
 .tab-dribbble .profile h3 {
-	background: url(../images/dribbble.png) no-repeat 0 1px;
+	background: url(../images/dribbble.png) no-repeat 100% 50%;
 }
 .tab-vimeo .profile h3 {
-	background: url(../images/vimeo.png) no-repeat 0 1px;
+	background: url(../images/vimeo.png) no-repeat 100% 50%;
 }
 .tab-stumbleupon .profile h3 {
-	background: url(../images/stumbleupon.png) no-repeat 0 1px;
+	background: url(../images/stumbleupon.png) no-repeat 100% 50%;
 }
 .tab-tumblr .profile h3 {
-	background: url(../images/tumblr.png) no-repeat 0 1px;
+	background: url(../images/tumblr.png) no-repeat 100% 50%;
 }
 .tab-deviantart .profile h3 {
-	background: url(../images/deviantart.png) no-repeat 0 1px;
+	background: url(../images/deviantart.png) no-repeat 100% 50%;
 }
 .tab-linkedin .profile h3 {
-	background: url(../images/linkedin.png) no-repeat 0 1px;
+	background: url(../images/linkedin.png) no-repeat 100% 50%;
 }
 .tab-instagram .profile h3 {
-	background: url(../images/instagram.png) no-repeat 0 1px;
+	background: url(../images/instagram.png) no-repeat 100% 50%;
 }
 /** Network specific colors **/
 .tab-content.tab-rss, .social-tabs li.active.dcsmt-rss, .social-tabs li.dcsmt-rss:hover, .tab-rss .dcsmt-btn {
@@ -790,7 +790,66 @@
 	.closed{
 		right: -27%;
 	}
+	
+	.tab-inner .profile {
+		padding: 10px;
+	}
 
+	/** Network specific profile header **/
+	.tab-rss .profile h3 {
+		background: url(../images/rss.png) no-repeat 0 50%;
+	}
+	.tab-flickr .profile h3 {
+		background: url(../images/flickr.png) no-repeat 0 50%;
+	}
+	.tab-delicious .profile h3 {
+		background: url(../images/delicious.png) no-repeat 0 50%;
+	}
+	.tab-twitter .profile h3 {
+		background: url(../images/twitter.png) no-repeat 0 50%;
+	}
+	.tab-facebook .profile h3 {
+		background: url(../images/facebook.png) no-repeat 0 50%;
+	}
+	.tab-fblike .profile h3 {
+		background: url(../images/fblike.png) no-repeat 0 50%;
+	}
+	.tab-fbrec .profile h3 {
+		background: url(../images/fbrec.png) no-repeat 0 50%;
+	}
+	.tab-google .profile h3 {
+		background: url(../images/google.png) no-repeat 0 50%;
+	}
+	.tab-youtube .profile h3 {
+		background: url(../images/youtube.png) no-repeat 0 50%;
+	}
+	.tab-pinterest .profile h3 {
+		background: url(../images/pinterest.png) no-repeat 0 50%;
+	}
+	.tab-lastfm .profile h3 {
+		background: url(../images/lastfm.png) no-repeat 0 50%;
+	}
+	.tab-dribbble .profile h3 {
+		background: url(../images/dribbble.png) no-repeat 0 50%;
+	}
+	.tab-vimeo .profile h3 {
+		background: url(../images/vimeo.png) no-repeat 0 50%;
+	}
+	.tab-stumbleupon .profile h3 {
+		background: url(../images/stumbleupon.png) no-repeat 0 50%;
+	}
+	.tab-tumblr .profile h3 {
+		background: url(../images/tumblr.png) no-repeat 0 50%;
+	}
+	.tab-deviantart .profile h3 {
+		background: url(../images/deviantart.png) no-repeat 0 50%;
+	}
+	.tab-linkedin .profile h3 {
+		background: url(../images/linkedin.png) no-repeat 0 50%;
+	}
+	.tab-instagram .profile h3 {
+		background: url(../images/instagram.png) no-repeat 0 50%;
+	}
 }
 /* @end -1024 px */
 
