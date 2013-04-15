@@ -431,9 +431,17 @@ footer ul{
 	height:100%;
 	position:absolute;			
 	background:#fff;
-	border:solid 1px #CCCCCC;
+	/* border:solid 1px #CCCCCC; */
 	text-align:justify;
 	padding:5px;
+}
+.offres-thumb .offres-thumb-detail img{
+	z-index: -1;
+}
+
+.offres-thumb .offres-thumb-detail .offres-thumb-detail-text {
+	font-size: 0.72em;
+	padding: 1em;
 }
 
 .offres-thumb .offres-thumb-detail a {

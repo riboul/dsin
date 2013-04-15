@@ -18,13 +18,10 @@ jQuery(function (){
 	}
 	*/
 	
-	// LOGO Animation
+	// LOGO Animation after page loading
 	setTimeout(function(){
-		$('#logo').removeClass('retractTop');
+		handleLogoDisplay($(window));
 	}, 1000);
-	setTimeout(function(){
-		$('#logoCBC').removeClass('retractBottom');
-	}, 1500);
 	
 	// SlideShow Configuration 
 	$('#ei-slider').eislideshow({
@@ -262,26 +259,55 @@ function initGoogleMap(){
   });
 }
 
+function isMobile() {
+	var index = navigator.appVersion.indexOf("Mobile");
+	return (index > -1);
+}
+
 function soso(){
-	$('#social-tabs').dcSocialTabs({
-		/* width: 360,
-		height: 460, */
-		/* width: 760,//iPhone landscape
-		height: 260, */
-		zopen: 9,
-		loadOpen: true,
-		autoClose: true,
-		position: 'fixed',
-		location: 'top',
-		align: 'right',
-		offset: 20,
-		rotate: {
-			delay: 8000,
-			direction: 'down'
-		},
-		widgets: 'rss,twitter,youtube',
-		rssId: 'http://www.cgi.com/fr/all/feeds/rss.xml',
-		twitterId: "cgi_ir",
-		youtubeId: 'LogicaFRA'
-	});
+	if (isMobile()){
+		$('#social-tabs').dcSocialTabs({
+			/* width: 360,
+			height: 460, */
+			/* width: 760,//iPhone landscape
+			height: 260, */
+			zopen: 9,
+			loadOpen: false,
+			autoClose: true,
+			position: 'fixed',
+			location: 'top',
+			align: 'right',
+			offset: 20,
+			rotate: {
+				delay: 8000,
+				direction: 'down'
+			},
+			widgets: 'rss,twitter,youtube',
+			rssId: 'http://www.cgi.com/fr/all/feeds/rss.xml',
+			twitterId: "cgi_ir",
+			youtubeId: 'LogicaFRA'
+		});
+	} else {
+		$('#social-tabs').dcSocialTabs({
+			/* width: 360,
+			height: 460, */
+			/* width: 760,//iPhone landscape
+			height: 260, */
+			zopen: 9,
+			loadOpen: true,
+			autoClose: true,
+			position: 'fixed',
+			location: 'top',
+			align: 'right',
+			offset: 20,
+			rotate: {
+				delay: 8000,
+				direction: 'down'
+			},
+			widgets: 'rss,twitter,youtube',
+			rssId: 'http://www.cgi.com/fr/all/feeds/rss.xml',
+			twitterId: "cgi_ir",
+			youtubeId: 'LogicaFRA'
+		});
+	}
 }

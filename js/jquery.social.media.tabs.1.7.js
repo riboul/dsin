@@ -421,32 +421,31 @@
 			cssBottom = a.css('bottom');
 			cssFloat = l.css('float');
 			
-			var p1 = {top: "-=5px"},p2 = {top: 0},self = this;
+			var p1 = {top: '-'+a.height()+'px'},p2 = {top: 0},self = this;
 			
 			if ('auto' === cssBottom){
 				if ('left' === cssFloat){
-					p1 = {top: "-=5px"},p2 = {top: 0};
+					p1 = {top: '-'+a.height()+'px'},p2 = {top: 0};
 				} else {
 					if ('auto' === cssRight){
-						p1 = {left: "-=5px"},p2 = {left: 0};
+						p1 = {left: '-'+a.width()+'px'},p2 = {left: 0};
 					} else {
-						p1 = {right: "-=5px"},p2 = {right: 0};
+						p1 = {right: '-'+a.width()+'px'},p2 = {right: 0};
 					}
 				}
 			} else {
 				if ('left' === cssFloat){
-					p1 = {bottom: "-=5px"},p2 = {bottom: 0};
+					p1 = {bottom: '-'+a.height()+'px'},p2 = {bottom: 0};
 				} else {
 					if ('auto' === cssRight){
-						p1 = {left: "-=5px"},p2 = {left: 0};
+						p1 = {left: '-'+a.width()+'px'},p2 = {left: 0};
 					} else {
-						p1 = {right: "-=5px"},p2 = {right: 0};
+						p1 = {right: '-'+a.width()+'px'},p2 = {right: 0};
 					}
 				}
 			}
-			a.animate(p1, 100).animate(p2, this.o.speed).addClass(this.o.active);
-			a.animate(p2, this.o.speed, function(){
-				a.removeClass('closed');
+			/* a.animate(p1, 100).animate(p2, this.o.speed).addClass(this.o.active); */
+			a.css(p1).removeClass('closed').stop().animate(p2, this.o.speed, function(){
 				a.removeAttr('style');
 			});
 			a.addClass(ca);
