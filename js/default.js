@@ -145,7 +145,8 @@ function handleCartDiplay(window){
 	if (window.scrollTop() >= fixedLimit) {
 		if (window.scrollTop() <= fixedLimit2){
 			$('#cart').removeAttr('style');
-			$('#cart').addClass('fix');
+			pos = window.scrollTop() + 0.2*window.height();
+			$('#cart').css({'top': pos});
 		} else {
 			pos = $('#offres').position().top + $('#offres').height() - $('#cart').height() - 0.1*window.height();
 			$('#cart').removeClass('fix');
