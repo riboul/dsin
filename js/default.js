@@ -389,3 +389,18 @@ function openCloseCart() {
 		});
 	}
 }
+
+function addOffersMessage(){
+	var message1 = 'Bonjour,\n\nje suis intéréssé par les offres : \n\n';
+	var message2 = "\nPourriez-vous me contacter pour un complément d'information. \n\nMerci d'avance.";
+	
+	var message = message1;
+	
+	$('#cart-offers-list').children().each(function(){
+		message = message + '    - ' + $(this).text() + '\n';
+	});
+	
+	message = message + message2;
+	$('#message').attr('value', message);
+	$('#linkContact').click();
+}

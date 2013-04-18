@@ -796,10 +796,10 @@ footer ul{
 input,
 textarea {
 	background: #FFFFFF;
-	font: 1em/1.214em Arial, Helvetica, sans-serif;
+	font: 0.9em/1em Arial, Helvetica, sans-serif;
 	color: #444;
 	width: 100%;
-	padding: 0.75em 1.5em;
+	padding: 0.7em 1em;
 	border: 1px solid #505762;
 	margin: 0;
 	
@@ -827,6 +827,10 @@ textarea:focus {
 input[placeholder],
 textarea[placeholder] {
 	color: rgba(155, 155, 155, 0.9);
+}
+
+textarea{
+	height: 15em;
 }
 
 * +html input,
