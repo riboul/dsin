@@ -77,7 +77,7 @@
 			<!--<div id="social-tabs"></div>-->
 			<div class="logoContainer"><img id="logo" class="logo retractTop" src="images/logo/logo_DSIN_transparent_white.png" alt="Logo Digital &amp; Social Interactions"/></div>
 			<div class="logoContainerCBC"><img id="logoCBC" class="logoCBC retractBottom" src="images/logo/logo_CBC.png" alt="logo CGI Business Consulting"/></div>
-	</header>
+		</header>
 		<section id="home" class="row">
 			<div id="ei-slider" class="ei-slider">
 				<ul class="ei-slider-large">
@@ -124,12 +124,27 @@
 			</div><!-- ei-slider -->
 		</section>
 		<section id="offres" class="row">
+			<!-- Cart -->
+			<div id="cart" class="cart openedCart" ondragover="return false" ondrop="onDropTarget(this, event);">
+				<div class="cart-container">
+					<div class="cart-content">
+						<a href="#" class="cart-icon" title="cart icon"><img src="images/icons/panier.png" alt="cart icon" rel="cart" /></a>
+						<div class="cart-title">
+							Mes Offres
+						</div>
+						<div class="cart-offers">
+							<ul id="cart-offers-list">
+							<ul>
+						</div>
+					</div>
+				</div>
+			</div>
 			<div class="center">
 				<h1>Les Offres DSIN</h1>
 				<h2>Un accompagnement de A à Z</h2>
 				<div class="columns">
 					<div class="half">
-						<article class="offres-thumb scroll">
+						<article id="dam" title="Digital Asset Management" class="offres-thumb scroll" draggable="true" ondragstart="onDragStart(this, event);">
 							<div class="offres-thumb-wrapper">
 								<img src="images/offers/template_cardOffer_DAM.jpg" alt="Une offre X" title="Cliquez pour obtenir plus de détails" />
 								<div class="offres-caption-background">
@@ -144,11 +159,11 @@
 										Vos clients sont sollicités par les médias de manière intensive et leurs attentes ont évoluées. Votre performance commerciale sera renforcée par la cohérence de votre image de marque, la richesse et la personnalisation de votre relation  cliente ainsi que grâce à des parcours cross-canal adaptés aux nouveaux usages.
 									</div>
 								</div>
-						  </div>
+							</div>
 						</article>
 					</div>
 					<div class="half">
-							<article class="offres-thumb scroll">
+							<article id="extCom" title="External Communities" class="offres-thumb scroll" draggable="true" ondragstart="onDragStart(this, event);">
 							<div class="offres-thumb-wrapper">
 								<img src="images/offers/template_cardOffer_externalC.jpg" alt="Une offre X" title="Cliquez pour obtenir plus de détails" />
 								<div class="offres-caption-background">
@@ -164,10 +179,11 @@
 								</div>
 						  </div>
 						</article>
+					</div>
 				</div>
 				<div class="columns">
 					<div class="half">
-						<article class="offres-thumb scroll">
+						<article id="wkSer" title="Workplace As A Service" class="offres-thumb scroll" draggable="true" ondragstart="onDragStart(this, event);">
 							<div class="offres-thumb-wrapper">
 								<img src="images/offers/template_cardOffer_WAS.jpg" alt="Une offre X" title="Cliquez pour obtenir plus de détails" />
 								<div class="offres-caption-background">
@@ -186,7 +202,7 @@
 						</article>
 					</div>
 					<div class="half">
-						<article class="offres-thumb scroll">
+						<article id="soCol" title="Social Collaboration" class="offres-thumb scroll" draggable="true" ondragstart="onDragStart(this, event);">
 							<div class="offres-thumb-wrapper">
 								<img src="images/offers/template_cardOffer_SoCo.jpg" alt="Une offre X" title="Cliquez pour obtenir plus de détails" />
 								<div class="offres-caption-background">
@@ -215,27 +231,32 @@
 				</div>
 				<div class="columns">
 					<div class="half">
-						<article class="offres-thumb scroll">
+						<article id="diWk" title="Digital Workspace" class="offres-thumb scroll" draggable="true" ondragstart="onDragStart(this, event);">
 							<div class="offres-thumb-wrapper">
 								<img src="images/offers/template_cardOffer_DAM.jpg" alt="Une offre X" title="Cliquez pour obtenir plus de détails" />
 								<div class="offres-caption-background">
-									<span class="offres-caption"><span class="rougeCerise bold">Digital Asset Management</span><br />Exploitez pleinement la richesse de vos média.<br /><span class="betteraveCGI">Cliquez pour plus d'infos</span></span>
+									<span class="offres-caption"><span class="rougeCerise bold">Digital Workspace</span><br /> Embarquez sur le Digital Workspace avec CGI Business Consulting<br /><span class="betteraveCGI">Cliquez pour plus d'infos</span></span>
 								</div>
 								<div class="offres-thumb-detail">
 									<img src="images/offers/template_cardOffer_back.jpg" alt="Card offer background" title="Cliquez pour afficher la carte de visite" />
 									<div class="offres-thumb-detail-text">
-										La gestion optimum des médias concourt à fidéliser et conquérir des clients de plus en plus exigeants : en facilitant l’adaptation aux nouveaux formats, canaux et usages, en réduisant le Time-to-Market ainsi qu’en maîtrisant l’image de marque. Faites glisser cette fiche dans votre panier !
+										Par l’étendue de sa présence dans les entreprises et la complétude de son périmètre de services, SharePoint s’impose aujourd’hui comme la solution majeure pour la mise en place du Digital Workplace.
+										<ul>
+											<li>Cependant, l’utilisation qui en est faite reste généralement partielle et le bénéfice retiré par les entreprises rarement optimisé.</li>
+											<li>SharePoint et son écosystème représentent pourtant un large gisement d’opportunités pour développer de nouveaux usages en favorisant les échanges et le partage. Il permet d’apporter, dans un environnement unique, simple et efficace, de la valeur métier à l’expérience collaborative.</li>
+											<li>Bâtie sur cette vision du Digital Workplace avec SharePoint, notre offre de services vous fait bénéficier de toute notre expertise pour tirer le plein parti de la solution SharePoint, et transformer avec vous l’environnement collaboratif de vos utilisateurs en espace numérique de travail.</li>
+										</ul>
 									</div>
 								</div>
 						  </div>
 						</article>
 					</div>
 					<div class="half">
-							<article class="offres-thumb scroll">
+						<article id="dam3" title="Digital Asset Management 3" class="offres-thumb scroll" draggable="true" ondragstart="onDragStart(this, event);">
 							<div class="offres-thumb-wrapper">
 								<img src="images/offers/template_cardOffer_DAM.jpg" alt="Une offre X" title="Cliquez pour obtenir plus de détails" />
 								<div class="offres-caption-background">
-									<span class="offres-caption"><span class="rougeCerise bold">Digital Asset Management</span><br />Exploitez pleinement la richesse de vos média.<br /><span class="betteraveCGI">Cliquez pour plus d'infos</span></span>
+									<span class="offres-caption"><span class="rougeCerise bold">Digital Asset Management 3</span><br />Exploitez pleinement la richesse de vos média.<br /><span class="betteraveCGI">Cliquez pour plus d'infos</span></span>
 								</div>
 								<div class="offres-thumb-detail">
 									<img src="images/offers/template_cardOffer_back.jpg" alt="Card offer background" title="Cliquez pour afficher la carte de visite" />
@@ -243,7 +264,7 @@
 										La gestion optimum des médias concourt à fidéliser et conquérir des clients de plus en plus exigeants : en facilitant l’adaptation aux nouveaux formats, canaux et usages, en réduisant le Time-to-Market ainsi qu’en maîtrisant l’image de marque. Faites glisser cette fiche dans votre panier !
 									</div>
 								</div>
-						  </div>
+							</div>
 						</article>
 					</div>
 				</div>
@@ -257,21 +278,14 @@
 				<div class="columns">
 					<div class="oneThird">
 						<div class="imgHolder fullWidth"><img src="images/expertises_visuel.png" alt="image" /></div>
-<p>Bien sur nous disposons de profils expérimentés en gestion de projet, maîtrise d’ouvrage et maîtrise d’œuvre, mais nous avons également à cœur que nos consultants développement des expertises complémentaires et souvent indispensables lorsqu’il s’agit de faire la différence pour la réussite de vos projets :</p>						
+						<p>Bien sur nous disposons de profils expérimentés en gestion de projet, maîtrise d’ouvrage et maîtrise d’œuvre, mais nous avons également à cœur que nos consultants développement des expertises complémentaires et souvent indispensables lorsqu’il s’agit de faire la différence pour la réussite de vos projets :</p>
 					</div>
 					<div class="oneThird">
-
 						<ul>
-
 							<li>Sociologue : il n’y a rien de moins sûr et de moins prévisible que les résultats fournis par des interactions entre individus » Faire de l’interaction dans le numérique, cela reste de l’interaction entre individu. Etudier les comportements dans un contexte professionnel pour mieux les accompagner et encourager les interactions, c’est indispensable. Qui mieux que des sociologues pour le faire ?</li>
-				
 							<li>Community Manager  on ne se déclare pas personne de communication » cela est encore plus vrai lorsque votre audience est composée de profils différents, avec des attentes variées et que votre objectif est de les faire échanger au service d’une contribution commune. Les règles d’engagement, d’animation, de coordination, ainsi que la montée en compétences de vos équipes, sera assurée par nos community managers</li>
-					
 							<li>Experts solutions : les outils, oui, mais en tant que facilitateurs. La technologie ? ça doit être simple et marcher » Nos experts solutions disposent de plusieurs années d’expériences et de certifications qui seront mise au service du projet afin de supporter le projet et lui permettre de ne pas perdre de temps sur des enjeux techniques, et de se focaliser sur les apports aux métiers</li>
-
-
 						</ul>
-
 					</div>
 					<div class="oneThird">
 						<ul>
@@ -284,7 +298,6 @@
 							<li>Portails externes : Usines à sites web, extranets</li>
 							<li>Digital Asset Management</li>
 						</ul>
-
 					</div>
 				</div>
 			</div>
@@ -303,12 +316,12 @@
 								<p><strong>Valeo</strong><br />Valeo est un Groupe indépendant entièrement focalisé sur la conception, la fabrication et la vente de composants, de systèmes intégrés et de modules pour l'industrie automobile, principalement pour la réduction des émissions de CO<sub>2</sub>.</p>
 								<p><strong>Chiffres clés du projet</strong><p>
 								<p>La solution : <strong>Google Apps</strong><br />
-							  <ul class="listXML">
-										<li>+33 000 utilisateurs, 194 sites dans 28 pays</li>
-										<li>Sites & Video: +40 consultations par utilisateur par mois, +3 700 video partagées</li>
-										<li>Docs: +270 000 documents partagés, ~20 collaborateurs par document</li>
-										<li>Mail: ~20 millions reçus et envoyés</li>
-							  </ul>
+								<ul class="listXML">
+									<li>+33 000 utilisateurs, 194 sites dans 28 pays</li>
+									<li>Sites & Video: +40 consultations par utilisateur par mois, +3 700 video partagées</li>
+									<li>Docs: +270 000 documents partagés, ~20 collaborateurs par document</li>
+									<li>Mail: ~20 millions reçus et envoyés</li>
+								</ul>
 								</p>
 							</div>
 						</div>

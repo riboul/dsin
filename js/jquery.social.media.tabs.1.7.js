@@ -264,6 +264,9 @@
 			}
 			if(this.o.loadOpen == true){
 				this.open($a,$l);
+			} else {
+				this.open($a,$l);
+				this.close($a,$l,$s);
 			}
 			this.slickTabs(this.o.start,$a,$t,$s);
 			this.addevents($a,$t,$s,$l);

@@ -730,15 +730,12 @@
 
 
 
-/* @group -1024 PX
+/* @group -1150PX
 ------------------------------------------------------------------------------------------*/
-@media all and (max-width: 1024px){
+@media all and (max-width: 1150px){
 	.dcsmt {
 		right: 0;
 		top: 10%;
-		/*min-width: 280px;*/
-
-		/* display: none; */
 	}
 	
 	.dcsmt-slider {
@@ -851,24 +848,21 @@
 		background: url(../images/instagram.png) no-repeat 0 50%;
 	}
 }
-/* @end -1024 px */
+/* @end -1150px */
 
 
 
-
+/* @group -860PX
+------------------------------------------------------------------------------------------*/
 @media all and (max-width: 860px){
-	/* il va falloir positionner de cette maniere des largeur inferieur a 1024px */
 	.dcsmt {
 		min-width: 280px;
 	}
 	.closed{
 		right: -280px;
 	}
-	/* display: none; */
 }
-
-
-/******************************** END TEST ***********************************************/
+/* @end -860px */
 
 
 
@@ -950,7 +944,7 @@
 
 
 
-/* @group -SMARTPHONE
+/* @group -SMARTPHONE LANDSCAPE
 ------------------------------------------------------------------------------------------*/
 @media all and (max-device-width: 480px) and (orientation: landscape){
 	.dcsmt {
@@ -972,4 +966,4 @@
 		font-size: 1.2em;
 	}
 }
-/* @end -SMARTPHONE */
+/* @end -SMARTPHONE LANDSCAPE */

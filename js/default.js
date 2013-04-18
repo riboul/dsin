@@ -7,14 +7,12 @@ jQuery(function (){
 		+ data-easing: the easing used for text transition
 	******/
 	
-	/* SUPORT DRAG N DROP */
+	/* DRAG N DROP */
 	/*
 	if (Modernizr.draganddrop) {
-	  // Browser supports HTML5 DnD.
-	  alert("supported");
+	  // Browser supports HTML5 DnD. Don't do anything
 	} else {
 	  // Fallback to a library solution.
-	  alert("not supported");
 	}
 	*/
 	
@@ -23,7 +21,7 @@ jQuery(function (){
 		handleLogoDisplay($(window));
 	}, 1000);
 	
-	// SlideShow Configuration 
+	// SlideShow Configuration
 	$('#ei-slider').eislideshow({
 		animation			: 'center',
 		autoplay			: true,
@@ -48,6 +46,15 @@ jQuery(function (){
 		
 		// Handle Menu Selection
 		handleMenuSelection($(window));
+		
+		// Handle Cart Display
+		handleCartDiplay($(window));
+	});
+	
+	// Open Close Cart
+	$('#cart a').on('click', function(event){
+		openCloseCart();
+		event.preventDefault();
 	});
 	
 	// init Social feed
@@ -124,6 +131,29 @@ function handleMenuSelection(window){
 		navItems.removeClass('active');
 		$('.largeScreen #linkContact').parent().addClass(' active');
 		$('.smallScreen #linkContact').parent().addClass(' active');
+	}
+}
+
+// Handle Cart Display
+function handleCartDiplay(window){
+	fixedLimit = $('#offres').position().top;
+	fixedLimit2 = $('#offres').position().top + $('#offres').height() - 0.2*window.height() - $('#cart').height() - 0.1*window.height();
+	
+	var pos = $('#offres').position().top + 0.2*window.height();
+	
+
+	if (window.scrollTop() >= fixedLimit) {
+		if (window.scrollTop() <= fixedLimit2){
+			$('#cart').removeAttr('style');
+			$('#cart').addClass('fix');
+		} else {
+			pos = $('#offres').position().top + $('#offres').height() - $('#cart').height() - 0.1*window.height();
+			$('#cart').removeClass('fix');
+			$('#cart').css({'top': pos});
+		}
+	} else {
+		$('#cart').css({'top': pos});
+		$('#cart').removeClass("fix")
 	}
 }
 
@@ -294,7 +324,7 @@ function soso(){
 			/* width: 760,//iPhone landscape
 			height: 260, */
 			zopen: 9,
-			loadOpen: true,
+			loadOpen: false,
 			autoClose: true,
 			position: 'fixed',
 			location: 'top',
@@ -308,6 +338,51 @@ function soso(){
 			rssId: 'http://www.cgi.com/fr/all/feeds/rss.xml',
 			twitterId: "cgi_ir",
 			youtubeId: 'LogicaFRA'
+		});
+	}
+}
+
+/*****/
+/* HTML5 Drag & Drop
+/*****/
+function onDragStart(target, evt){
+   evt.dataTransfer.setData("TitleElement", target.title);
+   evt.dataTransfer.setData("IdElement", target.id);
+}
+
+function onDropTarget(target, evt) { 
+	var title = evt.dataTransfer.getData("TitleElement");
+	var id = evt.dataTransfer.getData("IdElement");
+	if (title !== 'undefined' && title !== '' && id !== 'undefined' && id !== ''){
+		var $li = $('<li>'+title+'</li>');
+		$li.appendTo($('#cart-offers-list'));
+		$('#'+id).removeAttr('draggable');
+		$('#'+id).removeAttr('ondragstart');
+		evt.preventDefault();
+	}
+} 
+
+function openCloseCart() {
+	if ($('#cart').hasClass('openedCart')) {
+		// Close Cart
+		slideOffset = Math.round($('#cart').width() / $(window).width() * 100) ;
+		p = {left: '-'+slideOffset+'%'};
+		
+		$('#cart').animate(p, 700, function(){
+			$('#cart').removeClass('openedCart');
+			$('#cart').addClass('closedCart');
+			$('#cart').removeAttr('style');
+			handleCartDiplay($(window));
+		});
+	} else {
+		// Open Cart
+		p = {left: 0};
+		
+		$('#cart').addClass('openedCart');
+		$('#cart').animate(p, 700, function(){
+			$('#cart').removeClass('closedCart');
+			$('#cart').removeAttr('style');
+			handleCartDiplay($(window));
 		});
 	}
 }

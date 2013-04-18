@@ -232,7 +232,8 @@
 	}
 	.ei-title h2, .ei-title h3{
 		/*Updated by SkyWalker */	
-		text-align: justify;
+		text-align: center;
+		margin: 0 1em;
 	}
 	.ei-title h2{
 		font-size: 1.5em;
@@ -271,7 +272,7 @@
 	}
 	.ei-title h2, .ei-title h3{
 		/*Updated by SkyWalker */	
-		text-align: justify;
+		text-align: center;
 	}
 	.ei-title h2{
 		font-size: 1.5em;
