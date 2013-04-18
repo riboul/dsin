@@ -392,10 +392,9 @@ footer ul{
 ------------------------------------------------------------------------------------------*/
 .offres-thumb {
 	display: block;
-	width: 80%;
-	/* height: 25em; */
+	width: 90%;
 	position: relative;
-	margin: 0 10%;
+	margin: 0 5%;
 }
 .offres-infos{
 	width: 80%;
@@ -411,14 +410,10 @@ footer ul{
 
 .offres-thumb img {
 	width:100%;
-	/* height:100%; */
-	/* position:absolute; */
 }
 .offres-caption-background{
-	/*Updated by Skywalker*/
 	position: absolute;
 	top: 65%;
-	/*background: rgba(255, 255, 255, 0.6);*/
 	width: 90%;
 	padding: 5%;
 	text-align: center;
@@ -426,17 +421,20 @@ footer ul{
 .offres-caption {
 	width: 80%;
 	color: rgb(0,0,0);
-	font-size: 1em;
+	font-size: 0.8em;
+	line-height: 0.8em;
+}
+
+.offres-caption .offres-caption-title {
+	font-size: 1.3em;
 }
 .offres-thumb .offres-thumb-detail {
 	width:100%;
 	height:100%;
 	position:absolute;			
 	background:#fff;
-	/* border:solid 1px #CCCCCC; */
 	text-align:justify;
 	padding:5px;
-	
 	top: 0;
 }
 .offres-thumb .offres-thumb-detail img{
@@ -461,6 +459,7 @@ footer ul{
 }	
 .offres-thumb.scroll .offres-thumb-detail {
 	bottom: -100%;
+	top: auto;
 }
 /*****/
 
@@ -1104,10 +1103,12 @@ textarea[placeholder] {
 	.logo{
 		width:60%;
 		left: 20%;
-	}	
-	.logoCBC {
-		width:60%;
-	}		
+	}
+	.logoCBC{
+		width: 30%;
+		left: 35%;
+		bottom: 60%;
+	}
 	#mainNav > ul > li > .menu {
 		color: #FFFFFF;
 		font-size: 1.7em;
