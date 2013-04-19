@@ -691,6 +691,47 @@ footer ul{
 } */
 /* @end -offres */
 
+/* @group -EXPERTISES
+------------------------------------------------------------------------------------------*/
+.expertise ul  {	
+	list-style-type: circle;
+}
+
+.expertise ul li{	
+	margin: 1em;
+}
+.expertise ul li ul li{	
+	margin: 0 0 0 3em;
+}
+
+.expertise ul li ul li:last-child{	
+	margin: 0 0 1em 3em;
+}
+
+.expertise-title {
+	text-decoration: underline;
+	margin-bottom: 0.5em;
+}
+
+.expert {
+	font-size: 0.8em;
+	margin: 2em 0;
+}
+
+.expert img {
+	float: left;
+	margin-right: 1em;
+}
+
+.expert-desc {
+}
+/*
+#expertise ul  li.social{	
+	list-style-image : url(puce.gif);
+}
+*/
+
+/* @end -expertises */
 
 
 /* @group -NEWS
@@ -938,6 +979,18 @@ textarea{
 }
 
 /* @end -partners */
+
+/* @group -PAROLES EXPERTS
+------------------------------------------------------------------------------------------*/
+.parolesExpert .whiteColumn{
+	-webkit-border-bottom-right-radius: 20px;
+	-webkit-border-top-left-radius: 20px;
+	-moz-border-radius-topleft: 20px;
+	-moz-border-radius-bottomright: 20px;
+	border-bottom-right-radius: 20px;
+	border-top-left-radius: 20px;
+}
+/* @end -paroles experts */
 
 /* @group -MEDIA
 ------------------------------------------------------------------------------------------*/
