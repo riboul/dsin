@@ -125,11 +125,12 @@ h4{
 }
 .logoCBC {
 	position: fixed;
-	
-	bottom: 10%;
-	right: 6%;
 	width: 20%;
+	
+	left: 74%;
 	z-index: 1;
+	
+	bottom: 2em;
 	
 	/***/
 	-webkit-transition: bottom 750ms ease-in;
@@ -142,12 +143,11 @@ h4{
 	-ms-transition-property: bottom, width;
 	-o-transition-property: bottom, width;
 	transition-property: bottom, width;
-	-webkit-transition-timing-function: cubic-bezier(0.68, -0.55, 0.265, 1.55);
-	-moz-transition-timing-function: cubic-bezier(0.68, -0.55, 0.265, 1.55);
-	-ms-transition-timing-function: cubic-bezier(0.68, -0.55, 0.265, 1.55);
-	-o-transition-timing-function: cubic-bezier(0.68, -0.55, 0.265, 1.55);
-	transition-timing-function: cubic-bezier(0.68, -0.55, 0.265, 1.55);
-	
+	-webkit-transition-timing-function: cubic-bezier(0.13,-0.54,0.7,1.3);
+	-moz-transition-timing-function: cubic-bezier(0.13,-0.54,0.7,1.3);
+	-ms-transition-timing-function: cubic-bezier(0.13,-0.54,0.7,1.3);
+	-o-transition-timing-function: cubic-bezier(0.13,-0.54,0.7,1.3);
+	transition-timing-function: cubic-bezier(0.13, -0.54, 0.7, 1.3);
 }
 
 .footerLogo{
@@ -159,7 +159,7 @@ h4{
 	top: -50em;
 }
 .retractBottom{
-	bottom: -100%;
+	bottom: -50em;
 }
 .underline{
 	text-decoration: underline;
@@ -950,9 +950,6 @@ textarea{
 		width:50%;
 		left: 25%;
 	}
-	.logoCBC{
-		width:30%;
-	}	
 	.subHeading {
 		font-size: 1.3em;
 	}
@@ -1015,9 +1012,10 @@ textarea{
 		left: 30%;
 	}
 	.logoCBC{
-		width: 40%;
-		left: 30%;
-		bottom: 60%;
+		position: absolute;
+		width: 30%;
+		left: 35%;
+		bottom: -8em;;
 	}
 	.retractBottom{
 		bottom: -50em;
@@ -1209,9 +1207,13 @@ textarea{
 		left: 20%;
 	}
 	.logoCBC{
+		position: absolute;
 		width: 30%;
 		left: 35%;
-		bottom: 60%;
+		bottom: -8em;;
+	}
+	.retractBottom{
+		bottom: -50em;
 	}
 	#mainNav > ul > li > .menu {
 		color: #FFFFFF;
