@@ -450,6 +450,15 @@ footer ul{
 	position: absolute;
 	top:0;
 }
+.offres-thumb .offres-thumb-detail .offres-thumb-detail-text-resume {
+	display: none;
+	
+	font-size: 0.72em;
+	padding: 1em 3em 1em 1em;
+	
+	position: absolute;
+	top:0;
+}
 
 .offres-thumb .offres-thumb-detail a {
 }		
@@ -1336,7 +1345,10 @@ textarea{
 		font-size: 0.7em;
 	}
 	.offres-thumb .offres-thumb-detail .offres-thumb-detail-text {
-		font-size: 0.62em;
+		display: none;
+	}
+	.offres-thumb .offres-thumb-detail .offres-thumb-detail-text-resume {
+		display: block;
 	}
 	/* @end -offres */
 	
@@ -1404,7 +1416,10 @@ textarea{
 	}
 	
 	.offres-thumb .offres-thumb-detail .offres-thumb-detail-text {
-		font-size: 0.72em;
+		display: block;
+	}
+	.offres-thumb .offres-thumb-detail .offres-thumb-detail-text-resume {
+		display: none;
 	}
 }
 /* @end -smartphone landscape */
