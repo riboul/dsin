@@ -1210,7 +1210,7 @@ textarea{
 		position: absolute;
 		width: 30%;
 		left: 35%;
-		bottom: -8em;;
+		bottom: -6em;;
 	}
 	.retractBottom{
 		bottom: -50em;
@@ -1335,6 +1335,9 @@ textarea{
 	.offres-caption .offres-caption-information {
 		font-size: 0.7em;
 	}
+	.offres-thumb .offres-thumb-detail .offres-thumb-detail-text {
+		font-size: 0.62em;
+	}
 	/* @end -offres */
 	
 	/* @group -PARTNERS
@@ -1361,10 +1364,21 @@ textarea{
 	}
 	/*Added by Skywalker */
 	.logo{
-		width:50%;
-		left: 25%;
-	}	
-	
+		width:35%;
+		left: 35%;
+	}
+	.logoCBC{
+		position: absolute;
+		width: 20%;
+		left: 40%;
+		bottom: -9em;;
+	}
+	.retractBottom{
+		bottom: -50em;
+	}
+	#mainNav > ul > li {
+		padding-top: 1em;
+	}
 	#mainNav > ul > li > a {
 		font-size: 2.5em;
 		padding: 0 0.5em;
@@ -1387,6 +1401,10 @@ textarea{
 	
 	.cart{
 		display: none;
+	}
+	
+	.offres-thumb .offres-thumb-detail .offres-thumb-detail-text {
+		font-size: 0.72em;
 	}
 }
 /* @end -smartphone landscape */
