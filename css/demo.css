@@ -524,7 +524,7 @@ footer ul{
 	left: 0;
 
 	width: 18%;
-	height: 30%;
+	height: 35%;
 	
 	z-index: 1;
 	
@@ -594,7 +594,7 @@ footer ul{
 
 .cart-offers {
 	padding: 10px 25px;
-	font-size: 0.8em;
+	font-size: 0.76em;
 }
 
 .cart-offers ul{
@@ -1034,6 +1034,10 @@ textarea{
 		font-size: 1.2em;
 		line-height: 1.4em;
 	}
+	.cart-offers {
+		padding: 9px 20px;
+		font-size: 0.7em;
+	}
 	/* @end -offers */
 }
 /* @end -1050px */
@@ -1212,6 +1216,10 @@ textarea{
 
 	.offres-caption .offres-caption-information {
 		font-size: 0.8em;
+	}
+	.cart-offers {
+		padding: 8px 20px;
+		font-size: 0.6em;
 	}
 	
 	/* @end -offres */
