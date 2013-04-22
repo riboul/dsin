@@ -202,7 +202,7 @@ header > span {
 	-moz-border-radius-bottomright: 10px;
 	-moz-border-radius-bottomleft: 10px;
 	border-bottom-right-radius: 10px;
-	border-bottom-left-radius: 10px;	
+	border-bottom-left-radius: 10px;
 
 	-moz-box-shadow: 0 1px 3px rgba(0,0,0,0.25);
 	-webkit-box-shadow: 0 1px 3px rgba(0,0,0,0.25);
@@ -609,9 +609,9 @@ footer ul{
 	-moz-box-shadow: inset 0px 1px 0px 0px #f29c93;
 	-webkit-box-shadow: inset 0px 1px 0px 0px #f29c93;
 	box-shadow: inset 0px 1px 0px 0px #f29c93;
-	background: -webkit-gradient( linear, left top, left bottom, color-stop(0.05, #fe1a00), color-stop(1, #ce0100) );
-	background: -moz-linear-gradient( center top, #fe1a00 5%, #ce0100 100% );
-	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#fe1a00', endColorstr='#ce0100');
+	background: -webkit-gradient( linear, left top, left bottom, color-stop(0.05, #fe1a00), color-stop(1, #E31937) );
+	background: -moz-linear-gradient( center top, #fe1a00 5%, #E31937 100% );
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#fe1a00', endColorstr='#E31937');
 	background-color: #fe1a00;
 	-moz-border-radius: 6px;
 	-webkit-border-radius: 6px;
@@ -669,9 +669,9 @@ footer ul{
 	-moz-box-shadow: inset 0px 1px 0px 0px #f29c93;
 	-webkit-box-shadow: inset 0px 1px 0px 0px #f29c93;
 	box-shadow: inset 0px 1px 0px 0px #f29c93;
-	background: -webkit-gradient( linear, left top, left bottom, color-stop(0.05, #fe1a00), color-stop(1, #ce0100) );
-	background: -moz-linear-gradient( center top, #fe1a00 5%, #ce0100 100% );
-	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#fe1a00', endColorstr='#ce0100');
+	background: -webkit-gradient( linear, left top, left bottom, color-stop(0.05, #fe1a00), color-stop(1, #E31937) );
+	background: -moz-linear-gradient( center top, #fe1a00 5%, #E31937 100% );
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#fe1a00', endColorstr='#E31937');
 	background-color: #fe1a00;
 	-moz-border-radius: 6px;
 	-webkit-border-radius: 6px;
@@ -721,10 +721,10 @@ footer ul{
 
 /*
 .cart-button:hover {
-	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #ce0100), color-stop(1, #fe1a00) );
-	background:-moz-linear-gradient( center top, #ce0100 5%, #fe1a00 100% );
-	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ce0100', endColorstr='#fe1a00');
-	background-color:#ce0100;
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #E31937), color-stop(1, #fe1a00) );
+	background:-moz-linear-gradient( center top, #E31937 5%, #fe1a00 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#E31937', endColorstr='#fe1a00');
+	background-color:#E31937;
 }
 
 .cart-button:active {
@@ -870,6 +870,19 @@ footer ul{
 	color: #000000;
 	border:	1px solid #505a68;
 	padding: 0.5em 0;
+	
+	-webkit-border-bottom-right-radius: 25px;
+	-webkit-border-bottom-left-radius: 25px;
+	-webkit-border-top-left-radius: 25px;
+	-webkit-border-top-right-radius: 25px;
+	-moz-border-radius-bottomright: 25px;
+	-moz-border-radius-bottomleft: 25px;
+	-moz-border-radius-topleft: 25px;
+	-moz-border-radius-topright: 25px;
+	border-bottom-right-radius: 25px;
+	border-bottom-left-radius: 25px;
+	border-top-right-radius: 25px;
+	border-top-left-radius: 25px;	
 }
 /***/
 .form{
