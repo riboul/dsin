@@ -245,6 +245,9 @@
 				$('.'+slider,$c).append('<li class="'+slides+' tab-'+v+'"><div class="tab-inner"></div></li>');
 			});
 			
+			$('.'+tabs,$c).append('<li class="arrows"><a href="#" title="arrowUp" class="arrowUp"></a></li>');
+			$('.'+tabs,$c).append('<li class="arrows"><a href="#" title="arrowDown" class="arrowDown"></a></li>');
+			
 			var $r = $('.'+this.o.slider,$a), $s = $('.'+this.o.slides,$a), $t = $('.'+this.o.tabs,$a), $l = $('li',$t);
 			
 			if(this.o.method == 'slide'){
@@ -277,7 +280,17 @@
 			cs = this.o.classSlide, m = this.o.method, start = this.o.start, external = this.o.external;
 			$('a',l).click(function(){
 				var i = parseInt($(this).attr('rel'),10);
-				if($(this).parent().hasClass(ca)){
+				if($(this).parent().hasClass('arrows')) {
+					stream = $('.tab-active .stream',a);
+					if ($(this).hasClass('arrowUp')){
+						self.pauseTimer();
+						ticker(stream,'prev');
+					}
+					if ($(this).hasClass('arrowDown')){
+						self.pauseTimer();
+						ticker(stream,'next');
+					}
+				} else if($(this).parent().hasClass(ca)){
 					if(m == 'slide'){
 						self.close(a,l,s);
 					}

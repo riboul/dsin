@@ -360,8 +360,12 @@ function onDropTarget(target, evt) {
 		$('#'+id).removeAttr('ondragstart');
 		evt.preventDefault();
 		
+		// Enable buttons
 		$('#cart-btn').removeAttr('disabled');
 		$('#cart-btn').removeClass('inactive');
+		
+		$('#empty-cart-btn').removeAttr('disabled');
+		$('#empty-cart-btn').removeClass('inactive');
 	}
 } 
 
@@ -403,4 +407,15 @@ function addOffersMessage(){
 	message = message + message2;
 	$('#message').attr('value', message);
 	$('#linkContact').click();
+}
+
+function emptyCart(){
+	$('#cart-offers-list').empty();
+	$('.cart-information').show();
+	
+	$('#cart-btn').attr('disabled', 'disabled');
+	$('#cart-btn').addClass('inactive');
+	
+	$('#empty-cart-btn').attr('disabled', 'disabled');
+	$('#empty-cart-btn').addClass('inactive');
 }

@@ -492,6 +492,11 @@
 	margin-right: 4px;
 	background: url(../images/controls.png) no-repeat 0 0;
 }
+
+.arrows {
+	display: none;
+}
+
 .dcsmt .controls .prev {
 	background-position: -40px 0;
 }
@@ -861,6 +866,26 @@
 	.closed{
 		right: -280px;
 	}
+	
+	.arrowUp {
+		display: block;
+		width: 70px;
+		height: 70px;
+		float: left;
+		margin-right: 4px;
+		background: url(../images/controllers.png) no-repeat 0 0;
+		background-position: 0 0;
+	}
+
+	.arrowDown {
+		display: block;
+		width: 70px;
+		height: 70px;
+		float: left;
+		margin-right: 4px;
+		background: url(../images/controllers.png) no-repeat 0 0;
+		background-position: -70px 0;
+	}
 }
 /* @end -860px */
 
@@ -893,7 +918,7 @@
 	}
 	
 	.tab-content ul {
-		font-size: 1em;
+		font-size: 0.95em;
 	}
 	
 	.tab-content .tab-inner {
@@ -903,6 +928,10 @@
 		border-radius: 5px 0 0 5px;
 		-webkit-border-radius: 5px 0 0 5px;
 		-moz-border-radius: 5px 0 0 5px;
+	}
+	
+	.tab-inner ul.stream > li {
+		padding: 5px 0 30px 0;
 	}
 	
 	.dcsmt .social-tabs{
@@ -928,6 +957,34 @@
 		-moz-border-radius: 5px 0 0 5px;
 	}
 	
+	.arrows {
+		display: block;
+	}
+	
+	.closed .arrows {
+		display: none;
+	}
+	
+	.arrowUp {
+		display: block;
+		width: 70px;
+		height: 70px;
+		float: left;
+		margin-right: 4px;
+		background: url(../images/controllers.png) no-repeat 0 0;
+		background-position: 0 0;
+	}
+
+	.arrowDown {
+		display: block;
+		width: 70px;
+		height: 70px;
+		float: left;
+		margin-right: 4px;
+		background: url(../images/controllers.png) no-repeat 0 0;
+		background-position: -70px 0;
+	}
+	
 	.dcsmt .social-tabs li{
 		float: none;
 	}
@@ -938,6 +995,15 @@
 
 	.closed{
 		right: -57%;
+	}
+	
+	.tab-inner ul li .date {
+		bottom: 2px;
+		font-size: 0.55em;
+	}
+	
+	.tab-inner ul li .section-share {
+		display: none;
 	}
 }
 /* @end -SMARTPHONE */
