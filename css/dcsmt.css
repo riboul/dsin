@@ -866,26 +866,6 @@
 	.closed{
 		right: -280px;
 	}
-	
-	.arrowUp {
-		display: block;
-		width: 70px;
-		height: 70px;
-		float: left;
-		margin-right: 4px;
-		background: url(../images/controllers.png) no-repeat 0 0;
-		background-position: 0 0;
-	}
-
-	.arrowDown {
-		display: block;
-		width: 70px;
-		height: 70px;
-		float: left;
-		margin-right: 4px;
-		background: url(../images/controllers.png) no-repeat 0 0;
-		background-position: -70px 0;
-	}
 }
 /* @end -860px */
 
@@ -1030,6 +1010,24 @@
 	
 	.tab-content ul {
 		font-size: 1.2em;
+	}
+	
+	.arrowUp {
+		width: 47px;
+		height: 46px;
+		float: left;
+		margin-right: 4px;
+		background: url(../images/controllers2.png) no-repeat 0 0;
+		background-position: 0 0;
+	}
+
+	.arrowDown {
+		width: 47px;
+		height: 46px;
+		float: left;
+		margin-right: 4px;
+		background: url(../images/controllers2.png) no-repeat 0 0;
+		background-position: -51px 0;
 	}
 }
 /* @end -SMARTPHONE LANDSCAPE */

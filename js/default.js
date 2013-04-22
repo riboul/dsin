@@ -418,4 +418,7 @@ function emptyCart(){
 	
 	$('#empty-cart-btn').attr('disabled', 'disabled');
 	$('#empty-cart-btn').addClass('inactive');
+	
+	$('.offres-thumb').attr('draggable', 'true');
+	$('.offres-thumb').attr('ondragstart', 'onDragStart(this, event);');
 }
