@@ -773,9 +773,18 @@ footer ul{
 	margin-bottom: 0.5em;
 }
 
+.latestNews{
+	margin: 2em 0;
+}
+
+.parolesExpert ul {
+	list-style-type: circle;
+	color: rgb(0, 0, 0);
+}
+
 .expert {
 	font-size: 0.8em;
-	margin: 2em 0;
+	margin: 0 0 2em 0;
 }
 
 .expert img {
@@ -838,7 +847,8 @@ footer ul{
 
 .news .content{
 	width:83%;
-	overflow:hidden;
+	/** NCHO avoid to hide list-style **/
+	/* overflow:hidden; */
 	margin:0 auto;
 	text-align:justify;
 	color:#000000;
