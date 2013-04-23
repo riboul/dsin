@@ -57,6 +57,12 @@ jQuery(function (){
 		event.preventDefault();
 	});
 	
+	// Go Up
+	$('#goUp').on('click', function(event){
+		$('#linkHome').click();
+		event.preventDefault();
+	});
+	
 	// init Social feed
 	//initLargeScreenSocial();
 	soso();
@@ -79,6 +85,11 @@ function handleLogoDisplay(window){
 	if (window.scrollTop() > 100){
 		$('#logo').addClass('retractTop');
 		$('#logoCBC').addClass('retractBottom');
+		if (window.scrollTop() > 200) {
+			$('#goUp').removeClass('retractBottom');
+		} else {
+			$('#goUp').addClass('retractBottom');
+		}
 	} else {
 		$('#logo').removeClass('retractTop');
 		$('#logoCBC').removeClass('retractBottom');
