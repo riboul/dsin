@@ -25,7 +25,7 @@ jQuery(function (){
 	$('#ei-slider').eislideshow({
 		animation			: 'center',
 		autoplay			: true,
-		slideshow_interval	: 5000
+		slideshow_interval	: 8000
 	});
 	
 	// Handle Anchors Navigation
