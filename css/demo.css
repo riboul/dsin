@@ -914,10 +914,12 @@ footer ul{
 
 .partner{
 	background: rgb(255, 255, 255);
-	/* margin: 1em 0; */
 	color: #000000;
 	/* border:	1px solid #505a68; */
 	padding: 3%;
+	height: 15em;
+	
+	font-size: 0.8em;
 	
 	-webkit-border-bottom-right-radius: 25px;
 	-webkit-border-bottom-left-radius: 25px;
@@ -931,11 +933,17 @@ footer ul{
 	border-bottom-left-radius: 25px;
 	border-top-right-radius: 25px;
 	border-top-left-radius: 25px;
+	
+	border: 1px solid #505a68;
+	
+	-moz-box-shadow: 0 1px 3px rgba(0,0,0,0.25);
+	-webkit-box-shadow: 0 1px 3px rgba(0,0,0,0.25);
+	box-shadow: 2px 2px 8px #323435;
 }
 
 .partner img {
-	float: left;
-	margin-right: 1em;
+	/* width: 50%; */
+	margin: 0 25%;
 }
 /***/
 .form{
@@ -1125,6 +1133,7 @@ textarea{
 }
 .videoDSIN{
 	width: 85%;
+	height: 70%;
 }
 /* @end -media */
 
