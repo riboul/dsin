@@ -162,6 +162,7 @@ function handleCartDiplay(window){
 	}
 }
 
+// Handle Anchors Navigation
 function initScrollNav(_options){
 	var options = jQuery.extend({
 		nav:'#nav a',
@@ -186,34 +187,11 @@ function initScrollNav(_options){
 	});
 }
 
-function initLargeScreenSocial(){
-	cleanSocialMedia();
-	/* Social Media Configuration */
-	$('#socialMedia').socialist({ 
-        networks: [ 
-            //{name:'linkedin',id:'cgi'}, 
-            //{name:'facebook_search',id:'cgigroup'}, 
-            {name:'twitter',id:'cgi_ir'}
-        ],
-        maxResults: 3,
-		textLength: 70,
-		isotope:false,
-		fields:['text', 'date'],
-		screenSize: 9999
-    });
-}
-
-function cleanSocialMedia(){
-	$('#socialMedia').empty();
-	$('#socialMedia').hide();
-	var $imgHeader = $('<div class="social-header" ><img src="images/social/newsAndPosts_clear.png" alt="News And Posts" /></div>');
-	$imgHeader.appendTo($('#socialMedia'));
-}
-
 function refreshSocial(){
-	//insérer code pour rafraichir le bloc de feeds
+	// Insert code to refresh social feeds
 }
 
+// Handle DropDownMenu - Only for small screen and smartphones
 function initDropDownMenu(){
 	$("#mainNav > ul > li > .menu").click(function (e){
 		if ($(this).parent().hasClass('selected')){
@@ -242,6 +220,7 @@ function initDropDownMenu(){
 	});
 }
 
+// Handle offers images flipping
 function initImagesFlipping() {
 	if ($('html').hasClass('csstransforms3d')) {
 		// CSS3 supported
@@ -271,6 +250,7 @@ function initImagesFlipping() {
 	}
 }
 
+// Init Configuration for the Map
 function initGoogleMap(){
 	geocoder = new google.maps.Geocoder();
 	var latlng = new google.maps.LatLng(-34.397, 150.644);
@@ -294,11 +274,13 @@ function initGoogleMap(){
   });
 }
 
+// Detect if navigator used is a Mobile
 function isMobile() {
 	var index = navigator.appVersion.indexOf("Mobile");
 	return (index > -1);
 }
 
+// Init Configuration for Social part
 function initSocial(){
 	if (isMobile()){
 		$('#social-tabs').dcSocialTabs({
@@ -373,6 +355,7 @@ function onDropTarget(target, evt) {
 	}
 } 
 
+// Handle Cart display
 function openCloseCart() {
 	if ($('#cart').hasClass('openedCart')) {
 		// Close Cart
@@ -398,6 +381,7 @@ function openCloseCart() {
 	}
 }
 
+// Function to create mail message from selected offers
 function addOffersMessage(){
 	var message1 = 'Bonjour,\n\nje suis intéréssé par les offres : \n\n';
 	var message2 = "\nPourriez-vous me contacter pour un complément d'information. \n\nMerci d'avance.";
