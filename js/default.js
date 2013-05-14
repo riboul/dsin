@@ -7,15 +7,6 @@ jQuery(function (){
 		+ data-easing: the easing used for text transition
 	******/
 	
-	/* DRAG N DROP */
-	/*
-	if (Modernizr.draganddrop) {
-	  // Browser supports HTML5 DnD. Don't do anything
-	} else {
-	  // Fallback to a library solution.
-	}
-	*/
-	
 	// LOGO Animation after page loading
 	setTimeout(function(){
 		handleLogoDisplay($(window));
@@ -40,6 +31,7 @@ jQuery(function (){
 		$("#mainNav ul .selected").removeClass("selected");
 	});
 	
+	// Handle Scroll action and related animation
 	$(window).bind('scroll', function(){
 		// Handle logo display
 		handleLogoDisplay($(window));
@@ -64,16 +56,17 @@ jQuery(function (){
 	});
 	
 	// init Social feed
-	//initLargeScreenSocial();
-	soso();
+	initSocial();
 	
 	// Refresh Social Feeds
+	/* UNUSED = ENABLE LATER
 	var refreshId = setInterval(function(){refreshSocial()},1000);
+	*/
 	
 	// Only for small screen
 	initDropDownMenu();
 	
-	// 
+	// Handle Offers Images Flipping
 	initImagesFlipping();
 	
 	// Init Map 
@@ -306,7 +299,7 @@ function isMobile() {
 	return (index > -1);
 }
 
-function soso(){
+function initSocial(){
 	if (isMobile()){
 		$('#social-tabs').dcSocialTabs({
 			zopen: 9,
