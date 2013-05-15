@@ -31,6 +31,17 @@
 		
 		<!-- DSIN WebSite -->
 		<script type="text/javascript" src="js/default.js"></script>
+		
+		<!-- Google Analytics -->
+		<script>
+			(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+			(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+			m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+			})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+			ga('create', 'UA-40906068-1', 'digital-and-social-interactions.fr');
+			ga('send', 'pageview');		 
+		</script>
         <!-- <link href='http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300|Playfair+Display:400italic' rel='stylesheet' type='text/css' /> -->
 		<!--[if lt IE 9]>
 			<script type="text/javascript" src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
@@ -142,10 +153,10 @@
 							<ul id="cart-offers-list"></ul>
 						</div>
 						<button id="empty-cart-btn" class="empty-cart-btn inactive" disabled="disabled" onclick="emptyCart();">
-							<span>Empty Cart</span>
+							<span>Vider Panier</span>
 						</button>
 						<button id="cart-btn" class="cart-btn inactive" disabled="disabled" onclick="addOffersMessage();">
-							<span>Send Message</span>
+							<span>Envoyer Message</span>
 						</button>
 					</div>
 				</div>
@@ -157,7 +168,7 @@
 					<div class="half">
 						<article id="dam" title="Digital Asset Management" class="offres-thumb scroll" draggable="true" ondragstart="onDragStart(this, event);">
 							<div class="offres-thumb-wrapper">
-								<img src="images/offers/template_cardOffer_DAM.jpg" alt="Une offre X" title="Cliquez pour obtenir plus de détails" />
+								<img src="images/offers/template_cardOffer_DAM.jpg" alt="Digital Asset Management" title="Cliquez pour obtenir plus de détails" />
 								<div class="offres-caption-background">
 									<span class="offres-caption">
 										<div class="rougeCerise bold offres-caption-title">Digital Asset Management</div>
@@ -176,9 +187,12 @@
 										Vos clients sont sollicités par les médias de manière intensive et leurs attentes ont évoluées. Votre performance commerciale sera renforcée par la cohérence de votre image de marque, la richesse et la personnalisation de votre relation  cliente ainsi que grâce à des parcours cross-canal adaptés aux nouveaux usages.
 									</div>
 									<div class="offres-thumb-detail-text-resume">
-										<!-- NCHO METTRE TEXTE RESUME -->
+										<div class="rougeCerise bold offres-caption-title">Digital Asset Management</div>
+										<br/>
+										La gestion optimum des médias concourt à fidéliser et conquérir des clients de plus en plus exigeants : en facilitant l’adaptation aux nouveaux formats, canaux et usages, en réduisant le Time-to-Market ainsi qu’en maîtrisant l’image de marque. Faites glisser cette fiche dans votre panier !
+										<br/><br/>
 										<span class="bold">Proposer une expérience utilisateur simple, cohérente et riche</span><br />
-										Votre performance commerciale sera renforcée par la cohérence de votre image de marque, la richesse et la personnalisation de votre relation  cliente ainsi que grâce à des parcours cross-canal adaptés aux nouveaux usages.
+										Vos clients sont sollicités par les médias de manière intensive et leurs attentes ont évoluées. Votre performance commerciale sera renforcée par la cohérence de votre image de marque, la richesse et la personnalisation de votre relation  cliente ainsi que grâce à des parcours cross-canal adaptés aux nouveaux usages.
 									</div>
 								</div>
 							</div>
@@ -187,7 +201,7 @@
 					<div class="half">
 							<article id="extCom" title="External Communities" class="offres-thumb scroll" draggable="true" ondragstart="onDragStart(this, event);">
 							<div class="offres-thumb-wrapper">
-								<img src="images/offers/template_cardOffer_externalC.jpg" alt="Une offre X" title="Cliquez pour obtenir plus de détails" />
+								<img src="images/offers/template_cardOffer_extComm.jpg" alt="External Communities" title="Cliquez pour obtenir plus de détails" />
 								<div class="offres-caption-background">
 									<span class="offres-caption">
 										<div class="rougeCerise bold offres-caption-title">External Communities</div>
@@ -205,9 +219,8 @@
 										La mise en place de stratégies communautaires, redéfinissant les processus internes, vous permettent de vous adapter efficacement à ce nouveau paradigme et de rassembler les consommateurs éparpillés à travers les nombreux  canaux de la sphère sociale.
 									</div>
 									<div class="offres-thumb-detail-text-resume">
-										<!-- NCHO METTRE TEXTE RESUME -->
-										<span class="bold">Proposer une expérience utilisateur simple, cohérente et riche</span><br />
-										Votre performance commerciale sera renforcée par la cohérence de votre image de marque, la richesse et la personnalisation de votre relation  cliente ainsi que grâce à des parcours cross-canal adaptés aux nouveaux usages.
+										<div class="rougeCerise bold offres-caption-title">External Communities</div>
+										Parce que les clients recherchent désormais des relations durables et authentiques avec les marques portées par les canaux du web 2.0, les entreprises se doivent d’adopter des stratégies d’engagement en accord avec les besoins des consomm’acteurs. La mise en place de stratégies communautaires, redéfinissant les processus internes, vous permettent de vous adapter efficacement à ce nouveau paradigme.
 									</div>
 								</div>
 						  </div>
@@ -218,7 +231,7 @@
 					<div class="half">
 						<article id="wkSer" title="Workplace As A Service" class="offres-thumb scroll" draggable="true" ondragstart="onDragStart(this, event);">
 							<div class="offres-thumb-wrapper">
-								<img src="images/offers/template_cardOffer_WAS.jpg" alt="Une offre X" title="Cliquez pour obtenir plus de détails" />
+								<img src="images/offers/template_cardOffer_WAAS.jpg" alt="Workplace As A Service" title="Cliquez pour obtenir plus de détails" />
 								<div class="offres-caption-background">
 									<span class="offres-caption">
 										<div class="rougeCerise bold offres-caption-title">Worplace As A Service</div>
@@ -237,9 +250,9 @@
 										Souplesse, Flexibilité, Maitrise, Savoir-Faire : Le Cloud n’a jamais autant tenu ses promesses.
 									</div>
 									<div class="offres-thumb-detail-text-resume">
-										<!-- NCHO METTRE TEXTE RESUME -->
-										<span class="bold">Proposer une expérience utilisateur simple, cohérente et riche</span><br />
-										Votre performance commerciale sera renforcée par la cohérence de votre image de marque, la richesse et la personnalisation de votre relation  cliente ainsi que grâce à des parcours cross-canal adaptés aux nouveaux usages.
+										<div class="rougeCerise bold offres-caption-title">Worplace As A Service</div>
+										<br/>
+										Le traditionnel poste de travail opère sa mutation naturelle vers le Digital Workplace, plus proche des usages de vos collaborateurs. Mais cette évolution logique nécessite souvent une transformation de votre infrastructure technique. Hors, les investissements requis pour permettre la transition vers le Digital Workplace peuvent représenter un frein pour votre entreprise.
 									</div>
 								</div>
 						  </div>
@@ -248,7 +261,7 @@
 					<div class="half">
 						<article id="soCol" title="Social Collaboration" class="offres-thumb scroll" draggable="true" ondragstart="onDragStart(this, event);">
 							<div class="offres-thumb-wrapper">
-								<img src="images/offers/template_cardOffer_SoCo.jpg" alt="Une offre X" title="Cliquez pour obtenir plus de détails" />
+								<img src="images/offers/template_cardOffer_socialCollab.jpg" alt="Social Collaboration" title="Cliquez pour obtenir plus de détails" />
 								<div class="offres-caption-background">
 									<span class="offres-caption">
 										<div class="rougeCerise bold offres-caption-title">Social Collaboration</div>
@@ -275,6 +288,7 @@
 										</ul>
 									</div>
 									<div class="offres-thumb-detail-text-resume">
+										<div class="rougeCerise bold offres-caption-title">Social Collaboration</div>
 										<!-- NCHO METTRE TEXTE RESUME -->
 										<span class="bold">Proposer une expérience utilisateur simple, cohérente et riche</span><br />
 										Votre performance commerciale sera renforcée par la cohérence de votre image de marque, la richesse et la personnalisation de votre relation  cliente ainsi que grâce à des parcours cross-canal adaptés aux nouveaux usages.
@@ -288,7 +302,7 @@
 					<div class="half">
 						<article id="diWk" title="Digital Workspace" class="offres-thumb scroll" draggable="true" ondragstart="onDragStart(this, event);">
 							<div class="offres-thumb-wrapper">
-								<img src="images/offers/template_cardOffer_DAM.jpg" alt="Une offre X" title="Cliquez pour obtenir plus de détails" />
+								<img src="images/offers/template_cardOffer_digitalWk.jpg" alt="Digital Workspace" title="Cliquez pour obtenir plus de détails" />
 								<div class="offres-caption-background">
 									<span class="offres-caption">
 										<div class="rougeCerise bold offres-caption-title">Digital Workspace</div>
@@ -309,40 +323,89 @@
 										</ul>
 									</div>
 									<div class="offres-thumb-detail-text-resume">
-										<span class="bold">SharePoint est aujourd’hui la solution majeure de Digital Workplace.</span><br />
-										Avec son écosystème, il représente un large gisement d’opportunités de nouveaux usages favorisant le partage et apportant, dans un environnement unique et efficace, la valeur métier à la collaboration. Bâtie sur cette vision, notre offre de services vous fait bénéficier de notre expertise pour tirer le plein parti de SharePoint, et transformer votre environnement collaboratif en espace numérique de travail.
+										<div class="rougeCerise bold offres-caption-title">Digital Workspace</div>
+										Avec son écosystème, Sharepoint représente un large gisement d’opportunités de nouveaux usages favorisant le partage et apportant, dans un environnement unique et efficace, la valeur métier à la collaboration. Bâtie sur cette vision, notre offre de services vous fait bénéficier de notre expertise pour tirer le plein parti de SharePoint, et transformer votre environnement collaboratif en espace numérique de travail.
 									</div>
 								</div>
 						  </div>
 						</article>
 					</div>
 					<div class="half">
-						<!--
-						<article id="dam3" title="Digital Asset Management 3" class="offres-thumb scroll" draggable="true" ondragstart="onDragStart(this, event);">
+						<article id="ePresence" title="ePresence" class="offres-thumb scroll" draggable="true" ondragstart="onDragStart(this, event);">
 							<div class="offres-thumb-wrapper">
-								<img src="images/offers/template_cardOffer_DAM.jpg" alt="Une offre X" title="Cliquez pour obtenir plus de détails" />
+								<img src="images/offers/template_cardOffer_ePresence.jpg" alt="ePresence" title="Cliquez pour obtenir plus de détails" />
 								<div class="offres-caption-background">
 									<span class="offres-caption">
-										<div class="rougeCerise bold offres-caption-title">Digital Asset Management 3</div>
-										<div>Exploitez pleinement la richesse de vos média.</div>
+										<div class="rougeCerise bold offres-caption-title">ePresence</div>
+										<div>Exploiter la richesse et les opportunités du web social, à tous les niveaux de votre organisation</div>
 										<div class="betteraveCGI offres-caption-information">Cliquez pour plus d'infos</div>
 									</span>
 								</div>
 								<div class="offres-thumb-detail">
 									<img src="images/offers/template_cardOffer_back.jpg" alt="Card offer background" title="Cliquez pour afficher la carte de visite" />
 									<div class="offres-thumb-detail-text">
-										<div class="rougeCerise bold offres-caption-title">Digital Asset Management 3</div>
+										<div class="rougeCerise bold offres-caption-title">ePresence</div>
 										<br/><br/>
-										La gestion optimum des médias concourt à fidéliser et conquérir des clients de plus en plus exigeants : en facilitant l’adaptation aux nouveaux formats, canaux et usages, en réduisant le Time-to-Market ainsi qu’en maîtrisant l’image de marque. Faites glisser cette fiche dans votre panier !
+										Vos clients, vos prospects, vos collaborateurs, vos partenaires, vos actionnaires, vos concurrents, vos détracteurs… Tous sont présents sur le web social, tous écoutent et sont écoutés, 24/24h, 7/7j, sur tous vos marchés. Et chacune des fonctions de votre organisation est impactée, chacune à sa manière. A vous de savoir reconnaître et exploiter les opportunités offertes par le web social.
+										
+										Le web social peut faire mal. Mais permet aussi de générer de nouveaux revenus. Nous pouvons intervenir pour vous aider à : 
+										<ul>
+											<li>gagner de nouveaux clients et intégrer leurs données à votre système CRM</li>
+											<li>gagner de nouveaux clients et intégrer leurs données à votre système CRM</li>
+											<li>améliorer votre image, vos offres, vos études, vos ventes, vos recrutements, etc.</li>
+											<li>identifier les influençeurs, destructeurs, sources-clés et conversations-clés pour optimiser vos campagnes digitales et le dévelopement de vos offres</li>
+											<li>mettre en place une gouvernance pour partager méthodologies et outils</li>
+											<li>anticiper et gérer vos crises sur le web social, et celles de vos concurrents…</li>
+										</ul>
 									</div>
 									<div class="offres-thumb-detail-text-resume">
-										<span class="bold">Proposer une expérience utilisateur simple, cohérente et riche</span><br />
-										Votre performance commerciale sera renforcée par la cohérence de votre image de marque, la richesse et la personnalisation de votre relation  cliente ainsi que grâce à des parcours cross-canal adaptés aux nouveaux usages.
+										<div class="rougeCerise bold offres-caption-title">ePresence</div>
+										Vos clients, vos prospects, vos collaborateurs, vos partenaires, vos actionnaires, vos concurrents, vos détracteurs… Tous sont présents sur le web social, tous écoutent et sont écoutés, 24/24h, 7/7j, sur tous vos marchés. Et chacune des fonctions de votre organisation est impactée, chacune à sa manière. A vous de savoir reconnaître et exploiter les opportunités offertes par le web social.
 									</div>
 								</div>
 							</div>
 						</article>
-						-->
+					</div>
+				</div>
+				<div class="columns">
+					<div class="half">
+						<article id="maktCloud" title="Marketing Cloud" class="offres-thumb scroll" draggable="true" ondragstart="onDragStart(this, event);">
+							<div class="offres-thumb-wrapper">
+								<img src="images/offers/template_cardOffer_marketingCloud.jpg" alt="Marketing Cloud" title="Cliquez pour obtenir plus de détails" />
+								<div class="offres-caption-background">
+									<span class="offres-caption">
+										<div class="rougeCerise bold offres-caption-title">Marketing Cloud</div>
+										<div>Exploiter et Manager la richesse des médias sociaux au service des métiers de votre entreprise</div>
+										<div class="betteraveCGI offres-caption-information">Cliquez pour plus d'infos</div>
+									</span>
+								</div>
+								<div class="offres-thumb-detail">
+									<img src="images/offers/template_cardOffer_back.jpg" alt="Card offer background" title="Cliquez pour afficher la carte de visite" />
+									<div class="offres-thumb-detail-text">
+										<div class="rougeCerise bold offres-caption-title">Marketing Cloud</div>
+										<br/>
+										Par nos compétences et expertises certifiés sur la suite Marketing Cloud / Salesforce, notre offre Marketing Cloud se met à votre service afin de créer les nouveaux cockpits au service de vos métiers permettant :
+										<ul>
+											<li>d’adresser vos communautés externes</li>
+											<li>de fédérer et créer vos contenus sur vos plateformes sociales, et parce que créer une relation c’est d’abord l’écoute, ce sont aussi les nouveaux cockpits d’écoute et de monitoring de la sphère Web Social jusqu’à l’interaction, l’engagement social.</li>
+										</ul>
+										Ces cockpits  deviennent un atout indispensable aux métiers de l’entreprise digitale :
+										<ul>
+											<li>LA RH : pour mieux recruter et porter la marque employeur,</li>
+											<li>Les Ventes et le marketing : pour acquérir et fidéliser les clients, pour la veille et l’innovation</li>
+											<li>Le service client : pour augmenter la satisfaction client sur les temps de réponse ou réduire des plaintes sur les centres d’appels, coordonner les communautés d’entre-aide</li>
+										</ul>
+										Tout ceci afin de création d’une relation « digitale » privilégiée et affinitaire avec vos internautes, clients, prospects, ambassadeurs, influenceurs, partenaires…
+									</div>
+									<div class="offres-thumb-detail-text-resume">
+										<div class="rougeCerise bold offres-caption-title">Digital Workspace</div>
+										Avec son écosystème, Sharepoint représente un large gisement d’opportunités de nouveaux usages favorisant le partage et apportant, dans un environnement unique et efficace, la valeur métier à la collaboration. Bâtie sur cette vision, notre offre de services vous fait bénéficier de notre expertise pour tirer le plein parti de SharePoint, et transformer votre environnement collaboratif en espace numérique de travail.
+									</div>
+								</div>
+						  </div>
+						</article>
+					</div>
+					<div class="half">
 					</div>
 				</div>
 			</div>

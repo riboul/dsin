@@ -861,23 +861,13 @@
 ------------------------------------------------------------------------------------------*/
 @media all and (max-width: 860px){
 	.dcsmt {
-		min-width: 280px;
+		width: 260px;
 	}
 	.closed{
-		right: -280px;
+		right: -260px;
 	}
 }
 /* @end -860px */
-
-/* @group -600PX
-------------------------------------------------------------------------------------------*/
-/* trouble with ie8 */
-@media all and (max-width: 600px){
-	.dcsmt {
-		display: none;
-	}
-}
-/* @end -600px */
 
 
 
