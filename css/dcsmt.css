@@ -869,6 +869,16 @@
 }
 /* @end -860px */
 
+/* @group -600PX
+------------------------------------------------------------------------------------------*/
+/* trouble with ie8 */
+@media all and (max-width: 600px){
+	.dcsmt {
+		display: none;
+	}
+}
+/* @end -600px */
+
 
 
 /* @group -SMARTPHONE

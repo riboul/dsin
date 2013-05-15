@@ -1346,17 +1346,20 @@ textarea{
 
 	.offres-caption .offres-caption-title {
 		font-size: 1.2em;
-		line-height: 1.3em;
+		line-height: 1.25em;
 	}
 
 	.offres-caption .offres-caption-information {
-		font-size: 0.8em;
+		font-size: 0.75em;
 	}
 	.cart-offers {
 		padding: 8px 20px;
 		font-size: 0.6em;
 	}
 	
+	.offres-thumb .offres-thumb-detail .offres-thumb-detail-text {
+		padding: 3em;
+	}
 	/* @end -offres */
 	
 	/* @group -PARTNERS
@@ -1371,6 +1374,19 @@ textarea{
 	/* @end -partners */
 }
 /* @end -860px */
+
+
+/* @group -650px
+------------------------------------------------------------------------------------------*/
+@media all and (max-width: 650px){
+	.offres-thumb .offres-thumb-detail .offres-thumb-detail-text {
+		display: none;
+	}
+	.offres-thumb .offres-thumb-detail .offres-thumb-detail-text-resume {
+		display: block;
+	}
+}
+/* @end -650px */
 
 
 /* @group -SMARTPHONE
