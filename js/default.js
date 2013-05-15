@@ -220,9 +220,15 @@ function initDropDownMenu(){
 	});
 }
 
+// Detect if navigator used is Internet Explorer
+function isIE() {
+	var index = navigator.userAgent.indexOf("MSIE");
+	return (index > -1);
+}
+
 // Handle offers images flipping
 function initImagesFlipping() {
-	if ($('html').hasClass('csstransforms3d')) {
+	if ($('html').hasClass('csstransforms3d') && !isIE()) {
 		// CSS3 supported
 		$('.offres-thumb').removeClass('scroll').addClass('flip');
 		$('.offres-thumb.flip').click(
