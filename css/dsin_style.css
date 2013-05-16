@@ -1713,6 +1713,13 @@ footer ul{
 .latestNews{
 
 	margin: 2em 0;
+	padding: 0;
+
+}
+
+.latestNews ul li{
+
+	margin: auto 2em;
 
 }
 
@@ -1900,6 +1907,11 @@ footer ul{
 
 }
 
+.parolesExpert .news .content{
+	width:93%;
+	margin:0 auto;
+}
+
 /* @end -news */
 
 
@@ -1984,9 +1996,9 @@ footer ul{
 
 .partner img {
 
-	width: 100%;
+	width: 80%;
 
-	margin: 0 auto;
+	margin: 0 10%;
 
 }
 
@@ -2361,6 +2373,8 @@ textarea{
 	
 	/*box-shadow: 0.5em 0.5em 1em grey;*/
 	box-shadow: 2px 2px 5px #323435;
+	
+	padding: 0;
 
 }
 
