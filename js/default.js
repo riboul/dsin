@@ -99,42 +99,42 @@ function handleMenuSelection(window){
 	if (window.scrollTop() >= $('#home').position().top - addingHeight){
 		navItems.removeClass('active');
 		$('.largeScreen #linkHome').parent().addClass(' active');
-		$('.smallScreen #linkHome').parent().addClass(' active');
+		/* $('.smallScreen #linkHome').parent().addClass(' active'); */
 	}
 	if (window.scrollTop() >= $('#offres').position().top - addingHeight){
 		navItems.removeClass('active');
 		$('.largeScreen #linkOffres').parent().addClass(' active');
-		$('.smallScreen #linkOffres').parent().addClass(' active');
+		/* $('.smallScreen #linkOffres').parent().addClass(' active'); */
 	}
 	if (window.scrollTop() >= $('#expertise').position().top - addingHeight){
 		navItems.removeClass('active');
 		$('.largeScreen #linkExpertise').parent().addClass(' active');
-		$('.smallScreen #linkExpertise').parent().addClass(' active');
+		/* $('.smallScreen #linkExpertise').parent().addClass(' active'); */
 	}
 	if (window.scrollTop() >= $('#parolesClients').position().top - addingHeight){
 		navItems.removeClass('active');
 		$('.largeScreen #linkParolesClients').parent().addClass(' active');
-		$('.smallScreen #linkParolesClients').parent().addClass(' active');
+		/* $('.smallScreen #linkParolesClients').parent().addClass(' active'); */
 	}
 	if (window.scrollTop() >= $('#parolesExpert').position().top - addingHeight){
 		navItems.removeClass('active');
 		$('.largeScreen #linkParolesExpert').parent().addClass(' active');
-		$('.smallScreen #linkParolesExpert').parent().addClass(' active');
+		/* $('.smallScreen #linkParolesExpert').parent().addClass(' active'); */
 	}
 	if (window.scrollTop() >= $('#media').position().top - addingHeight){
 		navItems.removeClass('active');
 		$('.largeScreen #linkMedia').parent().addClass(' active');
-		$('.smallScreen #linkMedia').parent().addClass(' active');
+		/* $('.smallScreen #linkMedia').parent().addClass(' active'); */
 	}
 	if (window.scrollTop() >= $('#partenaires').position().top - addingHeight){
 		navItems.removeClass('active');
 		$('.largeScreen #linkPartenaires').parent().addClass(' active');
-		$('.smallScreen #linkPartenaires').parent().addClass(' active');
+		$('.smallScreen #linkPartenairesSmall').parent().addClass(' active');
 	}
 	if (window.scrollTop() >= $('#contact').position().top - addingHeight){
 		navItems.removeClass('active');
 		$('.largeScreen #linkContact').parent().addClass(' active');
-		$('.smallScreen #linkContact').parent().addClass(' active');
+		$('.smallScreen #linkContactSmall').parent().addClass(' active');
 	}
 }
 
