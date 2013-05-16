@@ -482,7 +482,7 @@ header {
 
 }
 
-header > div {
+header #spanNav {
 
 	display: inline-block;
 
