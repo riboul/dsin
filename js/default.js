@@ -58,19 +58,18 @@ jQuery(function (){
 	// Flip Related Offers
 	$('.flipRelatedOffers').on('click', function(event){
 		unflipOffers();
-		/*
 		var offers = $(this).data().offers;
 		var n= offers.split(" ");
 		for (i=0; i < n.length; i++){
-			if ($("#"+n[i]).find('.offres-thumb-wrapper').hasClass('flipIt')){
-				//do nothing
-			} else {
+			if ($('html').hasClass('csstransforms3d') && !isIE()) {
 				$("#"+n[i]).find('.offres-thumb-wrapper').addClass('flipIt');
+			} else {
+				$("#"+n[i]).find('.offres-thumb-wrapper').addClass('slideIt');
+				$("#"+n[i]).find('.offres-thumb-detail').stop().animate({bottom:0}, 500, 'easeOutCubic');
 			}
-			//$("'#"+n[i]+"'").;
 		}
-		*/
 		event.preventDefault();
+		$('#linkOffres').click();
 	});
 	
 	// init Social feed
