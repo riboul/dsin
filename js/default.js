@@ -55,6 +55,24 @@ jQuery(function (){
 		event.preventDefault();
 	});
 	
+	// Flip Related Offers
+	$('.flipRelatedOffers').on('click', function(event){
+		unflipOffers();
+		/*
+		var offers = $(this).data().offers;
+		var n= offers.split(" ");
+		for (i=0; i < n.length; i++){
+			if ($("#"+n[i]).find('.offres-thumb-wrapper').hasClass('flipIt')){
+				//do nothing
+			} else {
+				$("#"+n[i]).find('.offres-thumb-wrapper').addClass('flipIt');
+			}
+			//$("'#"+n[i]+"'").;
+		}
+		*/
+		event.preventDefault();
+	});
+	
 	// init Social feed
 	initSocial();
 	
@@ -254,6 +272,19 @@ function initImagesFlipping() {
 			}
 		);
 	}
+}
+
+// Unflip all offers
+function unflipOffers(){
+	$('.offres-thumb-wrapper').each(function(){
+		if ($(this).hasClass('flipIt')){
+			$(this).removeClass('flipIt');
+		}
+		if ($(this).hasClass('slideIt')){
+			$(this).removeClass('slideIt');
+			$(this).parent().find('.offres-thumb-detail').stop().animate({bottom: ($(this).height() * -1)}, 500, 'easeOutCubic');
+		}
+	});
 }
 
 // Init Configuration for the Map
