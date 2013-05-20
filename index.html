@@ -56,6 +56,7 @@
 		<!-- DSIN WebSite -->
 
 		<script type="text/javascript" src="js/default.js"></script>
+		<script type="text/javascript" src="js/function.js"></script>
 
 		
 
@@ -1311,7 +1312,9 @@
 
 					<div class="half">
 
-						<form action="#" class="form">
+						<form action="components/sendMail.php" method="post" 
+							onsubmit="MM_validateForm('nom','','R','email','','RisEmail', 'message', '', 'R');return document.MM_returnValue" 
+							id="contact_form" class="form">
 
 							<fieldset>
 
@@ -1321,7 +1324,7 @@
 
 									<div class="textField">
 
-										<input type="text" id="name" placeholder="Votre nom ..." />
+										<input type="text" id="nom" name="nom" placeholder="Votre nom ..." />
 
 									</div>	
 
@@ -1331,7 +1334,7 @@
 
 									<div class="textField">
 
-										<input type="email" id="email" placeholder="Votre Email ..." />
+										<input type="email" id="email" name="email" placeholder="Votre Email ..." />
 
 									</div>
 
@@ -1341,7 +1344,7 @@
 
 									<div class="textField">
 
-										<textarea id="message" cols="20" rows="4" placeholder="Votre Message ..."></textarea>
+										<textarea id="message" name="message" cols="20" rows="4" placeholder="Votre Message ..."></textarea>
 
 									</div>
 
@@ -1349,7 +1352,7 @@
 
 								<div class="formRow">
 
-									<button class="btn right">
+									<button class="btn right" type="submit">
 
 										<span>Envoyer Message</span>
 
@@ -1407,7 +1410,7 @@
 							
 							<div class="subFooter">
 
-							<p>T. : +33 1 57  32 40 40<br/>@ : <a href="mailto:dsin@logica.com?subject=Prise%20de%20contact" class="footerLink">dsin@cgi.com</a></p>
+							<p>T. : +33 1 57  32 40 40<br/>@ : <a href="mailto:dsin@fr.logica.com?subject=Prise%20de%20contact" class="footerLink">dsin@cgi.com</a></p>
 
 							<p>CGI Business Consulting<br/>Siège Social : Immeuble CB16<br/>17 place des Reflets<br/>92400 Courbevoie</p>
 
