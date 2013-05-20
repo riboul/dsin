@@ -105,6 +105,15 @@
 	padding: 0.3em;
 	*/
 }
+.ei-title h2 a{
+	color:#FFFFFF;
+	font-weight:700;
+	text-shadow:2px 2px 4px #0b0101;
+}
+.ei-title h3 a{
+	color: #FFFFFF;
+	text-shadow:1px 1px 4px #0b0101;	
+}
 .ei-slider-thumbs{
 	height: 13px;
 	margin: -13px auto 0;
