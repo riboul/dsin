@@ -40,7 +40,9 @@ jQuery(function (){
 		handleMenuSelection($(window));
 		
 		// Handle Cart Display
-		handleCartDiplay($(window));
+		if (!isIE()){
+			handleCartDiplay($(window));
+		}
 	});
 	
 	// Open Close Cart
@@ -88,6 +90,11 @@ jQuery(function (){
 	
 	// Init Map 
 	initGoogleMap();
+	
+	//
+	if (isIE()){
+		$('#cart').hide();
+	}
 });
 
 // Handle logo display
