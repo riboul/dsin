@@ -4,7 +4,7 @@
 
     <head>
 
-        <title>Digital & Social Interaction : When Digital Reconnects people / Quand le Digital Reconnecte les Individus</title>
+        <title>Digital & Social Interactions : When Digital Reconnects people / Quand le Digital Reconnecte les Individus</title>
 
 		
 
@@ -75,6 +75,8 @@
 
 
 			ga('create', 'UA-40906068-1', 'digital-and-social-interactions.fr');
+			
+			_gaq.push(['_setAllowAnchor', true]);
 
 			ga('send', 'pageview');		 
 
@@ -144,8 +146,6 @@
 
 			<div id="social-tabs"></div>
 
-			<!--<div id="social-tabs"></div>-->
-
 			<div class="logoContainer"><img id="logo" class="logo retractTop" src="images/logo/logo_DSIN_transparent_white.png" alt="Logo Digital &amp; Social Interactions"/></div>
 
 			<div class="logoContainerCBC"><img id="logoCBC" class="logoCBC retractBottom" src="images/logo/logo_CBC.png" alt="logo CGI Business Consulting"/></div>
@@ -166,8 +166,8 @@
 
 						<div class="ei-title" data-style="top: 60%; bottom: auto; padding:2% 40% 2% 15%;">
 
-							<h2 data-direction="top" data-offset="10"><a href="#" data-offers="dam extCom" class="flipRelatedOffers">Move to Digital Workplace</a></h2>
-							<h3 data-direction="top" data-offset="500"><a href="#" data-offers="dam extCom" class="flipRelatedOffers">When your information and your apps are profiled to meet your immediate context and needs. Discover how to re-think your workplace into a social enabled workplace, accessible anytime from any device, focused on delivering a positive user experience to better support your business activities.</a></h3>
+							<h2 data-direction="top" data-offset="10"><a href="#" data-offers="wkSer soCol diWk" class="flipRelatedOffers">Move to Digital Workplace</a></h2>
+							<h3 data-direction="top" data-offset="500"><a href="#" data-offers="wkSer soCol diWk" class="flipRelatedOffers">When your information and your apps are profiled to meet your immediate context and needs. Discover how to re-think your workplace into a social enabled workplace, accessible anytime from any device, focused on delivering a positive user experience to better support your business activities.</a></h3>
 
 						</div>
 
@@ -179,8 +179,8 @@
 
 						<div class="ei-title" data-style="top: 60%; bottom: auto; padding:2% 40% 2% 15%;">
 
-							<h2 data-direction="bottom" data-offset="100"><a href="#" data-offers="extCom" class="flipRelatedOffers">Transform into Social Business</a></h2>
-							<h3 data-direction="right" data-offset="30">When the Web is both a source of cautions and opportunities. Discover how to feed your business functions with the real relevant  informations to bring immediate value : define your digital brand strategy, improve your customer care services, generate more leads, accelerate your product and service go-to-market, retain your customers, detect competitive opportunities</h3>
+							<h2 data-direction="bottom" data-offset="100"><a href="#" data-offers="extCom soCol soBus" class="flipRelatedOffers">Transform into Social Business</a></h2>
+							<h3 data-direction="right" data-offset="30"><a href="#" data-offers="extCom soCol soBus" class="flipRelatedOffers">When the Web is both a source of cautions and opportunities. Discover how to feed your business functions with the real relevant  informations to bring immediate value : define your digital brand strategy, improve your customer care services, generate more leads, accelerate your product and service go-to-market, retain your customers, detect competitive opportunities</a></h3>
 
 						</div>
 
@@ -192,9 +192,8 @@
 
 						<div class="ei-title" data-style="top: 60%; bottom: auto; padding:2% 40% 2% 15%;">
 
-							<h2 data-direction="right" data-offset="80">Go 2 Cloud</h2>
-
-							<h3 data-direction="left" data-offset="100">When cloud services become standard. Discover how to plan a go to cloud strategy to not only optimize cost but also to target an improved user experience, anytime, from any device.</h3>
+							<h2 data-direction="right" data-offset="80"><a href="#" data-offers="wkSer" class="flipRelatedOffers">Go 2 Cloud</a></h2>
+							<h3 data-direction="left" data-offset="100"><a href="#" data-offers="wkSer" class="flipRelatedOffers">When cloud services become standard. Discover how to plan a go to cloud strategy to not only optimize cost but also to target an improved user experience, anytime, from any device.</a></h3>
 
 						</div>
 
@@ -206,9 +205,8 @@
 
 						<div class="ei-title" data-style="top: 60%; bottom: auto; padding:2% 40% 2% 15%;">
 
-							<h2 data-direction="left" data-offset="10">Engage the Web</h2>
-
-							<h3 data-direction="top" data-offset="900">When a web site is not enough anymore. Discover how to re-think a web engagement platform to support your external communities, to empower your brand champions and ambassadors, and seamlessly plug your platform to social media channels  and efficiently.</h3>
+							<h2 data-direction="left" data-offset="10"><a href="#" data-offers="dam extCom ePresence soBus" class="flipRelatedOffers">Engage the Web</a></h2>
+							<h3 data-direction="top" data-offset="900"><a href="#" data-offers="dam extCom ePresence soBus" class="flipRelatedOffers">When a web site is not enough anymore. Discover how to re-think a web engagement platform to support your external communities, to empower your brand champions and ambassadors, and seamlessly plug your platform to social media channels  and efficiently.</a></h3>
 
 						</div>
 
@@ -701,17 +699,17 @@
 
 					<div class="half">
 
-						<article id="maktCloud" title="Marketing Cloud" class="offres-thumb scroll" draggable="true" ondragstart="onDragStart(this, event);">
+						<article id="soBus" title="Social Business" class="offres-thumb scroll" draggable="true" ondragstart="onDragStart(this, event);">
 
 							<div class="offres-thumb-wrapper">
 
-								<img src="images/offers/template_cardOffer_marketingCloud.jpg" alt="Marketing Cloud" title="Cliquez pour obtenir plus de détails" />
+								<img src="images/offers/template_cardOffer_socialBusiness.jpg" alt="Social Business" title="Cliquez pour obtenir plus de détails" />
 
 								<div class="offres-caption-background">
 
 									<div class="offres-caption">
 
-										<div class="rougeCerise bold offres-caption-title">Marketing Cloud</div>
+										<div class="rougeCerise bold offres-caption-title">Social Business</div>
 
 										<div>Exploiter et Manager la richesse des médias sociaux au service des métiers de votre entreprise</div>
 
@@ -727,11 +725,11 @@
 
 									<div class="offres-thumb-detail-text justify">
 
-										<div class="rougeCerise bold offres-caption-title">Marketing Cloud</div>
+										<div class="rougeCerise bold offres-caption-title">Social Business</div>
 
 										<br/>
 
-										Par nos compétences et expertises certifiés sur la suite Marketing Cloud / Salesforce, notre offre Marketing Cloud se met à votre service afin de créer les nouveaux cockpits au service de vos métiers permettant :
+										Par nos compétences et expertises certifiées sur la suite Marketing Cloud / Salesforce, notre offre Social Business se met à votre service afin de créer les nouveaux cockpits au service de vos métiers permettant :
 
 										<ul>
 
@@ -759,11 +757,11 @@
 
 									<div class="offres-thumb-detail-text-resume">
 
-										<div class="rougeCerise bold offres-caption-title">Digital Workspace</div>
+										<div class="rougeCerise bold offres-caption-title">Social Business</div>
 
 										<br />
 
-										Avec son écosystème, Sharepoint représente un large gisement d’opportunités de nouveaux usages favorisant le partage et apportant, dans un environnement unique et efficace, la valeur métier à la collaboration. Bâtie sur cette vision, notre offre de services vous fait bénéficier de notre expertise pour tirer le plein parti de SharePoint, et transformer votre environnement collaboratif en espace numérique de travail.
+										Notre offre Social Business se met à votre service afin de créer les nouveaux cockpits au service de vos métiers permettant d’adresser vos communautés externes, de fédérer et créer vos contenus sur vos plateformes sociales, et parce que créer une relation c’est d’abord l’écoute, ce sont aussi les nouveaux cockpits d’écoute et de monitoring de la sphère Web Social jusqu’à l’interaction, l’engagement social
 
 									</div>
 
@@ -1453,12 +1451,6 @@
 
 							<ul>
 
-								<!-- DEMANDER ICONE LINKEDIN DAVID
-
-								<li><a href="http://www.linkedin.com/company/cgi?trk=fc_badge"><img src="images/icons/ic_linkedin.png" alt="Icone LinkedIn" /></a></li>
-
-								-->
-
 								<li><a href="http://twitter.com/cgi_ir"><img src="images/icons/footer_twitter.png" alt="Icone Twitter" /></a></li>
 
 								<li><a href="http://facebook.com/cgigroup"><img src="images/icons/footer_facebook.png" alt="Icone Facebook" /></a></li>
@@ -1466,8 +1458,6 @@
 								<li><a href="http://www.youtube.com/user/CGIGroup"><img src="images/icons/footer_Utube.png" alt="Icone YouTube" /></a></li>
 
 								<li><a href="http://www.cgi.com/fr/fils-rss-balados"><img src="images/icons/footer_rss.png" alt="Icone RSS" /></a></li>
-
-								<!-- AJOUTER POUR VIADEO footer_viadeo -->
 
 							</ul>
 

@@ -349,23 +349,47 @@ function initSocial(){
 			youtubeId: 'LogicaFRA'
 		});
 	} else {
-		$('#social-tabs').dcSocialTabs({
-			zopen: 9,
-			loadOpen: true,
-			autoClose: true,
-			position: 'fixed',
-			location: 'top',
-			align: 'right',
-			offset: 20,
-			rotate: {
-				delay: 8000,
-				direction: 'down'
-			},
-			widgets: 'rss,twitter,youtube',
-			rssId: 'http://www.cgi.com/fr/all/feeds/rss.xml',
-			twitterId: "cgi_ir",
-			youtubeId: 'LogicaFRA'
-		});
+		url = window.location.hash;
+		var ancre = url.split('?');
+		url = ancre['0'];
+		
+		if (url !== 'undefined' && url !== ''){
+			$('#social-tabs').dcSocialTabs({
+				zopen: 9,
+				loadOpen: false,
+				autoClose: true,
+				position: 'fixed',
+				location: 'top',
+				align: 'right',
+				offset: 20,
+				rotate: {
+					delay: 8000,
+					direction: 'down'
+				},
+				widgets: 'rss,twitter,youtube',
+				rssId: 'http://www.cgi.com/fr/all/feeds/rss.xml',
+				twitterId: "cgi_ir",
+				youtubeId: 'LogicaFRA'
+			});
+		} else {
+			$('#social-tabs').dcSocialTabs({
+				zopen: 9,
+				loadOpen: true,
+				autoClose: true,
+				position: 'fixed',
+				location: 'top',
+				align: 'right',
+				offset: 20,
+				rotate: {
+					delay: 8000,
+					direction: 'down'
+				},
+				widgets: 'rss,twitter,youtube',
+				rssId: 'http://www.cgi.com/fr/all/feeds/rss.xml',
+				twitterId: "cgi_ir",
+				youtubeId: 'LogicaFRA'
+			});
+		}
 	}
 }
 
