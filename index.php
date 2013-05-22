@@ -1136,13 +1136,7 @@
 							<!-- <source src="videos/logica_vost_iphone.mp4" type="video/mp4" /> -->
 							<!-- <source src="videos/logica_vost_iphone.ogv"  type="video/ogg" /> -->
 							<!-- <source src="videos/logica_vost_iphone.webm"  type="video/webm" /> -->
-							<object class="videoDSIN">
-								<param name="movie" value="https://www.youtube.com/v/RQO_aDaAds0?version=3&amp;hl=fr_FR"></param>
-								<param name="allowFullScreen" value="true"></param>
-								<param name="allowscriptaccess" value="always"></param>
-								<embed src="https://www.youtube.com/v/RQO_aDaAds0?version=3&amp;hl=fr_FR" type="application/x-shockwave-flash" 
-									class="videoDSIN" allowscriptaccess="always" allowfullscreen="true"></embed>
-							</object>
+							<iframe class="videoDSIN" src="https://www.youtube.com/embed/RQO_aDaAds0" frameborder="0" allowfullscreen></iframe>
 						<!-- </video> -->
 
 					</article>
@@ -1165,19 +1159,36 @@
 							<!-- <source src="videos/outils-collaboration.webm"  type="video/webm" /> -->
 							<iframe class="videoDSIN" src="https://www.youtube.com/embed/2P5bIaXLBlg" frameborder="0" allowfullscreen></iframe>
 						<!-- </video> -->
+						
+						<p class="content">
+							Dans un projet collaboratif, le plus important n'est pas de penser aux outils. Nous sommes convaincus qu&acute;il convient d'abord de r&eacute;fl&eacute;chir aux objectifs de votre projet et de questionner vos usages, afin de s'inscrire dans une d&eacute;marche p&eacute;renne et adapt&eacute;e &agrave; vos besoins.
+							<br/>
+							Au del&agrave; de nos pr&eacute;conisations techniques, nous vous proposons d'accompagner vos &eacute;quipes afin qu'elles adh&egrave;rent &agrave; votre d&eacute;marche et quelles s'approprient les solutions choisies.
+						</p>
 
 					</article>
 
-					<p>
+					
+					
+					<article class="media fullWidth textCenter">
 
-						Dans un projet collaboratif, le plus important n'est pas de penser aux outils. Nous sommes convaincus qu&acute;il convient d'abord de r&eacute;fl&eacute;chir aux objectifs de votre projet et de questionner vos usages, afin de s'inscrire dans une d&eacute;marche p&eacute;renne et adapt&eacute;e &agrave; vos besoins.
+						<p class="content">
 
-						<br/>
+							<span class="underline">Pitch</span> : Découvrez comment créer une relation « digitale » privilégiée et affinitaire avec les internautes, clients, prospects, ambassadeurs, influenceurs et partenaires de l'entreprise
 
-						Au del&agrave; de nos pr&eacute;conisations techniques, nous vous proposons d'accompagner vos &eacute;quipes afin qu'elles adh&egrave;rent &agrave; votre d&eacute;marche et quelles s'approprient les solutions choisies.
+						</p>
 
-					</p>
+						<!-- Waiting for browsers supporting HTML5 video -->
 
+						<!-- <video controls poster="images/videos/outils-collab.png" class="videoDSIN"> -->
+							<!-- <source src="videos/outils-collaboration.mp4" type="video/mp4" /> -->
+							<!-- <source src="videos/outils-collaboration.ogv"  type="video/ogg" /> -->
+							<!-- <source src="videos/outils-collaboration.webm"  type="video/webm" /> -->
+							<iframe class="videoDSIN" src="https://www.youtube.com/embed/ZXUUj2hlGIc" frameborder="0" allowfullscreen></iframe>
+						<!-- </video> -->
+
+					</article>
+					
 				</div>
 
 			</div>

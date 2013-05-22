@@ -190,7 +190,8 @@ h4{
 
 
 .mapCanvas {
-		width:554px; height:394px
+		width: 100%; 
+		height: 394px
 }
 
 
@@ -2398,8 +2399,8 @@ textarea{
 }
 
 .videoDSIN{
-	width: 560px;
-	height: 315px;
+	width: 760px;
+	height: 427px;
 }
 
 /* @end -media */
