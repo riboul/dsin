@@ -167,7 +167,7 @@
 						<div class="ei-title" data-style="top: 60%; bottom: auto; padding:2% 40% 2% 15%;">
 
 							<h2 data-direction="top" data-offset="10"><a href="#" data-offers="dam extCom" class="flipRelatedOffers">Move to Digital Workplace</a></h2>
-							<h3 data-direction="top" data-offset="500"><a href="#" data-offers="dam" class="flipRelatedOffers">When your information and your apps are profiled to meet your immediate context and needs. Discover how to re-think your workplace into a social enabled workplace, accessible anytime from any device, focused on delivering a positive user experience to better support your business activities.</a></h3>
+							<h3 data-direction="top" data-offset="500"><a href="#" data-offers="dam extCom" class="flipRelatedOffers">When your information and your apps are profiled to meet your immediate context and needs. Discover how to re-think your workplace into a social enabled workplace, accessible anytime from any device, focused on delivering a positive user experience to better support your business activities.</a></h3>
 
 						</div>
 
@@ -1307,6 +1307,24 @@
 				<div class="columns">
 
 					<div class="half">
+					
+						<?php 
+							if (isset($_REQUEST['sentMail']) && $_REQUEST['sentMail']!='') {
+								$sentMail = $_REQUEST['sentMail'];
+								?>
+								<span class="mailConfirmation">
+									<?php
+									if ($sentMail == 1){
+										echo 'Le mail a bien &eacute;t&eacute; envoy&eacute;';
+									} else {
+										echo "Une erreur s'est produite lors de l'envoi de mail <br/>";
+										echo "Veuillez r&eacute;essayer ult&eacute;rieurement.";
+									}
+									?>
+								</span>
+								<?php
+							}
+						?>
 
 						<form action="components/sendMail.php" method="post" 
 							onsubmit="MM_validateForm('nom','','R','email','','RisEmail', 'message', '', 'R');return document.MM_returnValue" 

@@ -2304,6 +2304,11 @@ textarea{
 
 }
 
+.mailConfirmation {
+	color: #E31937;
+	font-weight: bold;
+}
+
 
 
 #map{
@@ -3504,6 +3509,510 @@ textarea{
 }
 
 /* @end -smartphone landscape */
+
+
+
+
+/* @group -TABLET
+
+------------------------------------------------------------------------------------------*/
+
+@media all and (max-device-width: 800px){
+
+	body{
+
+		font-size: 220%;
+
+	}
+
+	/* @group -HEADER
+
+	-------------------------------------*/
+
+	#header { 
+
+		margin: 0; 
+
+		width: 100%;
+
+	}
+
+	/* @end -header */
+
+	
+
+	/* @group -FOOTER
+
+	-------------------------------------*/
+
+	footer {
+
+		font-size: 0.68em;
+
+	}
+
+	/* @end -nav */
+
+	
+
+	/* @group -NAV
+
+	-------------------------------------*/
+
+	#mainNav ul.smallScreen{
+
+		display: inline;
+
+	}
+
+	#mainNav ul.largeScreen{
+
+		display: none;
+
+	}
+
+	#mainNav > ul > li > a, #mainNav2 > ul > li > a {
+
+		font-size: 1.7em;
+
+		padding: 0 0.5em;
+
+	}
+
+	/*Added by Skywalker */
+
+	.logo{
+
+		width:60%;
+
+		left: 20%;
+
+	}
+
+	.logoCBC{
+
+		position: absolute;
+
+		width: 30%;
+
+		left: 35%;
+
+		bottom: -6em;;
+
+	}
+
+	.retractBottom{
+
+		bottom: -50em;
+
+	}
+
+	#mainNav > ul > li > .menu, #mainNav2 > ul > li > .menu {
+
+		color: #FFFFFF;
+
+		font-size: 1.7em;
+
+		line-height: 1.3em;
+
+		text-decoration: none;
+
+		text-shadow: 0px 0 rgba(0,0,0,0.31), 0 1px rgba(0,0,0,0.5), 0px 0 rgba(0,0,0,0.5), 0 0px rgba(0,0,0,0.5);
+
+		border: 1px solid transparent;
+
+		padding: 0 0.5em;
+
+		display: inline;
+
+		position: relative;
+
+	}
+
+	#mainNav > ul > li > .subs, #mainNav2 > ul > li > .subs {
+
+		display: inline;
+
+		font-size: 1.6em;
+
+		line-height: 1.3em;
+
+	}
+
+	#mainNav > ul > li > .menu:hover, #mainNav2 > ul > li > .menu:hover,
+
+	#mainNav > ul > li > .menu:focus, #mainNav2 > ul > li > .menu:focus{
+
+		color:#990033;
+
+		cursor: pointer;
+
+	}
+
+	#mainNav > ul > li.selected > .menu, #mainNav2 > ul > li.selected > .menu {
+
+		background-color: #FFFFFF;
+
+		border-color: #999999 #999999 #FFFFFF;
+
+		color: #990033;
+
+	}
+
+	#mainNav ul li div, #mainNav2 ul li div{
+
+		position: relative;
+
+	}
+
+	#mainNav ul li div div, #mainNav2 ul li div div{
+
+		background-color: #FFFFFF;
+
+		border: 1px solid #999999;
+
+		/***/
+
+		padding: 0.3em 0;
+
+		display: none;
+
+		margin: 0;
+
+		position: absolute;
+
+		top: -1px;
+		
+		-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=90)";
+
+		opacity: 0.9;
+
+		
+
+		/***/
+
+		-webkit-border-bottom-right-radius: 5px;
+
+		-webkit-border-bottom-left-radius: 5px;
+
+		-moz-border-radius-bottomright: 5px;
+
+		-moz-border-radius-bottomleft: 5px;
+
+		border-bottom-right-radius: 1em;
+
+		border-bottom-left-radius: 1em;
+
+		border-top-right-radius: 1em;
+
+		box-shadow: 0.5em 0.5em 1em grey;
+
+		
+
+	}
+
+	#mainNav ul li div ul, #mainNav2 ul li div ul{
+
+		padding: 0 10px;
+
+		position: relative;
+
+		width: 10em;
+
+		float: left;
+
+	}
+
+	#mainNav ul li ul li a, #mainNav2 ul li ul li a {
+
+		display: block;
+
+		margin-bottom: 1px;
+
+		padding: 3px 5px;
+
+		text-decoration: none;
+
+	}
+
+	#mainNav ul li ul li a:hover, #mainNav2 ul li ul li a:hover,
+
+	#mainNav ul li ul li a:focus, #mainNav2 ul li ul li a:focus{
+
+		color: #FFFFFF;
+
+		background-color: #990033;
+
+	}
+
+	/* @end -nav */
+
+	
+
+	/* @group -CONTENT
+
+	-------------------------------------*/
+
+	.half{
+
+		width:100%;
+
+		font-size: 1em;
+
+		line-height: 1em;
+
+	}
+
+	.oneThird{
+
+		width:100%;
+
+		font-size: 0.9em;
+
+		line-height: 1em;
+
+	}
+
+	.twoThird{
+
+		width:100%;
+
+		font-size: 0.9em;
+
+		line-height: 1em;
+
+	}
+
+	section{
+
+		padding-top:1.8em;
+
+	}
+
+	
+
+	h1{
+
+		font-size: 1.2em;
+
+	}
+
+	h2{
+
+		font-size: 1.1em;
+
+	}
+
+	.subHeading{
+
+		font-size: 1.2em;
+
+	}
+
+	/* @end -content */
+
+	
+
+	/* @group -OFFRES
+
+	-------------------------------------*/
+
+	.cart{
+
+		display: none;
+
+	}
+
+	
+
+	.offres-caption {
+
+		font-size: 0.8em;
+
+	}
+
+	
+
+	.offres-caption .offres-caption-title {
+
+		font-size: 1em;
+
+		line-height: 1.1em;
+
+	}
+
+
+
+	.offres-caption .offres-caption-information {
+
+		font-size: 0.7em;
+
+	}
+
+	.offres-thumb .offres-thumb-detail .offres-thumb-detail-text {
+
+		display: none;
+
+	}
+
+	.offres-thumb .offres-thumb-detail .offres-thumb-detail-text-resume {
+
+		display: block;
+
+	}
+
+	/* @end -offres */
+
+	
+
+	/* @group -PARTNERS
+
+	-------------------------------------*/
+
+	input,
+
+	textarea{
+
+		font: 0.7em/1em Arial, Helvetica, sans-serif;
+
+	}
+
+	.btn{
+
+		padding:1.3em 0.5em;
+
+	}
+
+	.btn span{
+
+		font-size: 2em;
+
+	}
+	
+	.partner img {
+
+		margin: 0 10%;
+
+	}	
+
+	/* @end -partners */
+
+}
+
+/* @end -tablet */
+
+
+
+/* @group -TABLET LANDSCAPE
+
+------------------------------------------------------------------------------------------*/
+
+@media all and (max-device-width: 800px) and (orientation: landscape){
+
+	body{
+
+		font-size: 110%;
+
+	}
+
+	/*Added by Skywalker */
+
+	.logo{
+
+		width:35%;
+
+		left: 35%;
+
+	}
+
+	.logoCBC{
+
+		position: absolute;
+
+		width: 20%;
+
+		left: 40%;
+
+		bottom: -9em;;
+
+	}
+
+	.retractBottom{
+
+		bottom: -50em;
+
+	}
+
+	#mainNav > ul > li, #mainNav2 > ul > li {
+
+		padding-top: 1em;
+
+	}
+
+	#mainNav > ul > li > a, #mainNav2 > ul > li > a {
+
+		font-size: 2.5em;
+
+		padding: 0 0.5em;
+
+	}
+
+	#mainNav > ul > li > .menu, #mainNav2 > ul > li > .menu {
+
+		color: #FFFFFF;
+
+		font-size: 2.5em;
+
+		line-height: 1.3em;
+
+		text-decoration: none;
+
+		text-shadow: 0px 0 rgba(0,0,0,0.31), 0 1px rgba(0,0,0,0.5), 0px 0 rgba(0,0,0,0.5), 0 0px rgba(0,0,0,0.5);
+
+		border: 1px solid transparent;
+
+		padding: 0 0.5em;
+
+		display: inline;
+
+		position: relative;
+
+	}
+
+	#mainNav > ul > li > .subs, #mainNav2 > ul > li > .subs {
+
+		font-size: 2.2em;
+
+		line-height: 1.3em;
+
+	}
+
+	
+
+	.cart{
+
+		display: none;
+
+	}
+
+	
+
+	.offres-thumb .offres-thumb-detail .offres-thumb-detail-text {
+
+		display: block;
+
+	}
+
+	.offres-thumb .offres-thumb-detail .offres-thumb-detail-text-resume {
+
+		display: none;
+
+	}
+
+}
+
+/* @end -tablet landscape */
+
 
 
 

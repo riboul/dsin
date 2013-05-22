@@ -95,6 +95,11 @@ jQuery(function (){
 	if (isIE()){
 		$('#cart').hide();
 	}
+	
+	// Hide Mail Confirmation
+	setTimeout(function(){
+		$('.mailConfirmation').hide()
+	}, 3500); 
 });
 
 // Handle logo display
