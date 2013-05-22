@@ -39,7 +39,7 @@
 		$body .= "--></style>";
 		$body .= "</head>";
 		$body .= "<body>";
-		$body .= "<p class=\"style1\" ><img src=\"images/logo_DSIN_transparent.jpg\" alt=\"logo DSIN\" /></p>";
+		$body .= "<p class=\"style1\" ><img src=\"http://www.digital-and-social-interactions.com/images/logo/logo_DSIN_transparent.jpg\" alt=\"logo DSIN\" /></p>";
 		$body .= "<p class=\"style1\"La personne suivante souhaite entrer en contact avec DSIN via le site : </p>";
 		$body .= "<ul class=\"style1\">";
 		$body .= "<li class=\"style1\">Nom : <span class=\"colorBold\">".$nom."</span></li>";
