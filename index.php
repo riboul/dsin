@@ -1122,8 +1122,27 @@
 				<h2>Vidéos DSIN on the Cloud</h2>
 
 				<div class="columns medias">
+				
+					<article id="fergusson2" class="media fullWidth textCenter">
 
-					<article class="media fullWidth textCenter">
+						<p class="content">
+
+							<span class="underline">Pitch</span> : Découvrez comment créer une relation « digitale » privilégiée et affinitaire avec les internautes, clients, prospects, ambassadeurs, influenceurs et partenaires de l'entreprise
+
+						</p>
+
+						<!-- Waiting for browsers supporting HTML5 video -->
+
+						<!-- <video controls poster="images/videos/outils-collab.png" class="videoDSIN"> -->
+							<!-- <source src="videos/outils-collaboration.mp4" type="video/mp4" /> -->
+							<!-- <source src="videos/outils-collaboration.ogv"  type="video/ogg" /> -->
+							<!-- <source src="videos/outils-collaboration.webm"  type="video/webm" /> -->
+							<iframe class="videoDSIN" src="https://www.youtube.com/embed/ZXUUj2hlGIc" frameborder="0" allowfullscreen></iframe>
+						<!-- </video> -->
+
+					</article>
+
+					<article id="fergusson1" class="media fullWidth textCenter">
 
 						<p class="content">
 
@@ -1140,8 +1159,6 @@
 						<!-- </video> -->
 
 					</article>
-
-					
 
 					<article class="media fullWidth textCenter">
 
@@ -1168,27 +1185,6 @@
 
 					</article>
 
-					
-					
-					<article class="media fullWidth textCenter">
-
-						<p class="content">
-
-							<span class="underline">Pitch</span> : Découvrez comment créer une relation « digitale » privilégiée et affinitaire avec les internautes, clients, prospects, ambassadeurs, influenceurs et partenaires de l'entreprise
-
-						</p>
-
-						<!-- Waiting for browsers supporting HTML5 video -->
-
-						<!-- <video controls poster="images/videos/outils-collab.png" class="videoDSIN"> -->
-							<!-- <source src="videos/outils-collaboration.mp4" type="video/mp4" /> -->
-							<!-- <source src="videos/outils-collaboration.ogv"  type="video/ogg" /> -->
-							<!-- <source src="videos/outils-collaboration.webm"  type="video/webm" /> -->
-							<iframe class="videoDSIN" src="https://www.youtube.com/embed/ZXUUj2hlGIc" frameborder="0" allowfullscreen></iframe>
-						<!-- </video> -->
-
-					</article>
-					
 				</div>
 
 			</div>

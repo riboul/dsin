@@ -87,7 +87,7 @@ class PHPMailer {
    * Sets the From name of the message.
    * @var string
    */
-  public $FromName          = '4Cs : Collaboration, Communication, Content, Connection';
+  public $FromName          = 'DSIN : Digital And Social Interactions';
 
   /**
    * Sets the Sender email (Return-Path) of the message.  If not empty,
