@@ -672,7 +672,6 @@
 	background: #fff;
 	margin-bottom: 2px;
 	border: none;
-	padding: none;
 }
 .tab-pinterest .tab-inner ul li p {
 	text-align: left;
@@ -769,7 +768,7 @@
 		top: 5%;
 		left: 0; 
 		margin-left: -34px;  /* li width + li padding */
-		width: -34px;
+		/* width: -34px; */
 		
 		margin-bottom: 0;
 		bottom: auto;
@@ -919,7 +918,7 @@
 		top: 5%;
 		left: 0; 
 		margin-left: -84px;  /* li width + li padding */
-		width: -84px;
+		/* width: -84px; */
 		
 		margin-bottom: 0;
 		bottom: auto;
@@ -999,7 +998,7 @@
 	
 	.dcsmt .social-tabs{
 		margin-left: -54px;  /* li width + li padding */
-		width: -54px;
+		/* width: -54px; */
 	}
 	
 	.social-tabs li {

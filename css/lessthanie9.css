@@ -1,3 +1,20 @@
-.cart {
-	display: none;
+/*
+header #spanNav,
+.news > div,
+.news h3,
+.partner,
+.textField,
+input,
+textarea ,
+.btn,
+.btn span,
+.parolesExpert .whiteColumn,
+#mainNav ul li div div{
+	behavior: url(PIE.php);
+}
+*/
+
+header #spanNav,
+.parolesExpert .whiteColumn{
+	behavior: url(PIE.php);
 }

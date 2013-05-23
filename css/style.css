@@ -57,7 +57,6 @@
 	background: rgba(227,25,55,0.5);
 	top: 40%; 
 	bottom: auto; 
-	/* Update by SkyWalker */
 	padding:2% 35% 2% 15%;
 }
 .ei-title h2, .ei-title h3{
@@ -65,25 +64,13 @@
 	position: relative;
 }
 .ei-title h2{
-	font-size: 1.7sem;
+	font-size: 1.7em;
 	line-height: 1.15em;
-	/*font-family: 'Playfair Display', serif;*/
 	font-family:"HelveticaN", Arial, sans-serif;
-	/*font-style: italic;*/
-	/*color: rgb(213, 16, 54);*/
 	color:#FFFFFF;
 	font-weight:700;
 	margin-bottom: 0.3em;
 	text-shadow:2px 2px 4px #0b0101;
-	/***/
-	/*retirer margin-bottom*/
-	/*
-	background: rgba(255,255,255,0.6);
-	border-top-right-radius: 1em;
-	border-top-left-radius: 1em;
-	padding: 0.3em;
-	margin-right: 15%;
-	*/
 }
 .ei-title h3{
 	font-size: 1.3em;

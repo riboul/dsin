@@ -56,9 +56,6 @@
 		<!--[if lt IE 9]>
 			<script type="text/javascript" src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
 			<script type="text/javascript" src="http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
-		<![endif]-->
-
-		<!--[if lte IE 9]>
 			<link rel="stylesheet" type="text/css" href="css/lessthanie9.css" />
 		<![endif]-->
 	</head>
@@ -583,19 +580,19 @@
 						<p class="content">
 							<span class="underline">Pitch</span> : Découvrez comment créer une relation « digitale » privilégiée et affinitaire avec les internautes, clients, prospects, ambassadeurs, influenceurs et partenaires de l'entreprise
 						</p>
-						<iframe class="videoDSIN" src="https://www.youtube.com/embed/ZXUUj2hlGIc" frameborder="0" allowfullscreen></iframe>
+						<iframe class="videoDSIN" src="https://www.youtube.com/embed/ZXUUj2hlGIc" allowfullscreen></iframe>
 					</article>
 					<article id="fergusson1" class="media fullWidth textCenter">
 						<p class="content">
 							<span class="underline">Pitch</span> : D&eacute;couvrez en 1 minute pourquoi Thomas, employ&eacute; mod&egrave;le et efficace, passe aujourd&acute;hui devant une commission.
 						</p>
-						<iframe class="videoDSIN" src="https://www.youtube.com/embed/RQO_aDaAds0" frameborder="0" allowfullscreen></iframe>
+						<iframe class="videoDSIN" src="https://www.youtube.com/embed/RQO_aDaAds0" allowfullscreen></iframe>
 					</article>
 					<article class="media fullWidth textCenter">
 						<p class="content">
 							<span class="underline">Pitch</span> : Dans une d&eacute;marche 2.0, les outils ne font pas la collaboration. Explication en images par l'&eacute;quipe DSIN
 						</p>
-						<iframe class="videoDSIN" src="https://www.youtube.com/embed/2P5bIaXLBlg" frameborder="0" allowfullscreen></iframe>
+						<iframe class="videoDSIN" src="https://www.youtube.com/embed/2P5bIaXLBlg" allowfullscreen></iframe>
 						<p class="content">
 							Dans un projet collaboratif, le plus important n'est pas de penser aux outils. Nous sommes convaincus qu&acute;il convient d'abord de r&eacute;fl&eacute;chir aux objectifs de votre projet et de questionner vos usages, afin de s'inscrire dans une d&eacute;marche p&eacute;renne et adapt&eacute;e &agrave; vos besoins.
 							<br/>
