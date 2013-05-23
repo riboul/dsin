@@ -196,7 +196,7 @@
 
 /* @group -1050PX
 ------------------------------------------------------------------------------------------*/
-@media (max-width: 1050px) {
+@media screen and (max-width: 1050px) {
 	.ei-slider{
 		/*height:550px;*/
 		height: 100%;
@@ -307,3 +307,55 @@
 	}
 }
 /* @end -600px */
+
+
+/* @group -TABLET
+------------------------------------------------------------------------------------------*/
+@media all and (max-device-width: 799px) {
+	.ei-slider{
+		/*height:550px;*/
+		height: 100%;
+	}
+	.ei-title{
+		position: absolute;
+		left: 0px;
+		margin-left: 0px;
+		width: 100%;
+		/*Updated by SkyWalker */	
+		text-align: justify;
+		top: auto;
+		bottom: 0;
+		/*Updated by SkyWalker */		
+		/*background: #fff;
+		background: rgba(255,255,255,0.9);*/
+		background: rgba(227,25,55,0.5);
+		padding: 1em 0 2em;
+		
+		font-size: 1.6em;
+	}
+	.ei-title h2, .ei-title h3{
+		/*Updated by SkyWalker */	
+		text-align: center;
+		margin: 0 1em;
+	}
+	.ei-title h2{
+		font-size: 1.5em;
+		line-height: 1.4em;
+	}
+	.ei-title h3{
+		font-size: 1.3em;
+		line-height: 1.2em;
+	}
+	.lightBackground h3, .darkBackground h3{
+		color: #000;
+	}
+}
+/* @end -TABLET */
+
+/* @group -TABLET LANDSCAPE
+------------------------------------------------------------------------------------------*/
+@media all and (max-device-width: 799px) and (orientation: landscape){
+	.ei-title{
+		font-size: 1.4em;
+	}
+}

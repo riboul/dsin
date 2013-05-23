@@ -1030,3 +1030,50 @@
 	}
 }
 /* @end -SMARTPHONE LANDSCAPE */
+
+
+
+/* @group -TABLET
+------------------------------------------------------------------------------------------*/
+@media all and (max-device-width: 799px){
+	.arrows {
+		display: block;
+	}
+	
+	.closed .arrows {
+		display: none;
+	}
+	
+	.dcsmt .social-tabs{
+		margin-left: -46px;  /* li width + li padding */
+		/* width: -54px; */
+	}
+	
+	.social-tabs li {
+		width: 40px;
+		height: 39px;
+		margin: 0 0 4px 0;
+	}
+	
+	.social-tabs li  img{
+		width: 100%;
+	}
+	
+	.arrowUp {
+		width: 40px; /*faire -8 */
+		height: 39px;
+		float: left;
+		margin-right: 4px;
+		background: url(../images/controllers2.png) no-repeat 0 0;
+		background-position: 0 0;
+	}
+
+	.arrowDown {
+		width: 40px;
+		height: 39px;
+		float: left;
+		margin-right: 4px;
+		background: url(../images/controllers2.png) no-repeat 0 0;
+		background-position: -40px 0;
+	}
+}
