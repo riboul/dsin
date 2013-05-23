@@ -198,7 +198,6 @@
 									</div>
 									<div class="offres-thumb-detail-text-resume">
 										<div class="rougeCerise bold offres-caption-title">Digital Asset Management</div>
-										<br/>
 										La gestion optimum des médias concourt à fidéliser et conquérir des clients de plus en plus exigeants : en facilitant l’adaptation aux nouveaux formats, canaux et usages, en réduisant le Time-to-Market ainsi qu’en maîtrisant l’image de marque. Faites glisser cette fiche dans votre panier !
 									</div>
 								</div>
@@ -228,7 +227,6 @@
 									</div>
 									<div class="offres-thumb-detail-text-resume">
 										<div class="rougeCerise bold offres-caption-title">External Communities</div>
-										<br />
 										Parce que les clients recherchent désormais des relations durables et authentiques avec les marques portées par les canaux du web 2.0, les entreprises se doivent d’adopter des stratégies d’engagement en accord avec les besoins des consomm’acteurs. La mise en place de stratégies communautaires, redéfinissant les processus internes, vous permettent de vous adapter efficacement à ce nouveau paradigme.
 									</div>
 								</div>
@@ -260,7 +258,6 @@
 									</div>
 									<div class="offres-thumb-detail-text-resume">
 										<div class="rougeCerise bold offres-caption-title">Worplace As A Service</div>
-										<br/>
 										Le traditionnel poste de travail opère sa mutation naturelle vers le Digital Workplace, plus proche des usages de vos collaborateurs. Mais cette évolution logique nécessite souvent une transformation de votre infrastructure technique. Hors, les investissements requis pour permettre la transition vers le Digital Workplace peuvent représenter un frein pour votre entreprise.
 									</div>
 								</div>
@@ -300,7 +297,7 @@
 										<div class="rougeCerise bold offres-caption-title">Social Collaboration</div>
 										<br />
 										<!-- NCHO METTRE TEXTE RESUME -->
-										<span class="bold">?????Proposer une expérience utilisateur simple, cohérente et riche</span><br />
+										<span class="bold">?????Proposer une expérience utilisateur simple, cohérente et riche</span>
 										Votre performance commerciale sera renforcée par la cohérence de votre image de marque, la richesse et la personnalisation de votre relation  cliente ainsi que grâce à des parcours cross-canal adaptés aux nouveaux usages.
 									</div>
 								</div>
@@ -334,7 +331,6 @@
 									</div>
 									<div class="offres-thumb-detail-text-resume">
 										<div class="rougeCerise bold offres-caption-title">Digital Workspace</div>
-										<br />
 										Avec son écosystème, Sharepoint représente un large gisement d’opportunités de nouveaux usages favorisant le partage et apportant, dans un environnement unique et efficace, la valeur métier à la collaboration. Bâtie sur cette vision, notre offre de services vous fait bénéficier de notre expertise pour tirer le plein parti de SharePoint, et transformer votre environnement collaboratif en espace numérique de travail.
 									</div>
 								</div>
@@ -371,7 +367,6 @@
 									</div>
 									<div class="offres-thumb-detail-text-resume">
 										<div class="rougeCerise bold offres-caption-title">ePresence</div>
-										<br />
 										Vos clients, vos prospects, vos collaborateurs, vos partenaires, vos actionnaires, vos concurrents, vos détracteurs… Tous sont présents sur le web social, tous écoutent et sont écoutés, 24/24h, 7/7j, sur tous vos marchés. Et chacune des fonctions de votre organisation est impactée, chacune à sa manière. A vous de savoir reconnaître et exploiter les opportunités offertes par le web social.
 									</div>
 								</div>
@@ -411,7 +406,6 @@
 									</div>
 									<div class="offres-thumb-detail-text-resume">
 										<div class="rougeCerise bold offres-caption-title">Social Business</div>
-										<br />
 										Notre offre Social Business se met à votre service afin de créer les nouveaux cockpits au service de vos métiers permettant d’adresser vos communautés externes, de fédérer et créer vos contenus sur vos plateformes sociales, et parce que créer une relation c’est d’abord l’écoute, ce sont aussi les nouveaux cockpits d’écoute et de monitoring de la sphère Web Social jusqu’à l’interaction, l’engagement social
 									</div>
 								</div>

@@ -2741,6 +2741,10 @@ textarea{
 		display: block;
 
 	}
+	
+	.offres-thumb-detail-text-resume  .offres-caption-title{
+		margin: 0 0 1em 0;
+	}
 }
 /* @end -800px */
 
@@ -2811,6 +2815,10 @@ textarea{
 		font-size: 0.65em;
 	}
 	
+	.offres-thumb .offres-thumb-detail .offres-thumb-detail-text-resume {
+		font-size: 0.62em;
+	}
+	
 	.videoDSIN{
 		width: 380px;
 		height: 213px;
@@ -2831,6 +2839,18 @@ textarea{
 	.offres-caption .offres-caption-title {
 		font-size: 1.15em;
 		line-height: 1em;
+	}
+	
+	.offres-thumb .offres-thumb-detail .offres-thumb-detail-text-resume {
+		padding: 1.5em;
+	}
+	
+	.offres-thumb .offres-thumb-detail .offres-thumb-detail-text-resume {
+		font-size: 0.53em;
+	}
+	
+	.offres-thumb-detail-text-resume  .offres-caption-title{
+		margin: 0;
 	}
 	
 	.videoDSIN{
