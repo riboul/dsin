@@ -4,6 +4,9 @@
 	$GLOBALS['DEBUG_MODE'] = 1;
 
 	require ('../class/class.phpmailer.php');
+	
+	// Configuration du site
+	include_once('../config/paramFile.php');
 
 	// Récupération des valeurs du formulaire.
 	$nom = '';
@@ -40,7 +43,7 @@
 		$body .= "</head>";
 		$body .= "<body>";
 		$body .= "<p class=\"style1\" ><img src=\"http://www.digital-and-social-interactions.com/images/logo/logo_DSIN_transparent.jpg\" alt=\"logo DSIN\" /></p>";
-		$body .= "<p class=\"style1\"La personne suivante souhaite entrer en contact avec DSIN via le site : </p>";
+		$body .= "<p class=\"style1\">La personne suivante souhaite entrer en contact avec DSIN via le site : </p>";
 		$body .= "<ul class=\"style1\">";
 		$body .= "<li class=\"style1\">Nom : <span class=\"colorBold\">".$nom."</span></li>";
 		$body .= "<li class=\"style1\">Email : <span class=\"colorBold\">".$email."</span></li>";
@@ -59,39 +62,33 @@
 		
 		$mail->Mailer = "smtp";
 		
-		//$mail->Host = "ssl://smtp.gmail.com";
-		$mail->Host = 'ssl://smtp.gmail.com:465';
-		//$mail->Port = 465;
+		$mail->Host = _MAIL_HOST;
 		
 		$mail->SMTPAuth = true; // turn on SMTP authentication
-		$mail->Username = "dsin.cgi@gmail.com"; // SMTP username
-		$mail->Password = "dsin2013"; // SMTP password
+		$mail->Username = _MAIL_USERNAME; // SMTP username
+		$mail->Password = _MAIL_PWD; // SMTP password
 		
-		$mail->From='david.semhoun@logica.com';
-		//$mail->AddAddress("4cs.fr@logica.com");
-		//$mail->AddAddress('david.semhoun@logica.com');
-		//$mail->AddAddress('marc.trilling@logica.com');
-		//$mail->AddReplyTo("4cs.fr@logica.com");
+		$mail->From= _MAIL_FROM;
 		
-		//$mail->AddAddress('david.semhoun@logica.com');
-		//$mail->AddReplyTo('david.semhoun@logica.com');
+		$mail->AddAddress(_MAIL_TO);
+		//$mail->AddAddress('david.semhoun@cgi.com');
+		//$mail->AddAddress('marc.trilling@cgi.com');
 		
+		$mail->AddReplyTo(_MAIL_REPLY);
+
+
 		$mail->AddAddress("nicochoppin@gmail.com");
-		
-		
 		
 		$mail->Subject='-= Demande de Renseignements =-';
 		$mail->Body=$body;
 		
-		//$mail->WordWrap = 50;?????????
-		
 		if(!$mail->Send()){ //Teste le return code de la fonction
-		  echo $mail->ErrorInfo; //Affiche le message d'erreur (ATTENTION:voir section 7)
-		  header('Location: http://www.digital-and-social-interactions.com/?sentMail=0#contact');
+			//echo $mail->ErrorInfo; //Affiche le message d'erreur (ATTENTION:voir section 7)
+			header('Location: http://www.digital-and-social-interactions.com/?sentMail=0#contact');
 		}
-		else{	  
-		  //echo 'Mail envoyé avec succès';
-		  header('Location: http://www.digital-and-social-interactions.com/?sentMail=1#contact');
+		else{
+			//echo 'Mail envoyé avec succès';
+			header('Location: http://www.digital-and-social-interactions.com/?sentMail=1#contact');
 		}
 		$mail->SmtpClose();
 		unset($mail);
