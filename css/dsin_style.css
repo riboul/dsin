@@ -979,6 +979,7 @@ footer ul{
 .offres-thumb .offres-thumb-detail .offres-thumb-detail-text .offres-caption-title{
 
 	text-align: center;
+	margin: 0 0 1em 0;
 
 }
 
@@ -2206,16 +2207,9 @@ textarea{
 /* @end -1250px */
 
 
-
-
-
-
-
 /* @group -1150PX
-
 ------------------------------------------------------------------------------------------*/
-
-@media (max-width: 1050px) {
+@media (max-width: 1150px) {
 
 	.offers .half{
 
@@ -2225,6 +2219,11 @@ textarea{
 
 		line-height: 1em;
 
+	}
+	
+	.offres-thumb {
+		width: 80%;
+		margin: 0 10%;
 	}
 	
 	.closedCart{
@@ -2240,9 +2239,36 @@ textarea{
 	.empty-cart-btn {
 		font-size: 0.55em;
 	}
+	
+	.offres-caption {
+
+		font-size: 1.05em;
+
+		line-height: 1.2em;
+
+	}
+
+	.offres-caption .offres-caption-title {
+
+		font-size: 1.5em;
+
+		line-height: 1.7em;
+
+	}
+	
+	.offres-caption .offres-caption-information {
+		font-size: 0.85em;
+	}
+	
+	.offres-thumb .offres-thumb-detail .offres-thumb-detail-text .offres-caption-title{
+		font-size: 1.5em;
+	}
+	
+	.offres-thumb .offres-thumb-detail .offres-thumb-detail-text {
+		font-size: 1em;
+	}
 
 }
-
 /* @end -1150px */
 
 
@@ -2250,9 +2276,7 @@ textarea{
 
 
 /* @group -1050PX
-
 ------------------------------------------------------------------------------------------*/
-
 @media (max-width: 1050px) {
 
 	.logo{
@@ -2288,34 +2312,6 @@ textarea{
 	/* @group -OFFERS
 
 	-------------------------------------*/
-
-	.offres-caption {
-
-		font-size: 1.05em;
-
-		line-height: 1.2em;
-
-	}
-
-	.offres-caption .offres-caption-title {
-
-		font-size: 1.5em;
-
-		line-height: 1.7em;
-
-	}
-	
-	.offres-caption .offres-caption-information {
-		font-size: 0.85em;
-	}
-	
-	.offres-thumb .offres-thumb-detail .offres-thumb-detail-text .offres-caption-title{
-		font-size: 1.5em;
-	}
-	
-	.offres-thumb .offres-thumb-detail .offres-thumb-detail-text {
-		font-size: 1.2em;
-	}
 
 	.cart-offers {
 
@@ -2614,20 +2610,6 @@ textarea{
 	/* @group -OFFRES
 
 	-------------------------------------*/
-
-	.offres-thumb {
-
-		/* height: 13em; */
-
-	}
-
-	.offres-thumb {
-
-		width: 80%;
-
-		margin: 0 10%;
-
-	}
 
 	.offres-caption {
 

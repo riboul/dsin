@@ -190,7 +190,6 @@
 									<img src="images/offers/template_cardOffer_back.jpg" alt="Card offer background" title="Cliquez pour afficher la carte de visite" />
 									<div class="offres-thumb-detail-text">
 										<div class="rougeCerise bold offres-caption-title">Digital Asset Management</div>
-										<br/>
 										La gestion optimum des médias concourt à fidéliser et conquérir des clients de plus en plus exigeants : en facilitant l’adaptation aux nouveaux formats, canaux et usages, en réduisant le Time-to-Market ainsi qu’en maîtrisant l’image de marque. Faites glisser cette fiche dans votre panier !
 										<br/><br/>
 										<span class="bold">Proposer une expérience utilisateur simple, cohérente et riche</span><br />
@@ -220,7 +219,6 @@
 									<img src="images/offers/template_cardOffer_back.jpg" alt="Card offer background" title="Cliquez pour afficher la carte de visite" />
 									<div class="offres-thumb-detail-text">
 										<div class="rougeCerise bold offres-caption-title">External Communities</div>
-										<br/>
 										L‘avènement du Web 2.0 et des média sociaux a bouleversé les relations que les entreprises entretiennent avec leurs clients. Parce que ces derniers recherchent désormais des relations durables et authentiques avec les marques, les entreprises se doivent d’adopter des stratégies d’engagement en accord avec les besoins des consomm’acteurs.
 										<br/><br/>
 										La mise en place de stratégies communautaires, redéfinissant les processus internes, vous permettent de vous adapter efficacement à ce nouveau paradigme et de rassembler les consommateurs éparpillés à travers les nombreux  canaux de la sphère sociale.
@@ -250,7 +248,6 @@
 									<img src="images/offers/template_cardOffer_back.jpg" alt="Card offer background" title="Cliquez pour afficher la carte de visite" />
 									<div class="offres-thumb-detail-text">
 										<div class="rougeCerise bold offres-caption-title">Worplace As A Service</div>
-										<br/>
 										Le traditionnel poste de travail opère sa mutation naturelle vers le Digital Workplace, plus proche des usages de vos collaborateurs. Mais cette évolution logique nécessite souvent une transformation de votre infrastructure technique. Hors, les investissements requis pour permettre la transition vers le Digital Workplace peuvent représenter un frein pour votre entreprise.
 										<br/><br/>
 										Nous avons créé l’offre WaaS afin de réduire, voire de supprimer une partie des coûts de mise en œuvre d’un Digital Workplace, en le proposant en tant que service et en y associant l’accompagnement nécessaire. Vous pouvez ainsi vous focaliser sur la conduite du changement auprès de vos collaborateurs, indubitablement plus structurante pour la réussite de cette transformation.<br/><br/>
@@ -279,7 +276,6 @@
 									<img src="images/offers/template_cardOffer_back.jpg" alt="Card offer background" title="Cliquez pour afficher la carte de visite" />
 									<div class="offres-thumb-detail-text justify">
 										<div class="rougeCerise bold offres-caption-title">Social Collaboration</div>
-										<br/>
 										Fort de ses 11 années d’expérience dans le domaine du collaboratif d’entreprise, CGI Business Consulting vous accompagne dans l’ensemble de vos projets de Collaboration sociale:<br/>
 										<p><span class="bold">Conception et implémentation de solutions collaboratives sociales :</span></p>
 										<ul>
@@ -295,7 +291,6 @@
 									</div>
 									<div class="offres-thumb-detail-text-resume">
 										<div class="rougeCerise bold offres-caption-title">Social Collaboration</div>
-										<br />
 										<!-- NCHO METTRE TEXTE RESUME -->
 										<span class="bold">?????Proposer une expérience utilisateur simple, cohérente et riche</span>
 										Votre performance commerciale sera renforcée par la cohérence de votre image de marque, la richesse et la personnalisation de votre relation  cliente ainsi que grâce à des parcours cross-canal adaptés aux nouveaux usages.
@@ -321,7 +316,6 @@
 									<img src="images/offers/template_cardOffer_back.jpg" alt="Card offer background" title="Cliquez pour afficher la carte de visite" />
 									<div class="offres-thumb-detail-text justify">
 										<div class="rougeCerise bold offres-caption-title">Digital Workspace</div>
-										<br/>
 										Par l’étendue de sa présence dans les entreprises et la complétude de son périmètre de services, SharePoint s’impose aujourd’hui comme la solution majeure pour la mise en place du Digital Workplace.
 										<ul>
 											<li>Cependant, l’utilisation qui en est faite reste généralement partielle et le bénéfice retiré par les entreprises rarement optimisé.</li>
@@ -352,7 +346,6 @@
 									<img src="images/offers/template_cardOffer_back.jpg" alt="Card offer background" title="Cliquez pour afficher la carte de visite" />
 									<div class="offres-thumb-detail-text justify">
 										<div class="rougeCerise bold offres-caption-title">ePresence</div>
-										<br/>
 										Vos clients, vos prospects, vos collaborateurs, vos partenaires, vos actionnaires, vos concurrents, vos détracteurs… Tous sont présents sur le web social, tous écoutent et sont écoutés, 24/24h, 7/7j, sur tous vos marchés. Et chacune des fonctions de votre organisation est impactée, chacune à sa manière. A vous de savoir reconnaître et exploiter les opportunités offertes par le web social.
 										<br />
 										Le web social peut faire mal. Mais permet aussi de générer de nouveaux revenus. Nous pouvons intervenir pour vous aider à :
@@ -390,7 +383,6 @@
 									<img src="images/offers/template_cardOffer_back.jpg" alt="Card offer background" title="Cliquez pour afficher la carte de visite" />
 									<div class="offres-thumb-detail-text justify">
 										<div class="rougeCerise bold offres-caption-title">Social Business</div>
-										<br/>
 										Par nos compétences et expertises certifiées sur la suite Marketing Cloud / Salesforce, notre offre Social Business se met à votre service afin de créer les nouveaux cockpits au service de vos métiers permettant :
 										<ul>
 											<li>d’adresser vos communautés externes</li>
