@@ -35,7 +35,7 @@
 		$body = "<html xmlns=\"http://www.w3.org/1999/xhtml\">";
 		$body .= "<head>";
 		$body .= "<meta http-equiv=\"Content-Type\" content=\"text/html; charset=iso-8859-1\" />";
-		$body .= "<title>DSIN : Digital And Social Interactions</title>";
+		$body .= "<title>DSIN : Digital & Social Interactions</title>";
 		$body .= "<style type=\"text/css\">";
 		$body .= "<!-- .style1 { font-family: Verdana, Arial, Helvetica, sans-serif;font-size: 10px;}";
 		$body .= ".colorBold {font-weight:bold;color:#FFCB01;}";
