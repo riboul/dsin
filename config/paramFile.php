@@ -4,7 +4,7 @@ define("_HOST", $_SERVER["SERVER_NAME"]);
 
 if (_HOST == '127.0.0.1') {
   define("_URL_WWW", "http://127.0.0.1/DSIN");
-} else if (_HOST == 'digital-and-social-interactions.com') {
+} else {
   define("_URL_WWW", "http://www.digital-and-social-interactions.com");
 }
 

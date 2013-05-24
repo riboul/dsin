@@ -92,7 +92,7 @@ jQuery(function (){
 	
 	// Submit Contact Form via Ajax
 	handleContactForm();
-	
+
 	// Handle anchors
 	handleAnchors();
 });
@@ -482,23 +482,26 @@ function emptyCart(){
 // Function to submit contact form via Ajax
 function handleContactForm() {
 	$("#contact_form").submit(function () {
-		$.post("components/sendMail.php",$("#contact_form").serialize(),function(texte){
-			$.fancybox( '<div><p>'+texte+'</p></div>', {
-				title : 'Email confirmation'
+		if(MM_validateForm('nom','','R','email','','RisEmail', 'message', '', 'R')){
+			$.post("components/sendMail.php",$("#contact_form").serialize(),function(texte){
+				$.fancybox( '<div><p>'+texte+'</p></div>', {
+					title : 'Email confirmation'
+				});
+				$('#nom').removeAttr('disabled').removeClass('inactive');
+				$('#email').removeAttr('disabled').removeClass('inactive');
+				$('#message').removeAttr('disabled').removeClass('inactive');
+				$('#submit-contact').removeAttr('disabled').removeClass('inactive');
 			});
-			$('#nom').removeAttr('disabled').removeClass('inactive');
-			$('#email').removeAttr('disabled').removeClass('inactive');
-			$('#message').removeAttr('disabled').removeClass('inactive');
-			$('#submit-contact').removeAttr('disabled').removeClass('inactive');
-		});
-		$('#nom').attr('disabled', 'disabled').addClass('inactive');
-		$('#email').attr('disabled', 'disabled').addClass('inactive');
-		$('#message').attr('disabled', 'disabled').addClass('inactive');
-		$('#submit-contact').attr('disabled', 'disabled').addClass('inactive');
+			$('#nom').attr('disabled', 'disabled').addClass('inactive');
+			$('#email').attr('disabled', 'disabled').addClass('inactive');
+			$('#message').attr('disabled', 'disabled').addClass('inactive');
+			$('#submit-contact').attr('disabled', 'disabled').addClass('inactive');
+		}
 		return false;
 	});
 }
 
+// Flip each offer contained in offers
 function flipOffers(offers) {
 	var n= offers.split(" ");
 	for (i=0; i < n.length; i++){
@@ -542,6 +545,8 @@ function handleAnchors() {
 		case '#socialBusiness':
 			navigateAndFlip('socialBusiness', addingHeight, html);
 			break;
+		/*
+		//Code deported in eislideshow js//
 		case '#engage-the-web':
 			break;
 		case '#move-to-digital-workplace':
@@ -550,9 +555,11 @@ function handleAnchors() {
 			break;
 		case '#go-to-cloud':
 			break;
+		*/
 	}
 }
 
+// Navigate to anchor and flip dedicated offer
 function navigateAndFlip(anchor, addingHeight, html) {
 	var blockPost = $('#'+anchor).offset().top - addingHeight;
 	html.stop().animate({scrollTop: blockPost},{duration: 1000});

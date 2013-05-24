@@ -120,6 +120,9 @@
 				case '#go-to-cloud':
 					this.current		= 2;
 					break;
+				default:
+					this.current		= 0;
+					break;
 			}
 			
 			var _self			= this;
