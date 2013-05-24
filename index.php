@@ -9,17 +9,17 @@
 		<meta name="viewport" content="user-scalable=no">
 		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 
-		<link rel="shortcut icon" href="/images/bg/favicon.ico" type="image/x-icon"/> 
+		<link rel="shortcut icon" href="/images/bg/favicon.ico" type="image/x-icon"/>
 		<link rel="icon" href="/images/bg/favicon.ico" type="image/x-icon"/>
         <link rel="stylesheet" type="text/css" href="css/style.css" />
-        <link rel="stylesheet" type="text/css" href="css/dsin_style.css" />		
+        <link rel="stylesheet" type="text/css" href="css/dsin_style.css" />
 		<link rel="stylesheet" type="text/css" href="css/dcsmt.css" />
-		
+
 		<!-- jQuery -->
 		<!-- <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script> -->
 		<script type="text/javascript" src="js/jquery.min.js"></script>
 		<script type="text/javascript" src="js/jquery.easing.1.3.js"></script>
-		
+
 		<!-- FancyBox -->
 		<link rel="stylesheet" href="css/jquery.fancybox.css" type="text/css" media="screen" />
         <script type="text/javascript" src="js/jquery.fancybox.pack.js"></script>
@@ -55,7 +55,7 @@
 		</script>
 
         <!-- <link href='http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300|Playfair+Display:400italic' rel='stylesheet' type='text/css' /> -->
-		
+
 		<!--[if lt IE 9]>
 			<script type="text/javascript" src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
 			<script type="text/javascript" src="http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
@@ -613,19 +613,19 @@
 				<h1>Nos solutions partenaires</h1>
 				<h2></h2>
 				<div class="columns partners">
-					<article class="oneThird">
+					<article id="office365" class="oneThird">
 						<div class="partner">
 							<img src="images/partners/Office365.png" alt="Microsoft Office 365" />
 							<div class="content"><strong>Leader incontournable du collaboratif, des portails et de la gestion de contenu</strong>, Microsoft et CGI Business Consulting ont accompagné depuis plus de dix ans de grandes entreprises. Aujourd'hui l'offre <strong>Office 365</strong> représente une solution innovante et pertinente que les consultants de CGI Business Consulting mettent en place chez leur client.</div>
 						</div>
 					</article>
-					<article class="oneThird">
+					<article id="newsgator" class="oneThird">
 						<div class="partner">
 							<img src="images/partners/Newsgator.png" alt="Newsgator" />
 							<div class="content">Reconnu comme un <strong>add-on incontournable à Microsoft Sharepoint, Newsgator</strong> offre des fonctionnalités de média social convaincantes. CGI Business Consulting a accompagné de nombreux grands groupes dans la réflexion autour des médias sociaux pour les entreprises disposant déjà de Microsoft Sharepoint. Newsgator se propose également comme un service dans le Cloud.</div>
 						</div>
 					</article>
-					<article class="oneThird">
+					<article id="lotus-connections" class="oneThird">
 						<div class="partner">
 							<img src="images/partners/LotusConnection.png" alt="Lotus Connection" />
 							<div class="content">Rejoignant la liste des acteurs incontournables, l'outil <strong>Lotus Connections</strong> a été intégré et repackagé par CGI en une offre clé en main baptisée <strong>CGI Live Connections</strong>.</div>
@@ -633,19 +633,19 @@
 					</article>
 				</div>
 				<div class="columns partners">
-					<article class="oneThird">
+					<article id="jive" class="oneThird">
 						<div class="partner">
 							<img src="images/partners/Jive.png" alt="JIVE" />
 							<div class="content">Editeur spécialisé dans le monde du social workplace, <strong>Jive</strong> est devenu en quelques années un <strong>leader des plateformes de collaboration d'entreprise</strong>. Depuis 2010, le <strong>partenariat avec DSIN</strong> s'est traduit par de nombreux succès pour des clients appréciant la <strong>facilité d'appréhension</strong> et <strong>les usages innovants</strong> que permet la technologie Jive.</div>
 						</div>
 					</article>
-					<article class="oneThird">
+					<article id="salesforce-marketing-cloud" class="oneThird">
 						<div class="partner">
 							<img src="images/partners/logo_marketingCloud.png" alt="Marketing Cloud / Salesforce" />
 							<div class="content">A l’ère des medias sociaux, Salesforce avec sa suite Marketing Cloud propose l’offre cloud la plus complète du marché dédié au social Business. Avec une équipe formée et certifiée sur les technologies Salesforce, CGI Business Consulting vous permettra d’accélérer vos projets sur les médias sociaux pour toutes les fonctions de votre entreprise.</div>
 						</div>
 					</article>
-					<article class="oneThird">
+					<article id="google" class="oneThird">
 						<div class="partner">
 							<img src="images/partners/GoogleApps.png" alt="Google Apps for Business" />
 							<div class="content">Parfaite illustration de services dans le Cloud, <strong>Google</strong> propose sa suite collaborative aux entreprises <strong>Google Aps for Business</strong> et CGI a mis en place depuis 2010 ans un <strong>centre de compétence dédié aux technologies Google</strong> et accompagne depuis 2007 de grands clients dans leur mise en place.</div>
@@ -671,8 +671,8 @@
 				<!--<h2>lorem ipsum dolor sit amet, consectetur adipiscing elit</h2>-->
 				<div class="columns">
 					<div class="half">
-						<form action="components/sendMail.php" method="post" 
-							onsubmit="MM_validateForm('nom','','R','email','','RisEmail', 'message', '', 'R');return document.MM_returnValue" 
+						<form action="components/sendMail.php" method="post"
+							onsubmit="MM_validateForm('nom','','R','email','','RisEmail', 'message', '', 'R');return document.MM_returnValue"
 							id="contact_form" class="form">
 							<fieldset>
 								<h4>Formulaire de Prise de Contact</h4>
