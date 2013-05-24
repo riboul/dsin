@@ -106,7 +106,21 @@
 			this.$imgItems.find('div.ei-title > *').css( 'opacity', 0 );
 			
 			// index of current visible slider
-			this.current		= 0;
+			anchor = window.location.hash;
+			switch(anchor){
+				case '#engage-the-web':
+					this.current		= 3;
+					break;
+				case '#move-to-digital-workplace':
+					this.current		= 0;
+					break;
+				case '#transform-into-social-business':
+					this.current		= 1;
+					break;
+				case '#go-to-cloud':
+					this.current		= 2;
+					break;
+			}
 			
 			var _self			= this;
 			
@@ -140,6 +154,10 @@
 				
 				// initialize the events
 				_self._initEvents();
+				
+				_self.$sliderElem.stop().animate({
+					left	: _self.$thumbs.eq( _self.current ).position().left
+				}, _self.options.speed )
 			
 			});
 			

@@ -110,29 +110,29 @@
 					<li>
 						<img src="images/large/Fotolia_48035317_M.jpg" alt="Image Move to Digital Workplace" />
 						<div class="ei-title" data-style="top: 60%; bottom: auto; padding:2% 40% 2% 15%;">
-							<h2 data-direction="top" data-offset="10"><a href="#" data-offers="wkSer soCol diWk" class="flipRelatedOffers">Move to Digital Workplace</a></h2>
-							<h3 data-direction="top" data-offset="500"><a href="#" data-offers="wkSer soCol diWk" class="flipRelatedOffers">When your information and your apps are profiled to meet your immediate context and needs. Discover how to re-think your workplace into a social enabled workplace, accessible anytime from any device, focused on delivering a positive user experience to better support your business activities.</a></h3>
+							<h2 data-direction="top" data-offset="10"><a href="#" data-offers="saas socialCollab digitalWk" class="flipRelatedOffers">Move to Digital Workplace</a></h2>
+							<h3 data-direction="top" data-offset="500"><a href="#" data-offers="saas socialCollab digitalWk" class="flipRelatedOffers">When your information and your apps are profiled to meet your immediate context and needs. Discover how to re-think your workplace into a social enabled workplace, accessible anytime from any device, focused on delivering a positive user experience to better support your business activities.</a></h3>
 						</div>
 					</li>
 					<li>
 						<img src="images/large/Fotolia_48034284_M.jpg" alt="Image Transform into Social Business" />
 						<div class="ei-title" data-style="top: 60%; bottom: auto; padding:2% 40% 2% 15%;">
-							<h2 data-direction="bottom" data-offset="100"><a href="#" data-offers="extCom soCol soBus" class="flipRelatedOffers">Transform into Social Business</a></h2>
-							<h3 data-direction="right" data-offset="30"><a href="#" data-offers="extCom soCol soBus" class="flipRelatedOffers">When the Web is both a source of cautions and opportunities. Discover how to feed your business functions with the real relevant  informations to bring immediate value : define your digital brand strategy, improve your customer care services, generate more leads, accelerate your product and service go-to-market, retain your customers, detect competitive opportunities</a></h3>
+							<h2 data-direction="bottom" data-offset="100"><a href="#" data-offers="externalComm socialCollab socialBusiness" class="flipRelatedOffers">Transform into Social Business</a></h2>
+							<h3 data-direction="right" data-offset="30"><a href="#" data-offers="externalComm socialCollab socialBusiness" class="flipRelatedOffers">When the Web is both a source of cautions and opportunities. Discover how to feed your business functions with the real relevant  informations to bring immediate value : define your digital brand strategy, improve your customer care services, generate more leads, accelerate your product and service go-to-market, retain your customers, detect competitive opportunities</a></h3>
 						</div>
 					</li>
 					<li>
 						<img src="images/large/Fotolia_45602048_L.jpg" alt="Image Go 2 Cloud" />
 						<div class="ei-title" data-style="top: 60%; bottom: auto; padding:2% 40% 2% 15%;">
-							<h2 data-direction="right" data-offset="80"><a href="#" data-offers="wkSer" class="flipRelatedOffers">Go 2 Cloud</a></h2>
-							<h3 data-direction="left" data-offset="100"><a href="#" data-offers="wkSer" class="flipRelatedOffers">When cloud services become standard. Discover how to plan a go to cloud strategy to not only optimize cost but also to target an improved user experience, anytime, from any device.</a></h3>
+							<h2 data-direction="right" data-offset="80"><a href="#" data-offers="saas" class="flipRelatedOffers">Go 2 Cloud</a></h2>
+							<h3 data-direction="left" data-offset="100"><a href="#" data-offers="saas" class="flipRelatedOffers">When cloud services become standard. Discover how to plan a go to cloud strategy to not only optimize cost but also to target an improved user experience, anytime, from any device.</a></h3>
 						</div>
 					</li>
 					<li>
 						<img src="images/large/Fotolia_50383363_M.jpg" alt="Image Engage the Web" />
 						<div class="ei-title" data-style="top: 60%; bottom: auto; padding:2% 40% 2% 15%;">
-							<h2 data-direction="left" data-offset="10"><a href="#" data-offers="dam extCom ePresence soBus" class="flipRelatedOffers">Engage the Web</a></h2>
-							<h3 data-direction="top" data-offset="900"><a href="#" data-offers="dam extCom ePresence soBus" class="flipRelatedOffers">When a web site is not enough anymore. Discover how to re-think a web engagement platform to support your external communities, to empower your brand champions and ambassadors, and seamlessly plug your platform to social media channels  and efficiently.</a></h3>
+							<h2 data-direction="left" data-offset="10"><a href="#" data-offers="dam externalComm epresence socialBusiness" class="flipRelatedOffers">Engage the Web</a></h2>
+							<h3 data-direction="top" data-offset="900"><a href="#" data-offers="dam externalComm epresence socialBusiness" class="flipRelatedOffers">When a web site is not enough anymore. Discover how to re-think a web engagement platform to support your external communities, to empower your brand champions and ambassadors, and seamlessly plug your platform to social media channels  and efficiently.</a></h3>
 						</div>
 					</li>
 				</ul><!-- ei-slider-large -->
@@ -205,7 +205,7 @@
 					</div>
 
 					<div class="half">
-						<article id="extCom" title="External Communities" class="offres-thumb scroll" draggable="true" ondragstart="onDragStart(this, event);">
+						<article id="externalComm" title="External Communities" class="offres-thumb scroll" draggable="true" ondragstart="onDragStart(this, event);">
 							<div class="offres-thumb-wrapper">
 								<img src="images/offers/template_cardOffer_extComm.jpg" alt="External Communities" title="Cliquez pour obtenir plus de détails" />
 								<div class="offres-caption-background">
@@ -234,7 +234,7 @@
 				</div>
 				<div class="columns">
 					<div class="half">
-						<article id="wkSer" title="Workplace As A Service" class="offres-thumb scroll" draggable="true" ondragstart="onDragStart(this, event);">
+						<article id="saas" title="Workplace As A Service" class="offres-thumb scroll" draggable="true" ondragstart="onDragStart(this, event);">
 							<div class="offres-thumb-wrapper">
 								<img src="images/offers/template_cardOffer_WAAS.jpg" alt="Workplace As A Service" title="Cliquez pour obtenir plus de détails" />
 								<div class="offres-caption-background">
@@ -262,7 +262,7 @@
 						</article>
 					</div>
 					<div class="half">
-						<article id="soCol" title="Social Collaboration" class="offres-thumb scroll" draggable="true" ondragstart="onDragStart(this, event);">
+						<article id="socialCollab" title="Social Collaboration" class="offres-thumb scroll" draggable="true" ondragstart="onDragStart(this, event);">
 							<div class="offres-thumb-wrapper">
 								<img src="images/offers/template_cardOffer_socialCollab.jpg" alt="Social Collaboration" title="Cliquez pour obtenir plus de détails" />
 								<div class="offres-caption-background">
@@ -304,7 +304,7 @@
 				</div>
 				<div class="columns">
 					<div class="half">
-						<article id="diWk" title="Digital Workspace" class="offres-thumb scroll" draggable="true" ondragstart="onDragStart(this, event);">
+						<article id="digitalWk" title="Digital Workspace" class="offres-thumb scroll" draggable="true" ondragstart="onDragStart(this, event);">
 							<div class="offres-thumb-wrapper">
 								<img src="images/offers/template_cardOffer_digitalWk.jpg" alt="Digital Workspace" title="Cliquez pour obtenir plus de détails" />
 								<div class="offres-caption-background">
@@ -334,7 +334,7 @@
 						</article>
 					</div>
 					<div class="half">
-						<article id="ePresence" title="ePresence" class="offres-thumb scroll" draggable="true" ondragstart="onDragStart(this, event);">
+						<article id="epresence" title="ePresence" class="offres-thumb scroll" draggable="true" ondragstart="onDragStart(this, event);">
 							<div class="offres-thumb-wrapper">
 								<img src="images/offers/template_cardOffer_ePresence.jpg" alt="ePresence" title="Cliquez pour obtenir plus de détails" />
 								<div class="offres-caption-background">
@@ -371,7 +371,7 @@
 				</div>
 				<div class="columns">
 					<div class="half">
-						<article id="soBus" title="Social Business" class="offres-thumb scroll" draggable="true" ondragstart="onDragStart(this, event);">
+						<article id="socialBusiness" title="Social Business" class="offres-thumb scroll" draggable="true" ondragstart="onDragStart(this, event);">
 							<div class="offres-thumb-wrapper">
 								<img src="images/offers/template_cardOffer_socialBusiness.jpg" alt="Social Business" title="Cliquez pour obtenir plus de détails" />
 								<div class="offres-caption-background">
@@ -473,7 +473,7 @@
 				<h1>Paroles de clients</h1>
 				<h2>Ils nous ont fait confiance</h2>
 				<div class="columns">
-					<article class="news oneThird">
+					<article id="valeo" class="news oneThird">
 						<div class="whiteColumn">
 							<h3>Valeo</h3>
 							<div class="content">
@@ -491,7 +491,7 @@
 							</div>
 						</div>
 					</article>
-					<article class="news oneThird">
+					<article id="bank" class="news oneThird">
 						<div class="whiteColumn">
 							<h3>Groupe pharmaceutique</h3>
 							<div class="content">
@@ -500,7 +500,7 @@
 							</div>
 						</div>
 					</article>
-					<article class="news oneThird">
+					<article id="pharma" class="news oneThird">
 						<div class="whiteColumn">
 							<h3>Banque d'Investissement</h3>
 							<div class="content">
@@ -587,13 +587,13 @@
 						</p>
 						<iframe class="videoDSIN" src="https://www.youtube.com/embed/hCYBYNM-6PQ" allowfullscreen></iframe>
 					</article>
-					<article id="4cs-on-the-cloud" class="media fullWidth textCenter">
+					<article id="dsinCloud" class="media fullWidth textCenter">
 						<p class="content">
 							<span class="underline">Pitch</span> : D&eacute;couvrez en 1 minute pourquoi Thomas, employ&eacute; mod&egrave;le et efficace, passe aujourd&acute;hui devant une commission.
 						</p>
 						<iframe class="videoDSIN" src="https://www.youtube.com/embed/RQO_aDaAds0" allowfullscreen></iframe>
 					</article>
-					<article id="outils-et-collaboration" class="media fullWidth textCenter">
+					<article id="outilsCollab" class="media fullWidth textCenter">
 						<p class="content">
 							<span class="underline">Pitch</span> : Dans une d&eacute;marche 2.0, les outils ne font pas la collaboration. Explication en images par l'&eacute;quipe DSIN
 						</p>

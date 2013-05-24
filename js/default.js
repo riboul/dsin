@@ -71,11 +71,6 @@ jQuery(function (){
 	// init Social feed
 	initSocial();
 	
-	// Refresh Social Feeds
-	/* UNUSED = ENABLE LATER
-	var refreshId = setInterval(function(){refreshSocial()},1000);
-	*/
-	
 	// Only for small screen
 	initDropDownMenu();
 	
@@ -85,7 +80,7 @@ jQuery(function (){
 	// Init Map 
 	initGoogleMap();
 	
-	//
+	// Check Browser
 	if (isIE()){
 		$('#cart').hide();
 	}
@@ -99,7 +94,7 @@ jQuery(function (){
 	handleContactForm();
 	
 	// Handle anchors
-	//handleAnchors();
+	handleAnchors();
 });
 
 // Handle logo display
@@ -516,41 +511,52 @@ function flipOffers(offers) {
 	}
 }
 
+// Specific behavior for some anchors
 function handleAnchors() {
 	anchor = window.location.hash;
 	ancre = '#';
 	
 	var html = jQuery('html,body');
+	var curPos = html.scrollTop();
 	var addingHeight = jQuery("#spanNav").outerHeight(true);
 		
 	switch (anchor){
 		case '#dam':
-			//window.location.hash = ancre;
-			flipOffers('dam');
+			navigateAndFlip('dam', addingHeight, html);
 			break;
 		case '#externalComm':
-			window.location.hash = 'extCom';
-			flipOffers('extCom');
+			navigateAndFlip('externalComm', addingHeight, html);
 			break;
 		case '#saas':
-			window.location.hash = ancre;
-			flipOffers('wkSer');
+			navigateAndFlip('saas', addingHeight, html);
 			break;
 		case '#socialCollab':
-			window.location.hash = ancre;
-			flipOffers('soCol');
+			navigateAndFlip('socialCollab', addingHeight, html);
 			break;
 		case '#epresence':
-			window.location.hash = ancre;
-			flipOffers('ePresence');
+			navigateAndFlip('epresence', addingHeight, html);
 			break;
 		case '#digitalWk':
-			window.location.hash = ancre;
-			flipOffers('diWk');
+			navigateAndFlip('digitalWk', addingHeight, html);
 			break;
 		case '#socialBusiness':
-			window.location.hash = ancre;
-			flipOffers('soBus');
+			navigateAndFlip('socialBusiness', addingHeight, html);
+			break;
+		case '#engage-the-web':
+			break;
+		case '#move-to-digital-workplace':
+			break;
+		case '#transform-into-social-business':
+			break;
+		case '#go-to-cloud':
 			break;
 	}
+}
+
+function navigateAndFlip(anchor, addingHeight, html) {
+	var blockPost = $('#'+anchor).offset().top - addingHeight;
+	html.stop().animate({scrollTop: blockPost},{duration: 1000});
+	setTimeout(function(){
+		flipOffers(anchor);
+	}, 1200);
 }
