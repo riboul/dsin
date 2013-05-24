@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:video="http://www.google.com/schemas/sitemap-video/1.1"> 
+
+   <url> 
+     <loc>http://www.digital-and-social-interactions.com/videos-media/social-business/</loc>
+    <video:video> 
+    <video:thumbnail_loc>http://img.youtube.com/vi/ZXUUj2hlGIc/1.jpg</video:thumbnail_loc>
+      <video:title>Le Social Business vu par Digital And Social Interactions, quand le digital reconnecte les inidividus</video:title> 
+       <video:description>Mister Fergusson est aujourd’hui de retour, toujours aussi décidé à prouver à son chef que le Digital Engagement, c’est la solution pour positionner son entreprise sur le Social Business</video:description>
+       <video:content_loc>https://www.youtube.com/watch?feature=player_embedded&amp;v=ZXUUj2hlGIc</video:content_loc>
+      <video:player_loc allow_embed="yes" autoplay="ap=1">https://www.youtube.com/watch?feature=player_embedded&amp;v=ZXUUj2hlGIc</video:player_loc>
+      <video:duration>143</video:duration>
+       <video:live>no</video:live>
+       <video:tag>Social</video:tag> 
+       <video:tag>Business</video:tag> 
+       <video:tag>Facebook</video:tag>
+       <video:tag>Tweeter</video:tag>
+       <video:tag>Marketing</video:tag> 
+       <video:tag>Réseau</video:tag>          
+      <video:category>Social Business</video:category>
+     </video:video> 
+   </url>    
+
+
+   <url> 
+     <loc>http://www.digital-and-social-interactions.com/videos-media/dsin-on-the-cloud/</loc>
+    <video:video> 
+    <video:thumbnail_loc>http://img.youtube.com/vi/RQO_aDaAds0/2.jpg</video:thumbnail_loc>
+      <video:title>DSIN on the Cloud</video:title> 
+       <video:description>Découvrez en 1 minute pourquoi Thomas, employé modèle et efficace, passe aujourd´hui devant une commission.</video:description>
+       <video:content_loc>https://www.youtube.com/watch?feature=player_embedded&amp;v=RQO_aDaAds0</video:content_loc>
+      <video:player_loc allow_embed="yes" autoplay="ap=1">https://www.youtube.com/watch?feature=player_embedded&amp;v=RQO_aDaAds0</video:player_loc>
+      <video:duration>88</video:duration>
+       <video:live>no</video:live>
+       <video:tag>Cloud</video:tag> 
+       <video:tag>Réseau</video:tag>             
+       <video:tag>Social</video:tag> 
+       <video:tag>Collaboration</video:tag>            
+      <video:category>Cloud</video:category>
+     </video:video> 
+   </url>    
+   
+
+   <url> 
+     <loc>http://www.digital-and-social-interactions.com/videos-media/outils-et-collaboration/</loc>
+    <video:video> 
+    <video:thumbnail_loc>http://img.youtube.com/vi/2P5bIaXLBlg/1.jpg</video:thumbnail_loc>
+      <video:title>Les Outils ne font pas la Collaboration</video:title> 
+       <video:description>Dans un projet collaboratif, le plus important n'est pas de penser aux outils. Nous sommes convaincus qu'il convient d'abord de réfléchir aux objectifs de votre projet et de questionner vos usages, afin de s'inscrire dans une démarche pérenne et adaptée à vos besoins</video:description>
+       <video:content_loc>https://www.youtube.com/watch?feature=player_embedded&amp;v=2P5bIaXLBlg</video:content_loc>
+      <video:player_loc allow_embed="yes" autoplay="ap=1">https://www.youtube.com/watch?feature=player_embedded&amp;v=2P5bIaXLBlg</video:player_loc>
+      <video:duration>148</video:duration>
+       <video:live>no</video:live>
+       <video:tag>Collaboration</video:tag>       
+       <video:tag>RSE</video:tag>  
+       <video:tag>Réseau</video:tag>
+       <video:tag>Social</video:tag>           
+       <video:tag>Cloud</video:tag> 
+      <video:category>Collaboration</video:category>
+     </video:video> 
+   </url>       
+   
+</urlset>

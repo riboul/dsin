@@ -1,0 +1,12 @@
+User-agent: *
+Disallow: /class/
+Disallow: /commun/
+Disallow: /components/
+Disallow: /config/
+Disallow: /images/
+Disallow: /js/
+Disallow: /font/
+Disallow: /css/
+
+
+Plan Sitemap : http://www.digital-and-social-interactions.com/sitemap.xml
