@@ -1489,7 +1489,7 @@ footer ul{
 
 .expert {
 
-	font-size: 0.8em;
+	font-size: 1em;
 
 	margin: 0 0 2em 0;
 
@@ -1801,7 +1801,20 @@ textarea[placeholder] {
 
 }
 
+input[placeholder].inactive, textarea[placeholder].inactive {
+	color: #E31937;
+}
+input.inactive, textarea.inactive {
+	background-color: #A5ACB0;
+}
 
+.btn.inactive span {
+	background-color: #A5ACB0;
+}
+
+.btn.inactive:hover span {
+	background-color: #A5ACB0;
+}
 
 textarea{
 

@@ -19,6 +19,10 @@
 		<!-- <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script> -->
 		<script type="text/javascript" src="js/jquery.min.js"></script>
 		<script type="text/javascript" src="js/jquery.easing.1.3.js"></script>
+		
+		<!-- FancyBox -->
+		<link rel="stylesheet" href="css/jquery.fancybox.css" type="text/css" media="screen" />
+        <script type="text/javascript" src="js/jquery.fancybox.pack.js"></script>
 
 		<!-- HTML5/CSS3 detector -->
 		<script type="text/javascript" src="js/modernizr.2.5.3.min.js"></script>
@@ -39,16 +43,15 @@
 		<!-- Google Analytics -->
 		<script>
 			var _gaq = _gaq || [];
-			_gaq.push(['_setAccount', 'UA-40906068-1']);
+			_gaq.push(['_setAccount', 'UA-41181128-1']);
+
 			(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
 			(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
 			m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
 			})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
 
-			ga('create', 'UA-40906068-1', 'digital-and-social-interactions.fr');
-			//ga('push', '_setAllowAnchor', true)
-			//_gaq.push(['_setAllowAnchor', true]);
-			ga('send', 'pageview');		 
+			ga('create', 'UA-41181128-1', 'digital-and-social-interactions.com');
+			ga('send', 'pageview');
 		</script>
 
         <!-- <link href='http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300|Playfair+Display:400italic' rel='stylesheet' type='text/css' /> -->
@@ -67,7 +70,7 @@
 					<ul class="largeScreen">
 						<li><a id="linkHome" href="#home"><span>Home</span></a></li>
 						<li><a id="linkOffres" href="#offres"><span>Offres</span></a></li>
-						<li><a id="linkExpertise" href="#expertise"><span>Expertises</span></a></li>
+						<li><a id="linkExpertises" href="#expertises"><span>Expertises</span></a></li>
 						<li><a id="linkParolesClients" href="#parolesClients"><span>Paroles de Clients</span></a></li>
 						<li><a id="linkParolesExpert" href="#parolesExpert"><span>Paroles d'expert</span></a></li>
 						<li><a id="linkMedia" href="#media"><span>Media</span></a></li>
@@ -82,7 +85,7 @@
 									<ul>
 										<li><a id="linkHomeSmall" href="#home"><span>Home</span></a></li>
 										<li><a id="linkOffresSmall" href="#offres"><span>Offres</span></a></li>
-										<li><a id="linkExpertiseSmall" href="#expertise"><span>Expertises</span></a></li>
+										<li><a id="linkExpertisesSmall" href="#expertises"><span>Expertises</span></a></li>
 										<li><a id="linkParolesClientsSmall" href="#parolesClients"><span>Paroles de Clients</span></a></li>
 										<li><a id="linkParolesExpertSmall" href="#parolesExpert"><span>Paroles d'expert</span></a></li>
 										<li><a id="linkMediaSmall" href="#media"><span>Media</span></a></li>
@@ -288,9 +291,11 @@
 									</div>
 									<div class="offres-thumb-detail-text-resume">
 										<div class="rougeCerise bold offres-caption-title">Social Collaboration</div>
-										<!-- NCHO METTRE TEXTE RESUME -->
-										<span class="bold">?????Proposer une expérience utilisateur simple, cohérente et riche</span>
-										Votre performance commerciale sera renforcée par la cohérence de votre image de marque, la richesse et la personnalisation de votre relation  cliente ainsi que grâce à des parcours cross-canal adaptés aux nouveaux usages.
+										Fort de ses 11 années d’expérience dans le domaine du collaboratif d’entreprise, CGI Business Consulting vous accompagne dans l’ensemble de vos projets de Collaboration sociale:
+										<ul>
+											<li>Conception et implémentation de solutions collaboratives et sociales (Jive, NewsGator, Yammer…);</li>
+											<li>Services d’accompagnement (Analyse des réseaux sociaux, Community Management)</li>
+										</ul>
 									</div>
 								</div>
 						  </div>
@@ -408,7 +413,7 @@
 			</div>
 		</section>
 
-		<section id="expertise" class="row grey expertise">
+		<section id="expertises" class="row grey expertise">
 			<div class="center">
 				<h1>Nos Expertises</h1>
 				<h2>Parce que la diversité nous enrichit</h2>
@@ -576,19 +581,19 @@
 				<h1>Nos Vidéos</h1>
 				<h2>Vidéos DSIN on the Cloud</h2>
 				<div class="columns medias">
-					<article id="fergusson2" class="media fullWidth textCenter">
+					<article id="social-business" class="media fullWidth textCenter">
 						<p class="content">
 							<span class="underline">Pitch</span> : Découvrez comment créer une relation « digitale » privilégiée et affinitaire avec les internautes, clients, prospects, ambassadeurs, influenceurs et partenaires de l'entreprise
 						</p>
-						<iframe class="videoDSIN" src="https://www.youtube.com/embed/ZXUUj2hlGIc" allowfullscreen></iframe>
+						<iframe class="videoDSIN" src="https://www.youtube.com/embed/hCYBYNM-6PQ" allowfullscreen></iframe>
 					</article>
-					<article id="fergusson1" class="media fullWidth textCenter">
+					<article id="4cs-on-the-cloud" class="media fullWidth textCenter">
 						<p class="content">
 							<span class="underline">Pitch</span> : D&eacute;couvrez en 1 minute pourquoi Thomas, employ&eacute; mod&egrave;le et efficace, passe aujourd&acute;hui devant une commission.
 						</p>
 						<iframe class="videoDSIN" src="https://www.youtube.com/embed/RQO_aDaAds0" allowfullscreen></iframe>
 					</article>
-					<article class="media fullWidth textCenter">
+					<article id="outils-et-collaboration" class="media fullWidth textCenter">
 						<p class="content">
 							<span class="underline">Pitch</span> : Dans une d&eacute;marche 2.0, les outils ne font pas la collaboration. Explication en images par l'&eacute;quipe DSIN
 						</p>
@@ -666,24 +671,6 @@
 				<!--<h2>lorem ipsum dolor sit amet, consectetur adipiscing elit</h2>-->
 				<div class="columns">
 					<div class="half">
-						<?php 
-							if (isset($_REQUEST['sentMail']) && $_REQUEST['sentMail']!='') {
-								$sentMail = $_REQUEST['sentMail'];
-								?>
-								<span class="mailConfirmation">
-									<?php
-									if ($sentMail == 1){
-										echo 'Le mail a bien &eacute;t&eacute; envoy&eacute;';
-									} else {
-										echo "Une erreur s'est produite lors de l'envoi de mail <br/>";
-										echo "Veuillez r&eacute;essayer ult&eacute;rieurement.";
-									}
-									?>
-								</span>
-								<?php
-							}
-						?>
-						
 						<form action="components/sendMail.php" method="post" 
 							onsubmit="MM_validateForm('nom','','R','email','','RisEmail', 'message', '', 'R');return document.MM_returnValue" 
 							id="contact_form" class="form">
@@ -692,7 +679,7 @@
 								<div class="formRow">
 									<div class="textField">
 										<input type="text" id="nom" name="nom" placeholder="Votre nom ..." />
-									</div>	
+									</div>
 								</div>
 								<div class="formRow">
 									<div class="textField">
@@ -705,7 +692,7 @@
 									</div>
 								</div>
 								<div class="formRow">
-									<button class="btn right" type="submit">
+									<button class="btn right" id="submit-contact" type="submit">
 										<span>Envoyer Message</span>
 									</button>
 								</div>

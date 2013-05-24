@@ -1,4 +1,4 @@
-<?php 
+ï»¿<?php 
 
 	session_start();
 	$GLOBALS['DEBUG_MODE'] = 1;
@@ -8,7 +8,7 @@
 	// Configuration du site
 	include_once('../config/paramFile.php');
 
-	// Récupération des valeurs du formulaire.
+	// RÃ©cupÃ©ration des valeurs du formulaire.
 	$nom = '';
 	$email = '';
 	$message = '';
@@ -70,7 +70,7 @@
 		
 		$mail->From= _MAIL_FROM;
 		
-		$mail->AddAddress(_MAIL_TO);
+		//$mail->AddAddress(_MAIL_TO);
 		//$mail->AddAddress('david.semhoun@cgi.com');
 		//$mail->AddAddress('marc.trilling@cgi.com');
 		
@@ -83,12 +83,12 @@
 		$mail->Body=$body;
 		
 		if(!$mail->Send()){ //Teste le return code de la fonction
-			//echo $mail->ErrorInfo; //Affiche le message d'erreur (ATTENTION:voir section 7)
-			header('Location: http://www.digital-and-social-interactions.com/?sentMail=0#contact');
+			echo $mail->ErrorInfo; //Affiche le message d'erreur (ATTENTION:voir section 7)
+			//header('Location: http://www.digital-and-social-interactions.com/?sentMail=0#contact');
 		}
 		else{
-			//echo 'Mail envoyé avec succès';
-			header('Location: http://www.digital-and-social-interactions.com/?sentMail=1#contact');
+			echo 'Votre mail a Ã©tÃ© envoyÃ©. Nous vous contacterons au plus vite. Merci';
+			//header('Location: http://www.digital-and-social-interactions.com/?sentMail=1#contact');
 		}
 		$mail->SmtpClose();
 		unset($mail);

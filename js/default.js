@@ -61,15 +61,9 @@ jQuery(function (){
 	$('.flipRelatedOffers').on('click', function(event){
 		unflipOffers();
 		var offers = $(this).data().offers;
-		var n= offers.split(" ");
-		for (i=0; i < n.length; i++){
-			if ($('html').hasClass('csstransforms3d') && !isIE()) {
-				$("#"+n[i]).find('.offres-thumb-wrapper').addClass('flipIt');
-			} else {
-				$("#"+n[i]).find('.offres-thumb-wrapper').addClass('slideIt');
-				$("#"+n[i]).find('.offres-thumb-detail').stop().animate({bottom:0}, 500, 'easeOutCubic');
-			}
-		}
+		
+		flipOffers(offers);
+		
 		event.preventDefault();
 		$('#linkOffres').click();
 	});
@@ -100,6 +94,12 @@ jQuery(function (){
 	setTimeout(function(){
 		$('.mailConfirmation').hide()
 	}, 3500); 
+	
+	// Submit Contact Form via Ajax
+	handleContactForm();
+	
+	// Handle anchors
+	//handleAnchors();
 });
 
 // Handle logo display
@@ -135,9 +135,9 @@ function handleMenuSelection(window){
 		$('.largeScreen #linkOffres').parent().addClass(' active');
 		/* $('.smallScreen #linkOffres').parent().addClass(' active'); */
 	}
-	if (window.scrollTop() >= $('#expertise').position().top - addingHeight){
+	if (window.scrollTop() >= $('#expertises').position().top - addingHeight){
 		navItems.removeClass('active');
-		$('.largeScreen #linkExpertise').parent().addClass(' active');
+		$('.largeScreen #linkExpertises').parent().addClass(' active');
 		/* $('.smallScreen #linkExpertise').parent().addClass(' active'); */
 	}
 	if (window.scrollTop() >= $('#parolesClients').position().top - addingHeight){
@@ -469,6 +469,7 @@ function addOffersMessage(){
 	$('#linkContact').click();
 }
 
+// Function to empty cart
 function emptyCart(){
 	$('#cart-offers-list').empty();
 	$('.cart-information').show();
@@ -481,4 +482,75 @@ function emptyCart(){
 	
 	$('.offres-thumb').attr('draggable', 'true');
 	$('.offres-thumb').attr('ondragstart', 'onDragStart(this, event);');
+}
+
+// Function to submit contact form via Ajax
+function handleContactForm() {
+	$("#contact_form").submit(function () {
+		$.post("components/sendMail.php",$("#contact_form").serialize(),function(texte){
+			$.fancybox( '<div><p>'+texte+'</p></div>', {
+				title : 'Email confirmation'
+			});
+			$('#nom').removeAttr('disabled').removeClass('inactive');
+			$('#email').removeAttr('disabled').removeClass('inactive');
+			$('#message').removeAttr('disabled').removeClass('inactive');
+			$('#submit-contact').removeAttr('disabled').removeClass('inactive');
+		});
+		$('#nom').attr('disabled', 'disabled').addClass('inactive');
+		$('#email').attr('disabled', 'disabled').addClass('inactive');
+		$('#message').attr('disabled', 'disabled').addClass('inactive');
+		$('#submit-contact').attr('disabled', 'disabled').addClass('inactive');
+		return false;
+	});
+}
+
+function flipOffers(offers) {
+	var n= offers.split(" ");
+	for (i=0; i < n.length; i++){
+		if ($('html').hasClass('csstransforms3d') && !isIE()) {
+			$("#"+n[i]).find('.offres-thumb-wrapper').addClass('flipIt');
+		} else {
+			$("#"+n[i]).find('.offres-thumb-wrapper').addClass('slideIt');
+			$("#"+n[i]).find('.offres-thumb-detail').stop().animate({bottom:0}, 500, 'easeOutCubic');
+		}
+	}
+}
+
+function handleAnchors() {
+	anchor = window.location.hash;
+	ancre = '#';
+	
+	var html = jQuery('html,body');
+	var addingHeight = jQuery("#spanNav").outerHeight(true);
+		
+	switch (anchor){
+		case '#dam':
+			//window.location.hash = ancre;
+			flipOffers('dam');
+			break;
+		case '#externalComm':
+			window.location.hash = 'extCom';
+			flipOffers('extCom');
+			break;
+		case '#saas':
+			window.location.hash = ancre;
+			flipOffers('wkSer');
+			break;
+		case '#socialCollab':
+			window.location.hash = ancre;
+			flipOffers('soCol');
+			break;
+		case '#epresence':
+			window.location.hash = ancre;
+			flipOffers('ePresence');
+			break;
+		case '#digitalWk':
+			window.location.hash = ancre;
+			flipOffers('diWk');
+			break;
+		case '#socialBusiness':
+			window.location.hash = ancre;
+			flipOffers('soBus');
+			break;
+	}
 }
