@@ -1694,6 +1694,8 @@ footer ul{
 	-moz-box-shadow: 0 1px 3px rgba(0,0,0,0.25);
 	-webkit-box-shadow: 0 1px 3px rgba(0,0,0,0.25);
 	box-shadow: 2px 2px 5px #323435;
+	
+	position: relative;
 }
 
 .partner img {
