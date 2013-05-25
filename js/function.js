@@ -29,7 +29,7 @@ function MM_validateForm() { //v4.0
 			}
 		} else if (test.charAt(0) == 'R') errors += '- Le champs '+nm+' est obligatoire.\n'; }
   } if (errors) alert('Attention :\n'+errors);
-  document.MM_returnValue = (errors == '');
+  return (errors == '');
 }
 	
 function validateFormEvaluation() { //v4.0
