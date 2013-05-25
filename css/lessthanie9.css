@@ -15,6 +15,7 @@ textarea ,
 */
 
 header #spanNav,
-.parolesExpert .whiteColumn{
+.parolesExpert .whiteColumn,
+.social-tabs li{
 	behavior: url(PIE.php);
 }
