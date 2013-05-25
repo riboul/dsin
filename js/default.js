@@ -202,7 +202,7 @@ function initScrollNav(_options){
 		if(block.length){
 			hold.click(function (){
 				var curPos = window.scrollTop();
-				var blockPost = block.offset().top - addingHeight;
+				var blockPost = block.offset().top - addingHeight +1;
 				
 				window.stop().animate({scrollTop: blockPost},{duration: options.animSpeed});
 				return false;
