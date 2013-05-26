@@ -2921,11 +2921,11 @@ textarea{
 	/* PARTNER */
 	
 	.partner{
-		font-size: 0.9em;
+		font-size: 1em;
 	}
 	
 	.partner .content {
-		font-size: 0.8em;
+		font-size: 1em;
 	}
 
 	
@@ -3211,7 +3211,7 @@ textarea{
 
 	h1{
 
-		font-size: 1.2em;
+		font-size: 1.3em;
 
 	}
 
@@ -3311,7 +3311,11 @@ textarea{
 
 		margin: 0 10%;
 
-	}	
+	}
+	
+	.partner {
+		font-size: 1em;
+	}
 
 	/* @end -partners */
 
