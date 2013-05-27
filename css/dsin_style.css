@@ -2959,6 +2959,10 @@ textarea{
 		font-size: 220%;
 
 	}
+	
+	input, textarea {
+		font: 1em/1.2em Arial, Helvetica, sans-serif;
+	}
 
 	/* @group -HEADER
 

@@ -193,6 +193,27 @@
       <changefreq>monthly</changefreq>
       <priority>0.5</priority>         
    </url> 
+    <url>
+      <loc>http://www.digital-and-social-interactions.com/paroles-de-clients/valeo/</loc>
+      <changefreq>monthly</changefreq>
+      <priority>0.5</priority>         
+   </url>  
+     <url>
+      <loc>http://www.digital-and-social-interactions.com/paroles-de-clients/groupe-pharmaceutique/</loc>
+      <changefreq>monthly</changefreq>
+      <priority>0.5</priority>         
+   </url>   
+     <url>
+      <loc>http://www.digital-and-social-interactions.com/paroles-de-clients/banque-investissement/</loc>
+      <changefreq>monthly</changefreq>
+      <priority>0.5</priority>         
+   </url>   
+     <url>
+      <loc>http://www.digital-and-social-interactions.com/paroles-expert/</loc>
+      <changefreq>monthly</changefreq>
+      <priority>0.5</priority>         
+   </url>     
+   
    <url>
       <loc>http://www.digital-and-social-interactions.com/videos-media/</loc>
       <changefreq>monthly</changefreq>

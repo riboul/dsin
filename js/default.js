@@ -517,7 +517,6 @@ function flipOffers(offers) {
 // Specific behavior for some anchors
 function handleAnchors() {
 	anchor = window.location.hash;
-	ancre = '#';
 	
 	var html = jQuery('html,body');
 	var curPos = html.scrollTop();

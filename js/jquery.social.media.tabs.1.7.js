@@ -29,7 +29,7 @@
 					retweets: false,
 					replies: false,
 					images: '', // large w: 786 h: 346, thumb w: 150 h: 150, medium w: 600 h: 264, small w: 340 h 150
-					url: 'twitter.php',
+					url: _URL_WWW+'/twitter.php',
 					icon: 'twitter.png'
 				},
 				facebook: {
@@ -222,7 +222,7 @@
 				classSlide: 'dcsmt-slide',
 				active: 'active',
 				zopen: 1000,
-				imagePath: 'images/icons/'
+				imagePath: _URL_WWW+'/images/icons/'
 			};
 			this.o = {};
 			this.timer_on = 0;

@@ -51,7 +51,7 @@ include_once('config/paramFile.php');
 		<script type="text/javascript" src="<?php echo _URL_WWW; ?>/js/function.js"></script>
 
 		<!-- Google Analytics -->
-		<script>
+		<script type="text/javascript">
 			var _gaq = _gaq || [];
 			_gaq.push(['_setAllowAnchor', true]);
 			//_gaq.push(['_setAccount', 'UA-41181128-1']);
@@ -63,6 +63,11 @@ include_once('config/paramFile.php');
 
 			ga('create', 'UA-41181128-1', 'digital-and-social-interactions.com');
 			ga('send', 'pageview');
+		</script>
+		
+		<!-- Server URL -->
+		<script type="text/javascript"> 
+			<?php echo "var _URL_WWW = '"._URL_WWW."';" ?>
 		</script>
 
         <!-- <link href='http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300|Playfair+Display:400italic' rel='stylesheet' type='text/css' /> -->
