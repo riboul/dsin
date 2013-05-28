@@ -18,6 +18,9 @@ include_once('config/paramFile.php');
 
 		<meta name="viewport" content="user-scalable=no">
 		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		
+		<meta name="keywords" content="Digital, Social, Interactions, Workplace, Workspace, Cloud, As a Service, Poste de travail, Social Business, Collaboration, Content, Connexion, Communication, Trust,  Community, User, Innovation, Efficiency, Project, Team, Discussion, Videos, Portal, Documents, Workflow, Rich media, Production, Profiling, Social media, Friends, Colleagues, Microblogging, Real-time, Engage, Audience, CGI, CGI Business Consulting, Business, Consulting, Digital Asset Management, External Communities, Communautés Externes, Communautés, tweeter, facebook, pinterest, youtube," />
+		<meta name="description" content="Digital & Social Interactions : Bienvenue sur le site de Digital And Social Interactions alias DSIN, Business Team de plus 60 consultants dédiée qui a pour objectif d’accompagner les entreprises dans leur Transformation Digitale par la maîtrise des organisations, des solutions de l’entreprise et du Web Social, DSIN étant une entité de CGI Business Consulting" />
 
 		<link rel="shortcut icon" href="<?php echo _URL_WWW; ?>/images/bg/favicon.ico" type="image/x-icon"/>
 		<link rel="icon" href="<?php echo _URL_WWW; ?>/images/bg/favicon.ico" type="image/x-icon"/>
@@ -51,7 +54,7 @@ include_once('config/paramFile.php');
 		<script type="text/javascript" src="<?php echo _URL_WWW; ?>/js/function.js"></script>
 
 		<!-- Google Analytics -->
-		<script type="text/javascript">
+		<script>
 			var _gaq = _gaq || [];
 			_gaq.push(['_setAllowAnchor', true]);
 			//_gaq.push(['_setAccount', 'UA-41181128-1']);
@@ -129,29 +132,29 @@ include_once('config/paramFile.php');
 					<li>
 						<img src="<?php echo _URL_WWW; ?>/images/large/Fotolia_48035317_M.jpg" alt="Move to Digital Workplace" />
 						<div class="ei-title" data-style="top: 60%; bottom: auto; padding:2% 40% 2% 15%;">
-							<h2 data-direction="top" data-offset="10"><a href="#" data-offers="saas socialCollab digitalWk" class="flipRelatedOffers">Move to Digital Workplace</a></h2>
-							<h3 data-direction="top" data-offset="500"><a href="#" data-offers="saas socialCollab digitalWk" class="flipRelatedOffers">When your information and your apps are profiled to meet your immediate context and needs. Discover how to re-think your workplace into a social enabled workplace, accessible anytime from any device, focused on delivering a positive user experience to better support your business activities.</a></h3>
+							<h2 data-direction="top" data-offset="10"><a href="#" data-offers="workplace-as-a-service social-collaboration digital-workspace" class="flipRelatedOffers">Move to Digital Workplace</a></h2>
+							<h3 data-direction="top" data-offset="500"><a href="#" data-offers="workplace-as-a-service social-collaboration digital-workspace" class="flipRelatedOffers">When your information and your apps are profiled to meet your immediate context and needs. Discover how to re-think your workplace into a social enabled workplace, accessible anytime from any device, focused on delivering a positive user experience to better support your business activities.</a></h3>
 						</div>
 					</li>
 					<li>
 						<img src="<?php echo _URL_WWW; ?>/images/large/Fotolia_48034284_M.jpg" alt="Transform into Social Business" />
 						<div class="ei-title" data-style="top: 60%; bottom: auto; padding:2% 40% 2% 15%;">
-							<h2 data-direction="bottom" data-offset="100"><a href="#" data-offers="externalComm socialCollab socialBusiness" class="flipRelatedOffers">Transform into Social Business</a></h2>
-							<h3 data-direction="right" data-offset="30"><a href="#" data-offers="externalComm socialCollab socialBusiness" class="flipRelatedOffers">When the Web is both a source of cautions and opportunities. Discover how to feed your business functions with the real relevant  informations to bring immediate value : define your digital brand strategy, improve your customer care services, generate more leads, accelerate your product and service go-to-market, retain your customers, detect competitive opportunities</a></h3>
+							<h2 data-direction="bottom" data-offset="100"><a href="#" data-offers="communautes-externes social-collaboration social-business" class="flipRelatedOffers">Transform into Social Business</a></h2>
+							<h3 data-direction="right" data-offset="30"><a href="#" data-offers="communautes-externes social-collaboration social-business" class="flipRelatedOffers">When the Web is both a source of cautions and opportunities. Discover how to feed your business functions with the real relevant  informations to bring immediate value : define your digital brand strategy, improve your customer care services, generate more leads, accelerate your product and service go-to-market, retain your customers, detect competitive opportunities</a></h3>
 						</div>
 					</li>
 					<li>
 						<img src="<?php echo _URL_WWW; ?>/images/large/Fotolia_45602048_L.jpg" alt="Go 2 Cloud" />
 						<div class="ei-title" data-style="top: 60%; bottom: auto; padding:2% 40% 2% 15%;">
-							<h2 data-direction="right" data-offset="80"><a href="#" data-offers="saas" class="flipRelatedOffers">Go 2 Cloud</a></h2>
-							<h3 data-direction="left" data-offset="100"><a href="#" data-offers="saas" class="flipRelatedOffers">When cloud services become standard. Discover how to plan a go to cloud strategy to not only optimize cost but also to target an improved user experience, anytime, from any device.</a></h3>
+							<h2 data-direction="right" data-offset="80"><a href="#" data-offers="workplace-as-a-service" class="flipRelatedOffers">Go 2 Cloud</a></h2>
+							<h3 data-direction="left" data-offset="100"><a href="#" data-offers="workplace-as-a-service" class="flipRelatedOffers">When cloud services become standard. Discover how to plan a go to cloud strategy to not only optimize cost but also to target an improved user experience, anytime, from any device.</a></h3>
 						</div>
 					</li>
 					<li>
 						<img src="<?php echo _URL_WWW; ?>/images/large/Fotolia_50383363_M.jpg" alt="Engage the Web" />
 						<div class="ei-title" data-style="top: 60%; bottom: auto; padding:2% 40% 2% 15%;">
-							<h2 data-direction="left" data-offset="10"><a href="#" data-offers="dam externalComm epresence socialBusiness" class="flipRelatedOffers">Engage the Web</a></h2>
-							<h3 data-direction="top" data-offset="900"><a href="#" data-offers="dam externalComm epresence socialBusiness" class="flipRelatedOffers">When a web site is not enough anymore. Discover how to re-think a web engagement platform to support your external communities, to empower your brand champions and ambassadors, and seamlessly plug your platform to social media channels  and efficiently.</a></h3>
+							<h2 data-direction="left" data-offset="10"><a href="#" data-offers="digital-asset-management communautes-externes e-presence-reputation social-business" class="flipRelatedOffers">Engage the Web</a></h2>
+							<h3 data-direction="top" data-offset="900"><a href="#" data-offers="digital-asset-management communautes-externes e-presence-reputation social-business" class="flipRelatedOffers">When a web site is not enough anymore. Discover how to re-think a web engagement platform to support your external communities, to empower your brand champions and ambassadors, and seamlessly plug your platform to social media channels  and efficiently.</a></h3>
 						</div>
 					</li>
 				</ul><!-- ei-slider-large -->
@@ -195,7 +198,7 @@ include_once('config/paramFile.php');
 				<h2>Un accompagnement de A à Z</h2>
 				<div class="columns">
 					<div class="half">
-						<article id="dam" title="Digital Asset Management" class="offres-thumb scroll" draggable="true" ondragstart="onDragStart(this, event);">
+						<article id="digital-asset-management" title="Digital Asset Management" class="offres-thumb scroll" draggable="true" ondragstart="onDragStart(this, event);">
 							<div class="offres-thumb-wrapper">
 								<img src="<?php echo _URL_WWW; ?>/images/offers/template_cardOffer_DAM.jpg" alt="Digital Asset Management" title="Cliquez pour obtenir plus de détails" />
 								<div class="offres-caption-background">
@@ -224,7 +227,7 @@ include_once('config/paramFile.php');
 					</div>
 
 					<div class="half">
-						<article id="externalComm" title="External Communities" class="offres-thumb scroll" draggable="true" ondragstart="onDragStart(this, event);">
+						<article id="communautes-externes" title="External Communities" class="offres-thumb scroll" draggable="true" ondragstart="onDragStart(this, event);">
 							<div class="offres-thumb-wrapper">
 								<img src="<?php echo _URL_WWW; ?>/images/offers/template_cardOffer_extComm.jpg" alt="External Communities" title="Cliquez pour obtenir plus de détails" />
 								<div class="offres-caption-background">
@@ -253,7 +256,7 @@ include_once('config/paramFile.php');
 				</div>
 				<div class="columns">
 					<div class="half">
-						<article id="saas" title="Workplace As A Service" class="offres-thumb scroll" draggable="true" ondragstart="onDragStart(this, event);">
+						<article id="workplace-as-a-service" title="Workplace As A Service" class="offres-thumb scroll" draggable="true" ondragstart="onDragStart(this, event);">
 							<div class="offres-thumb-wrapper">
 								<img src="<?php echo _URL_WWW; ?>/images/offers/template_cardOffer_WAAS.jpg" alt="Workplace As A Service" title="Cliquez pour obtenir plus de détails" />
 								<div class="offres-caption-background">
@@ -281,7 +284,7 @@ include_once('config/paramFile.php');
 						</article>
 					</div>
 					<div class="half">
-						<article id="socialCollab" title="Social Collaboration" class="offres-thumb scroll" draggable="true" ondragstart="onDragStart(this, event);">
+						<article id="social-collaboration" title="Social Collaboration" class="offres-thumb scroll" draggable="true" ondragstart="onDragStart(this, event);">
 							<div class="offres-thumb-wrapper">
 								<img src="<?php echo _URL_WWW; ?>/images/offers/template_cardOffer_socialCollab.jpg" alt="Social Collaboration" title="Cliquez pour obtenir plus de détails" />
 								<div class="offres-caption-background">
@@ -323,7 +326,7 @@ include_once('config/paramFile.php');
 				</div>
 				<div class="columns">
 					<div class="half">
-						<article id="digitalWk" title="Digital Workspace" class="offres-thumb scroll" draggable="true" ondragstart="onDragStart(this, event);">
+						<article id="digital-workspace" title="Digital Workspace" class="offres-thumb scroll" draggable="true" ondragstart="onDragStart(this, event);">
 							<div class="offres-thumb-wrapper">
 								<img src="<?php echo _URL_WWW; ?>/images/offers/template_cardOffer_digitalWk.jpg" alt="Digital Workspace" title="Cliquez pour obtenir plus de détails" />
 								<div class="offres-caption-background">
@@ -353,7 +356,7 @@ include_once('config/paramFile.php');
 						</article>
 					</div>
 					<div class="half">
-						<article id="epresence" title="ePresence" class="offres-thumb scroll" draggable="true" ondragstart="onDragStart(this, event);">
+						<article id="e-presence-reputation" title="ePresence" class="offres-thumb scroll" draggable="true" ondragstart="onDragStart(this, event);">
 							<div class="offres-thumb-wrapper">
 								<img src="<?php echo _URL_WWW; ?>/images/offers/template_cardOffer_ePresence.jpg" alt="ePresence" title="Cliquez pour obtenir plus de détails" />
 								<div class="offres-caption-background">
@@ -390,7 +393,7 @@ include_once('config/paramFile.php');
 				</div>
 				<div class="columns">
 					<div class="half">
-						<article id="socialBusiness" title="Social Business" class="offres-thumb scroll" draggable="true" ondragstart="onDragStart(this, event);">
+						<article id="social-business" title="Social Business" class="offres-thumb scroll" draggable="true" ondragstart="onDragStart(this, event);">
 							<div class="offres-thumb-wrapper">
 								<img src="<?php echo _URL_WWW; ?>/images/offers/template_cardOffer_socialBusiness.jpg" alt="Social Business" title="Cliquez pour obtenir plus de détails" />
 								<div class="offres-caption-background">
@@ -510,7 +513,7 @@ include_once('config/paramFile.php');
 							</div>
 						</div>
 					</article>
-					<article id="bank" class="news oneThird">
+					<article id="banque-investissement" class="news oneThird">
 						<div class="whiteColumn">
 							<h3>Groupe pharmaceutique</h3>
 							<div class="content">
@@ -519,7 +522,7 @@ include_once('config/paramFile.php');
 							</div>
 						</div>
 					</article>
-					<article id="pharma" class="news oneThird">
+					<article id="groupe-pharmaceutique" class="news oneThird">
 						<div class="whiteColumn">
 							<h3>Banque d'Investissement</h3>
 							<div class="content">
@@ -600,19 +603,19 @@ include_once('config/paramFile.php');
 				<h1>Nos Vidéos</h1>
 				<h2>Vidéos DSIN on the Cloud</h2>
 				<div class="columns medias">
-					<article id="social-business" class="media fullWidth textCenter">
+					<article id="social-business-video" class="media fullWidth textCenter">
 						<p class="content">
 							<span class="underline">Pitch</span> : Découvrez comment créer une relation « digitale » privilégiée et affinitaire avec les internautes, clients, prospects, ambassadeurs, influenceurs et partenaires de l'entreprise
 						</p>
 						<iframe class="videoDSIN" src="https://www.youtube.com/embed/hCYBYNM-6PQ" allowfullscreen></iframe>
 					</article>
-					<article id="dsinCloud" class="media fullWidth textCenter">
+					<article id="dsin-on-the-cloud" class="media fullWidth textCenter">
 						<p class="content">
 							<span class="underline">Pitch</span> : D&eacute;couvrez en 1 minute pourquoi Thomas, employ&eacute; mod&egrave;le et efficace, passe aujourd&acute;hui devant une commission.
 						</p>
 						<iframe class="videoDSIN" src="https://www.youtube.com/embed/RQO_aDaAds0" allowfullscreen></iframe>
 					</article>
-					<article id="outilsCollab" class="media fullWidth textCenter">
+					<article id="outils-et-collaboration" class="media fullWidth textCenter">
 						<p class="content">
 							<span class="underline">Pitch</span> : Dans une d&eacute;marche 2.0, les outils ne font pas la collaboration. Explication en images par l'&eacute;quipe DSIN
 						</p>

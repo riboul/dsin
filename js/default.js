@@ -92,9 +92,9 @@ jQuery(function (){
 	
 	// Submit Contact Form via Ajax
 	handleContactForm();
-
-	// Handle anchors
-	handleAnchors();
+	
+	// Handle URLs Rewriting
+	handleUrlsRewriting();
 });
 
 // Handle logo display
@@ -344,11 +344,9 @@ function initSocial(){
 			youtubeId: 'LogicaFRA'
 		});
 	} else {
-		url = window.location.hash;
-		var ancre = url.split('?');
-		url = ancre['0'];
 		
-		if (url !== 'undefined' && url !== ''){
+		pathLoc = window.location.pathname;
+		if (pathLoc !== 'undefined' && pathLoc !== '/'){
 			$('#social-tabs').dcSocialTabs({
 				zopen: 9,
 				loadOpen: false,
@@ -514,47 +512,71 @@ function flipOffers(offers) {
 	}
 }
 
-// Specific behavior for some anchors
-function handleAnchors() {
-	anchor = window.location.hash;
+// Specific behavior for some URLs
+function handleUrlsRewriting() {
+
+	var pathName = location.pathname;
 	
 	var html = jQuery('html,body');
-	var curPos = html.scrollTop();
 	var addingHeight = jQuery("#spanNav").outerHeight(true);
-		
-	switch (anchor){
-		case '#dam':
-			navigateAndFlip('dam', addingHeight, html);
-			break;
-		case '#externalComm':
-			navigateAndFlip('externalComm', addingHeight, html);
-			break;
-		case '#saas':
-			navigateAndFlip('saas', addingHeight, html);
-			break;
-		case '#socialCollab':
-			navigateAndFlip('socialCollab', addingHeight, html);
-			break;
-		case '#epresence':
-			navigateAndFlip('epresence', addingHeight, html);
-			break;
-		case '#digitalWk':
-			navigateAndFlip('digitalWk', addingHeight, html);
-			break;
-		case '#socialBusiness':
-			navigateAndFlip('socialBusiness', addingHeight, html);
-			break;
-		/*
-		//Code deported in eislideshow js//
-		case '#engage-the-web':
-			break;
-		case '#move-to-digital-workplace':
-			break;
-		case '#transform-into-social-business':
-			break;
-		case '#go-to-cloud':
-			break;
-		*/
+	
+	var regOffers = /^\/les-offres-dsin\//;
+	var regExpertises = /^\/nos-expertises\/$/;
+	var regParolesClients = /^\/paroles-de-clients\//;
+	var regParolesExperts = /^\/paroles-expert\/$/;
+	var regMedia = /^\/videos-media\//;
+	var regPartners = /^\/nos-partenaires\//;
+	var regContact = /^\/contactez-nous\/$/;
+	
+	if (pathName.match(regOffers)){
+		// OFFERS
+		var regOffersExact = /^\/les-offres-dsin\/$/;
+		if (pathName.match(regOffersExact)){
+			navigateTo("offres", addingHeight, html);
+		} else {
+			var tableau = pathName.split('/');
+			// only offers id is important
+			navigateAndFlip(tableau[2], addingHeight, html);
+		}
+	} else if (pathName.match(regExpertises)){
+		// EXPERTISES
+		navigateTo("expertises", addingHeight, html);
+	} else if (pathName.match(regParolesClients)){
+		// PAROLES CLIENTS
+		var regParolesClientsExact = /^\/paroles-de-clients\/$/;
+		if (pathName.match(regParolesClientsExact)){
+			navigateTo("parolesClients", addingHeight, html);
+		} else {
+			var tableau = pathName.split('/');
+			// only parolesClient id is important
+			navigateTo(tableau[2], addingHeight, html);
+		}
+	} else if (pathName.match(regParolesExperts)){
+		// PAROLES EXPERT
+		navigateTo("parolesExpert", addingHeight, html);
+	} else if (pathName.match(regMedia)){
+		// MEDIA
+		var regMediaExact = /^\/videos-media\/$/;
+		if (pathName.match(regMediaExact)){
+			navigateTo("media", addingHeight, html);
+		} else {
+			var tableau = pathName.split('/');
+			// only media video id is important
+			navigateTo(tableau[2], addingHeight, html);
+		}
+	} else if (pathName.match(regPartners)){
+		// PARTNERS
+		var regPartnersExact = /^\/nos-partenaires\/$/;
+		if (pathName.match(regPartnersExact)){
+			navigateTo("partenaires", addingHeight, html);
+		} else {
+			var tableau = pathName.split('/');
+			// only partners id is important
+			navigateTo(tableau[2], addingHeight, html);
+		}
+	} else if (pathName.match(regContact)){
+		// CONTACT
+		navigateTo("contact", addingHeight, html);
 	}
 }
 
@@ -565,4 +587,11 @@ function navigateAndFlip(anchor, addingHeight, html) {
 	setTimeout(function(){
 		flipOffers(anchor);
 	}, 1200);
+}
+
+function navigateTo(id, addingHeight, html){
+	if ($('#'+id) !== undefined){
+		var blockPost = $('#'+id).offset().top - addingHeight;
+		html.stop().animate({scrollTop: blockPost},{duration: 1000});
+	}
 }
