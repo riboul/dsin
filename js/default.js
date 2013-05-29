@@ -448,8 +448,8 @@ function openCloseCart() {
 
 // Function to create mail message from selected offers
 function addOffersMessage(){
-	var message1 = 'Bonjour,\n\nje suis intéréssé par les offres : \n\n';
-	var message2 = "\nPourriez-vous me contacter pour un complément d'information. \n\nMerci d'avance.";
+	var message1 = 'Bonjour,\n\nje suis int\351r\351ss\351 par les offres : \n\n';
+	var message2 = "\nPourriez-vous me contacter pour un compl\351ment d'information. \n\nMerci d'avance.";
 	
 	var message = message1;
 	
@@ -582,8 +582,8 @@ function handleUrlsRewriting() {
 
 // Navigate to anchor and flip dedicated offer
 function navigateAndFlip(anchor, addingHeight, html) {
-	var blockPost = $('#'+anchor).offset().top - addingHeight;
-	html.stop().animate({scrollTop: blockPost},{duration: 1000});
+	var anchorTop = $('#'+anchor).offset().top - addingHeight;
+	html.stop().animate({scrollTop: anchorTop},{duration: 1000});
 	setTimeout(function(){
 		flipOffers(anchor);
 	}, 1200);
@@ -591,7 +591,15 @@ function navigateAndFlip(anchor, addingHeight, html) {
 
 function navigateTo(id, addingHeight, html){
 	if ($('#'+id) !== undefined){
-		var blockPost = $('#'+id).offset().top - addingHeight;
-		html.stop().animate({scrollTop: blockPost},{duration: 1000});
+		var idTop = parseInt($('#'+id).offset().top);
+		var idTopFinal = parseInt(idTop) - parseInt(addingHeight);
+		/*
+		alert('addingHeight ' + addingHeight);
+		alert('id top ' + $('#'+id).offset().top);
+		alert('id top ' + idTop);
+		alert('block ' + idTopFinal);
+		alert('essai '+ idTop);
+		*/
+		html.stop().animate({scrollTop: idTop},{duration: 1000});
 	}
 }

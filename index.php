@@ -6,6 +6,10 @@
 
 // Configuration du site
 include_once('config/paramFile.php');
+include_once('config/fonction.php');
+
+$url2parse = "http://".$_SERVER['HTTP_HOST'].$_SERVER['REQUEST_URI']; 
+$baliseTitle =  dynTitle($url2parse);
 
 ?>
 <!DOCTYPE html>
@@ -14,7 +18,7 @@ include_once('config/paramFile.php');
 
     <head>
 
-        <title>Digital & Social Interactions : When Digital Reconnects people / Quand le Digital Reconnecte les Individus</title>
+        <title><?php echo $baliseTitle ?></title>
 
 		<meta name="viewport" content="user-scalable=no">
 		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
@@ -544,7 +548,6 @@ include_once('config/paramFile.php');
 		<section id="parolesExpert" class="row grey parolesExpert">
 			<div class="center">
 				<h1>Paroles d'expert</h1>
-				<!--<h2>Blip blop</h2>-->
 				<div class="columns">
 					<article class="news oneThird">
 						<div class="whiteColumn">
@@ -603,19 +606,19 @@ include_once('config/paramFile.php');
 				<h1>Nos Vidéos</h1>
 				<h2>Vidéos DSIN on the Cloud</h2>
 				<div class="columns medias">
-					<article id="social-business-video" class="media fullWidth textCenter">
+					<article id="video-social-business" class="media fullWidth textCenter">
 						<p class="content">
 							<span class="underline">Pitch</span> : Découvrez comment créer une relation « digitale » privilégiée et affinitaire avec les internautes, clients, prospects, ambassadeurs, influenceurs et partenaires de l'entreprise
 						</p>
 						<iframe class="videoDSIN" src="https://www.youtube.com/embed/hCYBYNM-6PQ" allowfullscreen></iframe>
 					</article>
-					<article id="dsin-on-the-cloud" class="media fullWidth textCenter">
+					<article id="video-dsin-on-the-cloud" class="media fullWidth textCenter">
 						<p class="content">
 							<span class="underline">Pitch</span> : D&eacute;couvrez en 1 minute pourquoi Thomas, employ&eacute; mod&egrave;le et efficace, passe aujourd&acute;hui devant une commission.
 						</p>
 						<iframe class="videoDSIN" src="https://www.youtube.com/embed/RQO_aDaAds0" allowfullscreen></iframe>
 					</article>
-					<article id="outils-et-collaboration" class="media fullWidth textCenter">
+					<article id="video-outils-et-collaboration" class="media fullWidth textCenter">
 						<p class="content">
 							<span class="underline">Pitch</span> : Dans une d&eacute;marche 2.0, les outils ne font pas la collaboration. Explication en images par l'&eacute;quipe DSIN
 						</p>

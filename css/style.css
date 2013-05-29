@@ -96,10 +96,12 @@
 	color:#FFFFFF;
 	font-weight:700;
 	text-shadow:2px 2px 4px #0b0101;
+	text-decoration:none;
 }
 .ei-title h3 a{
 	color: #FFFFFF;
 	text-shadow:1px 1px 4px #0b0101;	
+	text-decoration:none;
 }
 .ei-slider-thumbs{
 	height: 13px;
