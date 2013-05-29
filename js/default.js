@@ -593,13 +593,6 @@ function navigateTo(id, addingHeight, html){
 	if ($('#'+id) !== undefined){
 		var idTop = parseInt($('#'+id).offset().top);
 		var idTopFinal = parseInt(idTop) - parseInt(addingHeight);
-		/*
-		alert('addingHeight ' + addingHeight);
-		alert('id top ' + $('#'+id).offset().top);
-		alert('id top ' + idTop);
-		alert('block ' + idTopFinal);
-		alert('essai '+ idTop);
-		*/
 		html.stop().animate({scrollTop: idTop},{duration: 1000});
 	}
 }

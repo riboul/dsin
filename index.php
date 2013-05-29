@@ -379,7 +379,6 @@ $baliseTitle =  dynTitle($url2parse);
 										Le web social peut faire mal. Mais permet aussi de générer de nouveaux revenus. Nous pouvons intervenir pour vous aider à :
 										<ul>
 											<li>gagner de nouveaux clients et intégrer leurs données à votre système CRM</li>
-											<li>gagner de nouveaux clients et intégrer leurs données à votre système CRM</li>
 											<li>améliorer votre image, vos offres, vos études, vos ventes, vos recrutements, etc.</li>
 											<li>identifier les influençeurs, destructeurs, sources-clés et conversations-clés pour optimiser vos campagnes digitales et le dévelopement de vos offres</li>
 											<li>mettre en place une gouvernance pour partager méthodologies et outils</li>

@@ -70,7 +70,7 @@
 		
 		$mail->From= _MAIL_FROM;
 		
-		//$mail->AddAddress(_MAIL_TO);
+		$mail->AddAddress(_MAIL_TO);
 		//$mail->AddAddress('david.semhoun@cgi.com');
 		//$mail->AddAddress('marc.trilling@cgi.com');
 		
