@@ -54,8 +54,10 @@ $baliseTitle =  dynTitle($url2parse);
 		<script type="text/javascript" src="https://maps.google.com/maps/api/js?sensor=false"></script>
 
 		<!-- DSIN WebSite -->
+		<!--
 		<script type="text/javascript" src="<?php echo _URL_WWW; ?>/js/default.js"></script>
 		<script type="text/javascript" src="<?php echo _URL_WWW; ?>/js/function.js"></script>
+		-->
 
 		<!-- Google Analytics -->
 		<script>
@@ -122,14 +124,14 @@ $baliseTitle =  dynTitle($url2parse);
 							</p>
 							<div class="subFooter">
 								<p>T. : +33 1 57  32 40 40<br/>@ : <a href="mailto:dsin@fr.logica.com?subject=Prise%20de%20contact" class="footerLink">dsin@cgi.com</a></p>
-								<p>CGI Business Consulting<br/>Siège Social : Immeuble CB16<br/>17 place des Reflets<br/>92400 Courbevoie</p>
+								<p>CGI Business Consulting<br/>Si&egrave;ge Social : Immeuble CB16<br/>17 place des Reflets<br/>92400 Courbevoie</p>
 								<p>Capital :751 040 euros<br/>RCS Nanterre 340 337 864</p>
 							</div>
 						</div>
 						<div class="oneThird">
 							<p>
 								<img class="left" src="<?php echo _URL_WWW; ?>/images/icons/footer_contactl.png" alt="Social Media" />
-								<span class="subHeading">Suivez nous sur les médias sociaux</span>
+								<span class="subHeading">Suivez nous sur les m&eacute;dias sociaux</span>
 							</p>
 							<ul>
 								<li><a href="http://twitter.com/cgi_ir"><img src="<?php echo _URL_WWW; ?>/images/icons/footer_twitter.png" alt="Icone Twitter" /></a></li>
@@ -141,7 +143,7 @@ $baliseTitle =  dynTitle($url2parse);
 					</div>
 					<div class="columns">
 						<div class="oneThird">
-							<span>© Groupe CGI Inc.</span>
+							<span>Â© Groupe CGI Inc.</span>
 						</div>
 					</div>
 				</div>
