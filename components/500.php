@@ -93,17 +93,17 @@ $baliseTitle =  dynTitle($url2parse);
 		<header id="header">
 		</header>
 
-		<section id="error" class="row">
+		<section id="home" class="row">
 			<div class="center">
 				<div class="columns">
 					<div class="oneThird">
 						<p class="bold">Cette page n'existe pas ou n'existe plus !</p>
 						<p class="tCenter">D&eacute;sol&eacute; de ce d&eacute;sagr&eacute;ment temporaire et merci d'utiliser le lien ci-dessous afin de naviguer sur le site DSIN !</p>
-						<p class="tCenter backLink"><a href="<?php echo _URL_WWW; ?>">Naviguer vers le site DSIN</a></p>
+						<p class="tCenter"><a href="<?php echo _URL_WWW; ?>">Naviguer vers le site DSIN</a></p>
 						<p class="bold tCenter">- L'&eacute;quipe DSIN -</p>
 					</div>
 					<div class="twoThird">
-						<img class="errorImg" src="<?php echo _URL_WWW; ?>/images/errors/404.jpg" alt="Erreur 404" />
+						<img src="<?php echo _URL_WWW; ?>/images/errors/404.jpg" alt="Erreur 404" />
 					</div>
 				</div>
 			</div>

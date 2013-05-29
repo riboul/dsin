@@ -379,6 +379,33 @@ h4{
 	padding-top:10px;
 }
 
+.backLink a{
+	color: red;
+}
+
+.backLink:hover a{
+	color: blue;
+	text-decoration: underline;
+}
+
+.errorImg {
+	width: 100%;
+	height: 100%;
+}
+
+section#error{
+	padding: 0;
+	height: 100%;
+}
+
+section#error .center{
+	height: 100%;
+}
+
+section#error .columns{
+	height: 100%;
+}
+
 /* @group -HEADER
 
 ------------------------------------------------------------------------------------------*/
