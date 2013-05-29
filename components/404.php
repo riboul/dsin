@@ -1,4 +1,4 @@
-<?php 
+﻿<?php 
 
 //--------------------------------------
 // INCLUDES
@@ -104,6 +104,7 @@ $baliseTitle =  dynTitle($url2parse);
 					</div>
 					<div class="twoThird">
 						<img class="errorImg" src="<?php echo _URL_WWW; ?>/images/errors/404.jpg" alt="Erreur 404" />
+						<p class="copyright">©Lucas Film</p>
 					</div>
 				</div>
 			</div>
