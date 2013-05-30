@@ -451,7 +451,7 @@ function openCloseCart() {
 
 // Function to create mail message from selected offers
 function addOffersMessage(){
-	var message1 = 'Bonjour,\n\nje suis int\351r\351ss\351 par les offres : \n\n';
+	var message1 = 'Bonjour,\n\nje suis int\351ress\351 par les offres : \n\n';
 	var message2 = "\nPourriez-vous me contacter pour un compl\351ment d'information. \n\nMerci d'avance.";
 	
 	var message = message1;
