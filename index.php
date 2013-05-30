@@ -136,8 +136,8 @@ $baliseTitle =  dynTitle($url2parse);
 					<li>
 						<img src="<?php echo _URL_WWW; ?>/images/large/Fotolia_48035317_M.jpg" alt="Move to Digital Workplace" />
 						<div class="ei-title" data-style="top: 60%; bottom: auto; padding:2% 40% 2% 15%;">
-							<h2 data-direction="top" data-offset="10"><a href="#" data-offers="workplace-as-a-service social-collaboration digital-workspace" class="flipRelatedOffers">Move to Digital Workplace</a></h2>
-							<h3 data-direction="top" data-offset="500"><a href="#" data-offers="workplace-as-a-service social-collaboration digital-workspace" class="flipRelatedOffers">When your information and your apps are profiled to meet your immediate context and needs. Discover how to re-think your workplace into a social enabled workplace, accessible anytime from any device, focused on delivering a positive user experience to better support your business activities.</a></h3>
+							<h2 data-direction="top" data-offset="10"><a href="#" data-offers="workplace-as-a-service social-collaboration digital-workplace" class="flipRelatedOffers">Move to Digital Workplace</a></h2>
+							<h3 data-direction="top" data-offset="500"><a href="#" data-offers="workplace-as-a-service social-collaboration digital-workplace" class="flipRelatedOffers">When your information and your apps are profiled to meet your immediate context and needs. Discover how to re-think your workplace into a social enabled workplace, accessible anytime from any device, focused on delivering a positive user experience to better support your business activities.</a></h3>
 						</div>
 					</li>
 					<li>
@@ -330,20 +330,20 @@ $baliseTitle =  dynTitle($url2parse);
 				</div>
 				<div class="columns">
 					<div class="half">
-						<article id="digital-workspace" title="Digital Workspace" class="offres-thumb scroll" draggable="true" ondragstart="onDragStart(this, event);">
+						<article id="digital-workplace" title="Digital Workplace" class="offres-thumb scroll" draggable="true" ondragstart="onDragStart(this, event);">
 							<div class="offres-thumb-wrapper">
-								<img src="<?php echo _URL_WWW; ?>/images/offers/template_cardOffer_digitalWk.jpg" alt="Digital Workspace" title="Cliquez pour obtenir plus de d&eacute;tails" />
+								<img src="<?php echo _URL_WWW; ?>/images/offers/template_cardOffer_digitalWk.jpg" alt="Digital Workplace" title="Cliquez pour obtenir plus de d&eacute;tails" />
 								<div class="offres-caption-background">
 									<div class="offres-caption">
-										<div class="rougeCerise bold offres-caption-title">Digital Workspace</div>
-										<div> Embarquez sur le Digital Workspace avec CGI Business Consulting</div>
+										<div class="rougeCerise bold offres-caption-title">Digital Workplace</div>
+										<div>Embarquez sur le Digital Workplace avec CGI Business Consulting</div>
 										<div class="betteraveCGI offres-caption-information">Cliquez pour plus d'infos</div>
 									</div>
 								</div>
 								<div class="offres-thumb-detail">
 									<img src="<?php echo _URL_WWW; ?>/images/offers/template_cardOffer_back.jpg" alt="Card offer background" title="Cliquez pour afficher la carte de visite" />
 									<div class="offres-thumb-detail-text justify">
-										<div class="rougeCerise bold offres-caption-title">Digital Workspace</div>
+										<div class="rougeCerise bold offres-caption-title">Digital Workplace</div>
 										Par l’&eacute;tendue de sa pr&eacute;sence dans les entreprises et la compl&eacute;tude de son p&eacute;rim&egrave;tre de services, SharePoint s’impose aujourd’hui comme la solution majeure pour la mise en place du Digital Workplace.
 										<ul>
 											<li>Cependant, l’utilisation qui en est faite reste g&eacute;n&eacute;ralement partielle et le b&eacute;n&eacute;fice retir&eacute; par les entreprises rarement optimis&eacute;.</li>
@@ -352,7 +352,7 @@ $baliseTitle =  dynTitle($url2parse);
 										</ul>
 									</div>
 									<div class="offres-thumb-detail-text-resume">
-										<div class="rougeCerise bold offres-caption-title">Digital Workspace</div>
+										<div class="rougeCerise bold offres-caption-title">Digital Workplace</div>
 										Avec son &eacute;cosyst&egrave;me, Sharepoint repr&eacute;sente un large gisement d’opportunit&eacute;s de nouveaux usages favorisant le partage et apportant, dans un environnement unique et efficace, la valeur m&eacute;tier &acute; la collaboration. Bâtie sur cette vision, notre offre de services vous fait b&eacute;n&eacute;ficier de notre expertise pour tirer le plein parti de SharePoint, et transformer votre environnement collaboratif en espace num&eacute;rique de travail.
 									</div>
 								</div>

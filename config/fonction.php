@@ -57,8 +57,8 @@ function dynTitle($page_url) {
 		case "/les-offres-dsin/e-presence-reputation/":
 			$string2Return .= " des offres pour vous accompagner de bout en bout : Exploiter la richesse et les opportunités du web social, à tous les niveaux de votre organisation / ";	
 			break;
-		case "/les-offres-dsin/digital-workspace/":
-			$string2Return .= " des offres pour vous accompagner de bout en bout :embarquez sur le Digital Workspace / ";	
+		case "/les-offres-dsin/digital-workplace/":
+			$string2Return .= " des offres pour vous accompagner de bout en bout :embarquez sur le Digital Workplace / ";	
 			break;		
 		case "/les-offres-dsin/social-business/":
 			$string2Return .= " des offres pour vous accompagner de bout en bout : exploiter et Manager la richesse des médias sociaux au service des métiers de votre entreprise / ";	

@@ -96,7 +96,7 @@ jQuery(function (){
 	// Handle URLs Rewriting
 	setTimeout(function(){
 		handleUrlsRewriting();
-	}, 1300);
+	}, 1600);
 		
 });
 
