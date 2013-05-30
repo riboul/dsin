@@ -23,8 +23,8 @@ $baliseTitle =  dynTitle($url2parse);
 		<meta name="viewport" content="user-scalable=no">
 		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 		
-		<meta name="keywords" content="Digital, Social, Interactions, Workplace, Workspace, Cloud, As a Service, Poste de travail, Social Business, Collaboration, Content, Connexion, Communication, Trust,  Community, User, Innovation, Efficiency, Project, Team, Discussion, Videos, Portal, Documents, Workflow, Rich media, Production, Profiling, Social media, Friends, Colleagues, Microblogging, Real-time, Engage, Audience, CGI, CGI Business Consulting, Business, Consulting, Digital Asset Management, External Communities, Communautés Externes, Communautés, tweeter, facebook, pinterest, youtube," />
-		<meta name="description" content="Digital & Social Interactions : Bienvenue sur le site de Digital And Social Interactions alias DSIN, Business Team de plus 60 consultants dédiée qui a pour objectif d’accompagner les entreprises dans leur Transformation Digitale par la maîtrise des organisations, des solutions de l’entreprise et du Web Social, DSIN étant une entité de CGI Business Consulting" />
+		<meta name="keywords" content="Digital, Social, Interactions, Workplace, Workspace, Cloud, As a Service, Poste de travail, Social Business, Collaboration, Content, Connexion, Communication, Trust,  Community, User, Innovation, Efficiency, Project, Team, Discussion, Videos, Portal, Documents, Workflow, Rich media, Production, Profiling, Social media, Friends, Colleagues, Microblogging, Real-time, Engage, Audience, CGI, CGI Business Consulting, Business, Consulting, Digital Asset Management, External Communities, Communaut&eacute;s Externes, Communaut&eacute;s, tweeter, facebook, pinterest, youtube," />
+		<meta name="description" content="Digital & Social Interactions : Bienvenue sur le site de Digital And Social Interactions alias DSIN, Business Team de plus 60 consultants d&eacute;di&eacute;e qui a pour objectif d’accompagner les entreprises dans leur Transformation Digitale par la maîtrise des organisations, des solutions de l’entreprise et du Web Social, DSIN &eacute;tant une entit&eacute; de CGI Business Consulting" />
 
 		<link rel="shortcut icon" href="<?php echo _URL_WWW; ?>/images/bg/favicon.ico" type="image/x-icon"/>
 		<link rel="icon" href="<?php echo _URL_WWW; ?>/images/bg/favicon.ico" type="image/x-icon"/>
@@ -80,8 +80,8 @@ $baliseTitle =  dynTitle($url2parse);
         <!-- <link href='http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300|Playfair+Display:400italic' rel='stylesheet' type='text/css' /> -->
 
 		<!--[if lt IE 9]>
-			<script type="text/javascript" src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
-			<script type="text/javascript" src="http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
+			<script type="text/javascript" src="<?php echo _URL_WWW; ?>/js/html5shiv.js"></script>
+			<script type="text/javascript" src="<?php echo _URL_WWW; ?>/js/css3-mediaqueries.js"></script>
 			<link rel="stylesheet" type="text/css" href="<?php echo _URL_WWW; ?>/css/lessthanie9.css" />
 		<![endif]-->
 		<!--[if lte IE 9]>
@@ -170,7 +170,7 @@ $baliseTitle =  dynTitle($url2parse);
 					<li><a href="#">Slide 3</a><img src="<?php echo _URL_WWW; ?>/images/thumbs/Fotolia_44295877_Sthumb.jpg" alt="Engage the Web" /></li>
 				</ul><!-- ei-slider-thumbs -->
 
-				<a href="#" class="ei-slider-prev"><img src="<?php echo _URL_WWW; ?>/images/btn-previous.png" alt="Précédent" /></a>
+				<a href="#" class="ei-slider-prev"><img src="<?php echo _URL_WWW; ?>/images/btn-previous.png" alt="Pr&eacute;c&eacute;dent" /></a>
 				<a href="#" class="ei-slider-next"><img src="<?php echo _URL_WWW; ?>/images/btn-next.png" alt="Suivant" /></a>
 			</div><!-- ei-slider -->
 
@@ -184,7 +184,7 @@ $baliseTitle =  dynTitle($url2parse);
 						<a href="#" class="cart-icon" title="Panier offres"><img src="<?php echo _URL_WWW; ?>/images/icons/panier.png" alt="Votre panier d'offres" /></a>
 						<div class="cart-title">Mes Offres</div>
 						<div class="cart-offers">
-							<span class="cart-information">Glissez/Déposez les offres qui vous intéressent</span>
+							<span class="cart-information">Glissez/D&eacute;posez les offres qui vous int&eacute;ressent</span>
 							<ul id="cart-offers-list"></ul>
 						</div>
 						<button id="empty-cart-btn" class="empty-cart-btn inactive" disabled="disabled" onClick="emptyCart();">
@@ -199,16 +199,16 @@ $baliseTitle =  dynTitle($url2parse);
 
 			<div class="center">
 				<h1>Les Offres DSIN</h1>
-				<h2>Un accompagnement de A à Z</h2>
+				<h2>Un accompagnement de A &acute; Z</h2>
 				<div class="columns">
 					<div class="half">
 						<article id="digital-asset-management" title="Digital Asset Management" class="offres-thumb scroll" draggable="true" ondragstart="onDragStart(this, event);">
 							<div class="offres-thumb-wrapper">
-								<img src="<?php echo _URL_WWW; ?>/images/offers/template_cardOffer_DAM.jpg" alt="Digital Asset Management" title="Cliquez pour obtenir plus de détails" />
+								<img src="<?php echo _URL_WWW; ?>/images/offers/template_cardOffer_DAM.jpg" alt="Digital Asset Management" title="Cliquez pour obtenir plus de d&eacute;tails" />
 								<div class="offres-caption-background">
 									<div class="offres-caption">
 										<div class="rougeCerise bold offres-caption-title">Digital Asset Management</div>
-										<div>Exploitez pleinement la richesse de vos média.</div>
+										<div>Exploitez pleinement la richesse de vos m&eacute;dia.</div>
 										<div class="betteraveCGI offres-caption-information">Cliquez pour plus d'infos</div>
 									</div>
 								</div>
@@ -216,14 +216,14 @@ $baliseTitle =  dynTitle($url2parse);
 									<img src="<?php echo _URL_WWW; ?>/images/offers/template_cardOffer_back.jpg" alt="Card offer background" title="Cliquez pour afficher la carte de visite" />
 									<div class="offres-thumb-detail-text">
 										<div class="rougeCerise bold offres-caption-title">Digital Asset Management</div>
-										La gestion optimum des médias concourt à fidéliser et conquérir des clients de plus en plus exigeants : en facilitant l’adaptation aux nouveaux formats, canaux et usages, en réduisant le Time-to-Market ainsi qu’en maîtrisant l’image de marque. Faites glisser cette fiche dans votre panier !
+										La gestion optimum des m&eacute;dias concourt &acute; fid&eacute;liser et conqu&eacute;rir des clients de plus en plus exigeants : en facilitant l’adaptation aux nouveaux formats, canaux et usages, en r&eacute;duisant le Time-to-Market ainsi qu’en maîtrisant l’image de marque. Faites glisser cette fiche dans votre panier !
 										<br/><br/>
-										<span class="bold">Proposer une expérience utilisateur simple, cohérente et riche</span><br />
-										Vos clients sont sollicités par les médias de manière intensive et leurs attentes ont évoluées. Votre performance commerciale sera renforcée par la cohérence de votre image de marque, la richesse et la personnalisation de votre relation  cliente ainsi que grâce à des parcours cross-canal adaptés aux nouveaux usages.
+										<span class="bold">Proposer une exp&eacute;rience utilisateur simple, coh&eacute;rente et riche</span><br />
+										Vos clients sont sollicit&eacute;s par les m&eacute;dias de mani&egrave;re intensive et leurs attentes ont &eacute;volu&eacute;es. Votre performance commerciale sera renforc&eacute;e par la coh&eacute;rence de votre image de marque, la richesse et la personnalisation de votre relation  cliente ainsi que grâce &acute; des parcours cross-canal adapt&eacute;s aux nouveaux usages.
 									</div>
 									<div class="offres-thumb-detail-text-resume">
 										<div class="rougeCerise bold offres-caption-title">Digital Asset Management</div>
-										La gestion optimum des médias concourt à fidéliser et conquérir des clients de plus en plus exigeants : en facilitant l’adaptation aux nouveaux formats, canaux et usages, en réduisant le Time-to-Market ainsi qu’en maîtrisant l’image de marque. Faites glisser cette fiche dans votre panier !
+										La gestion optimum des m&eacute;dias concourt &acute; fid&eacute;liser et conqu&eacute;rir des clients de plus en plus exigeants : en facilitant l’adaptation aux nouveaux formats, canaux et usages, en r&eacute;duisant le Time-to-Market ainsi qu’en maîtrisant l’image de marque. Faites glisser cette fiche dans votre panier !
 									</div>
 								</div>
 							</div>
@@ -233,11 +233,11 @@ $baliseTitle =  dynTitle($url2parse);
 					<div class="half">
 						<article id="communautes-externes" title="External Communities" class="offres-thumb scroll" draggable="true" ondragstart="onDragStart(this, event);">
 							<div class="offres-thumb-wrapper">
-								<img src="<?php echo _URL_WWW; ?>/images/offers/template_cardOffer_extComm.jpg" alt="External Communities" title="Cliquez pour obtenir plus de détails" />
+								<img src="<?php echo _URL_WWW; ?>/images/offers/template_cardOffer_extComm.jpg" alt="External Communities" title="Cliquez pour obtenir plus de d&eacute;tails" />
 								<div class="offres-caption-background">
 									<div class="offres-caption">
 										<div class="rougeCerise bold offres-caption-title">External Communities</div>
-										<div>Associer vos clients au développement de votre activité.</div>
+										<div>Associer vos clients au d&eacute;veloppement de votre activit&eacute;.</div>
 										<div class="betteraveCGI offres-caption-information">Cliquez pour plus d'infos</div>
 									</div>
 								</div>
@@ -245,13 +245,13 @@ $baliseTitle =  dynTitle($url2parse);
 									<img src="<?php echo _URL_WWW; ?>/images/offers/template_cardOffer_back.jpg" alt="Card offer background" title="Cliquez pour afficher la carte de visite" />
 									<div class="offres-thumb-detail-text">
 										<div class="rougeCerise bold offres-caption-title">External Communities</div>
-										L‘avènement du Web 2.0 et des média sociaux a bouleversé les relations que les entreprises entretiennent avec leurs clients. Parce que ces derniers recherchent désormais des relations durables et authentiques avec les marques, les entreprises se doivent d’adopter des stratégies d’engagement en accord avec les besoins des consomm’acteurs.
+										L‘av&egrave;nement du Web 2.0 et des m&eacute;dia sociaux a boulevers&eacute; les relations que les entreprises entretiennent avec leurs clients. Parce que ces derniers recherchent d&eacute;sormais des relations durables et authentiques avec les marques, les entreprises se doivent d’adopter des strat&eacute;gies d’engagement en accord avec les besoins des consomm’acteurs.
 										<br/><br/>
-										La mise en place de stratégies communautaires, redéfinissant les processus internes, vous permettent de vous adapter efficacement à ce nouveau paradigme et de rassembler les consommateurs éparpillés à travers les nombreux  canaux de la sphère sociale.
+										La mise en place de strat&eacute;gies communautaires, red&eacute;finissant les processus internes, vous permettent de vous adapter efficacement &acute; ce nouveau paradigme et de rassembler les consommateurs &eacute;parpill&eacute;s &acute; travers les nombreux  canaux de la sph&egrave;re sociale.
 									</div>
 									<div class="offres-thumb-detail-text-resume">
 										<div class="rougeCerise bold offres-caption-title">External Communities</div>
-										Parce que les clients recherchent désormais des relations durables et authentiques avec les marques portées par les canaux du web 2.0, les entreprises se doivent d’adopter des stratégies d’engagement en accord avec les besoins des consomm’acteurs. La mise en place de stratégies communautaires, redéfinissant les processus internes, vous permettent de vous adapter efficacement à ce nouveau paradigme.
+										Parce que les clients recherchent d&eacute;sormais des relations durables et authentiques avec les marques port&eacute;es par les canaux du web 2.0, les entreprises se doivent d’adopter des strat&eacute;gies d’engagement en accord avec les besoins des consomm’acteurs. La mise en place de strat&eacute;gies communautaires, red&eacute;finissant les processus internes, vous permettent de vous adapter efficacement &acute; ce nouveau paradigme.
 									</div>
 								</div>
 						  </div>
@@ -262,7 +262,7 @@ $baliseTitle =  dynTitle($url2parse);
 					<div class="half">
 						<article id="workplace-as-a-service" title="Workplace As A Service" class="offres-thumb scroll" draggable="true" ondragstart="onDragStart(this, event);">
 							<div class="offres-thumb-wrapper">
-								<img src="<?php echo _URL_WWW; ?>/images/offers/template_cardOffer_WAAS.jpg" alt="Workplace As A Service" title="Cliquez pour obtenir plus de détails" />
+								<img src="<?php echo _URL_WWW; ?>/images/offers/template_cardOffer_WAAS.jpg" alt="Workplace As A Service" title="Cliquez pour obtenir plus de d&eacute;tails" />
 								<div class="offres-caption-background">
 									<div class="offres-caption">
 										<div class="rougeCerise bold offres-caption-title">Worplace As A Service</div>
@@ -274,14 +274,14 @@ $baliseTitle =  dynTitle($url2parse);
 									<img src="<?php echo _URL_WWW; ?>/images/offers/template_cardOffer_back.jpg" alt="Card offer background" title="Cliquez pour afficher la carte de visite" />
 									<div class="offres-thumb-detail-text">
 										<div class="rougeCerise bold offres-caption-title">Worplace As A Service</div>
-										Le traditionnel poste de travail opère sa mutation naturelle vers le Digital Workplace, plus proche des usages de vos collaborateurs. Mais cette évolution logique nécessite souvent une transformation de votre infrastructure technique. Hors, les investissements requis pour permettre la transition vers le Digital Workplace peuvent représenter un frein pour votre entreprise.
+										Le traditionnel poste de travail op&egrave;re sa mutation naturelle vers le Digital Workplace, plus proche des usages de vos collaborateurs. Mais cette &eacute;volution logique n&eacute;cessite souvent une transformation de votre infrastructure technique. Hors, les investissements requis pour permettre la transition vers le Digital Workplace peuvent repr&eacute;senter un frein pour votre entreprise.
 										<br/><br/>
-										Nous avons créé l’offre WaaS afin de réduire, voire de supprimer une partie des coûts de mise en œuvre d’un Digital Workplace, en le proposant en tant que service et en y associant l’accompagnement nécessaire. Vous pouvez ainsi vous focaliser sur la conduite du changement auprès de vos collaborateurs, indubitablement plus structurante pour la réussite de cette transformation.<br/><br/>
-										Souplesse, Flexibilité, Maitrise, Savoir-Faire : Le Cloud n’a jamais autant tenu ses promesses.
+										Nous avons cr&eacute;&eacute; l’offre WaaS afin de r&eacute;duire, voire de supprimer une partie des coûts de mise en œuvre d’un Digital Workplace, en le proposant en tant que service et en y associant l’accompagnement n&eacute;cessaire. Vous pouvez ainsi vous focaliser sur la conduite du changement aupr&egrave;s de vos collaborateurs, indubitablement plus structurante pour la r&eacute;ussite de cette transformation.<br/><br/>
+										Souplesse, Flexibilit&eacute;, Maitrise, Savoir-Faire : Le Cloud n’a jamais autant tenu ses promesses.
 									</div>
 									<div class="offres-thumb-detail-text-resume">
 										<div class="rougeCerise bold offres-caption-title">Worplace As A Service</div>
-										Le traditionnel poste de travail opère sa mutation naturelle vers le Digital Workplace, plus proche des usages de vos collaborateurs. Mais cette évolution logique nécessite souvent une transformation de votre infrastructure technique. Hors, les investissements requis pour permettre la transition vers le Digital Workplace peuvent représenter un frein pour votre entreprise.
+										Le traditionnel poste de travail op&egrave;re sa mutation naturelle vers le Digital Workplace, plus proche des usages de vos collaborateurs. Mais cette &eacute;volution logique n&eacute;cessite souvent une transformation de votre infrastructure technique. Hors, les investissements requis pour permettre la transition vers le Digital Workplace peuvent repr&eacute;senter un frein pour votre entreprise.
 									</div>
 								</div>
 						  </div>
@@ -290,11 +290,11 @@ $baliseTitle =  dynTitle($url2parse);
 					<div class="half">
 						<article id="social-collaboration" title="Social Collaboration" class="offres-thumb scroll" draggable="true" ondragstart="onDragStart(this, event);">
 							<div class="offres-thumb-wrapper">
-								<img src="<?php echo _URL_WWW; ?>/images/offers/template_cardOffer_socialCollab.jpg" alt="Social Collaboration" title="Cliquez pour obtenir plus de détails" />
+								<img src="<?php echo _URL_WWW; ?>/images/offers/template_cardOffer_socialCollab.jpg" alt="Social Collaboration" title="Cliquez pour obtenir plus de d&eacute;tails" />
 								<div class="offres-caption-background">
 									<div class="offres-caption">
 										<div class="rougeCerise bold offres-caption-title">Social Collaboration</div>
-										<div>Garantissez la réussite de vos projets Collaboratifs et de Réseau Social d’Entreprise.</div>
+										<div>Garantissez la r&eacute;ussite de vos projets Collaboratifs et de R&eacute;seau Social d’Entreprise.</div>
 										<div class="betteraveCGI offres-caption-information">Cliquez pour plus d'infos</div>
 									</div>
 								</div>
@@ -302,25 +302,25 @@ $baliseTitle =  dynTitle($url2parse);
 									<img src="<?php echo _URL_WWW; ?>/images/offers/template_cardOffer_back.jpg" alt="Card offer background" title="Cliquez pour afficher la carte de visite" />
 									<div class="offres-thumb-detail-text justify">
 										<div class="rougeCerise bold offres-caption-title">Social Collaboration</div>
-										Fort de ses 11 années d’expérience dans le domaine du collaboratif d’entreprise, CGI Business Consulting vous accompagne dans l’ensemble de vos projets de Collaboration sociale:<br/>
-										<p><span class="bold">Conception et implémentation de solutions collaboratives sociales :</span></p>
+										Fort de ses 11 ann&eacute;es d’exp&eacute;rience dans le domaine du collaboratif d’entreprise, CGI Business Consulting vous accompagne dans l’ensemble de vos projets de Collaboration sociale:<br/>
+										<p><span class="bold">Conception et impl&eacute;mentation de solutions collaboratives sociales :</span></p>
 										<ul>
-											<li>Définition de votre stratégie de collaboration sociale : de l’identification des cas d’usage et des KPIs à la sélection des solutions et plan de déploiement</li>
-											<li>Amélioration de vos performances : adaptation des process de l’organisation aux solutions de Social Collaboration, stratégie de change management 2.0, définition de charte d’utilisation guidant les meilleures pratiques,</li>
-											<li>Services technologiques : mise en œuvre des technologies leaders du marché (Jive, Microsoft) et intégration dans votre SI, garante du succès de votre projet</li>
+											<li>D&eacute;finition de votre strat&eacute;gie de collaboration sociale : de l’identification des cas d’usage et des KPIs &acute; la s&eacute;lection des solutions et plan de d&eacute;ploiement</li>
+											<li>Am&eacute;lioration de vos performances : adaptation des process de l’organisation aux solutions de Social Collaboration, strat&eacute;gie de change management 2.0, d&eacute;finition de charte d’utilisation guidant les meilleures pratiques,</li>
+											<li>Services technologiques : mise en œuvre des technologies leaders du march&eacute; (Jive, Microsoft) et int&eacute;gration dans votre SI, garante du succ&egrave;s de votre projet</li>
 										</ul>
 										<p><span class="bold">Services d’accompagnement:</span></p>
 										<ul>
-											<li>Analyse et mesure de vos processus collaboratifs : analyse des réseaux sociaux, de votre maturité organisationnelle, de la dynamique des communautés</li>
-											<li>Community management : méthodologie de formation de vos community managers et transition vers une animation autonome de vos communautés</li>
+											<li>Analyse et mesure de vos processus collaboratifs : analyse des r&eacute;seaux sociaux, de votre maturit&eacute; organisationnelle, de la dynamique des communaut&eacute;s</li>
+											<li>Community management : m&eacute;thodologie de formation de vos community managers et transition vers une animation autonome de vos communaut&eacute;s</li>
 										</ul>
 									</div>
 									<div class="offres-thumb-detail-text-resume">
 										<div class="rougeCerise bold offres-caption-title">Social Collaboration</div>
-										Fort de ses 11 années d’expérience dans le domaine du collaboratif d’entreprise, CGI Business Consulting vous accompagne dans l’ensemble de vos projets de Collaboration sociale:
+										Fort de ses 11 ann&eacute;es d’exp&eacute;rience dans le domaine du collaboratif d’entreprise, CGI Business Consulting vous accompagne dans l’ensemble de vos projets de Collaboration sociale:
 										<ul>
-											<li>Conception et implémentation de solutions collaboratives et sociales (Jive, NewsGator, Yammer…);</li>
-											<li>Services d’accompagnement (Analyse des réseaux sociaux, Community Management)</li>
+											<li>Conception et impl&eacute;mentation de solutions collaboratives et sociales (Jive, NewsGator, Yammer…);</li>
+											<li>Services d’accompagnement (Analyse des r&eacute;seaux sociaux, Community Management)</li>
 										</ul>
 									</div>
 								</div>
@@ -332,7 +332,7 @@ $baliseTitle =  dynTitle($url2parse);
 					<div class="half">
 						<article id="digital-workspace" title="Digital Workspace" class="offres-thumb scroll" draggable="true" ondragstart="onDragStart(this, event);">
 							<div class="offres-thumb-wrapper">
-								<img src="<?php echo _URL_WWW; ?>/images/offers/template_cardOffer_digitalWk.jpg" alt="Digital Workspace" title="Cliquez pour obtenir plus de détails" />
+								<img src="<?php echo _URL_WWW; ?>/images/offers/template_cardOffer_digitalWk.jpg" alt="Digital Workspace" title="Cliquez pour obtenir plus de d&eacute;tails" />
 								<div class="offres-caption-background">
 									<div class="offres-caption">
 										<div class="rougeCerise bold offres-caption-title">Digital Workspace</div>
@@ -344,16 +344,16 @@ $baliseTitle =  dynTitle($url2parse);
 									<img src="<?php echo _URL_WWW; ?>/images/offers/template_cardOffer_back.jpg" alt="Card offer background" title="Cliquez pour afficher la carte de visite" />
 									<div class="offres-thumb-detail-text justify">
 										<div class="rougeCerise bold offres-caption-title">Digital Workspace</div>
-										Par l’étendue de sa présence dans les entreprises et la complétude de son périmètre de services, SharePoint s’impose aujourd’hui comme la solution majeure pour la mise en place du Digital Workplace.
+										Par l’&eacute;tendue de sa pr&eacute;sence dans les entreprises et la compl&eacute;tude de son p&eacute;rim&egrave;tre de services, SharePoint s’impose aujourd’hui comme la solution majeure pour la mise en place du Digital Workplace.
 										<ul>
-											<li>Cependant, l’utilisation qui en est faite reste généralement partielle et le bénéfice retiré par les entreprises rarement optimisé.</li>
-											<li>SharePoint et son écosystème représentent pourtant un large gisement d’opportunités pour développer de nouveaux usages en favorisant les échanges et le partage. Il permet d’apporter, dans un environnement unique, simple et efficace, de la valeur métier à l’expérience collaborative.</li>
-											<li>Bâtie sur cette vision du Digital Workplace avec SharePoint, notre offre de services vous fait bénéficier de toute notre expertise pour tirer le plein parti de la solution SharePoint, et transformer avec vous l’environnement collaboratif de vos utilisateurs en espace numérique de travail.</li>
+											<li>Cependant, l’utilisation qui en est faite reste g&eacute;n&eacute;ralement partielle et le b&eacute;n&eacute;fice retir&eacute; par les entreprises rarement optimis&eacute;.</li>
+											<li>SharePoint et son &eacute;cosyst&egrave;me repr&eacute;sentent pourtant un large gisement d’opportunit&eacute;s pour d&eacute;velopper de nouveaux usages en favorisant les &eacute;changes et le partage. Il permet d’apporter, dans un environnement unique, simple et efficace, de la valeur m&eacute;tier &acute; l’exp&eacute;rience collaborative.</li>
+											<li>Bâtie sur cette vision du Digital Workplace avec SharePoint, notre offre de services vous fait b&eacute;n&eacute;ficier de toute notre expertise pour tirer le plein parti de la solution SharePoint, et transformer avec vous l’environnement collaboratif de vos utilisateurs en espace num&eacute;rique de travail.</li>
 										</ul>
 									</div>
 									<div class="offres-thumb-detail-text-resume">
 										<div class="rougeCerise bold offres-caption-title">Digital Workspace</div>
-										Avec son écosystème, Sharepoint représente un large gisement d’opportunités de nouveaux usages favorisant le partage et apportant, dans un environnement unique et efficace, la valeur métier à la collaboration. Bâtie sur cette vision, notre offre de services vous fait bénéficier de notre expertise pour tirer le plein parti de SharePoint, et transformer votre environnement collaboratif en espace numérique de travail.
+										Avec son &eacute;cosyst&egrave;me, Sharepoint repr&eacute;sente un large gisement d’opportunit&eacute;s de nouveaux usages favorisant le partage et apportant, dans un environnement unique et efficace, la valeur m&eacute;tier &acute; la collaboration. Bâtie sur cette vision, notre offre de services vous fait b&eacute;n&eacute;ficier de notre expertise pour tirer le plein parti de SharePoint, et transformer votre environnement collaboratif en espace num&eacute;rique de travail.
 									</div>
 								</div>
 						  </div>
@@ -362,11 +362,11 @@ $baliseTitle =  dynTitle($url2parse);
 					<div class="half">
 						<article id="e-presence-reputation" title="ePresence" class="offres-thumb scroll" draggable="true" ondragstart="onDragStart(this, event);">
 							<div class="offres-thumb-wrapper">
-								<img src="<?php echo _URL_WWW; ?>/images/offers/template_cardOffer_ePresence.jpg" alt="ePresence" title="Cliquez pour obtenir plus de détails" />
+								<img src="<?php echo _URL_WWW; ?>/images/offers/template_cardOffer_ePresence.jpg" alt="ePresence" title="Cliquez pour obtenir plus de d&eacute;tails" />
 								<div class="offres-caption-background">
 									<div class="offres-caption">
 										<div class="rougeCerise bold offres-caption-title">ePresence</div>
-										<div>Exploiter la richesse et les opportunités du web social, à tous les niveaux de votre organisation</div>
+										<div>Exploiter la richesse et les opportunit&eacute;s du web social, &acute; tous les niveaux de votre organisation</div>
 										<div class="betteraveCGI offres-caption-information">Cliquez pour plus d'infos</div>
 									</div>
 								</div>
@@ -374,20 +374,20 @@ $baliseTitle =  dynTitle($url2parse);
 									<img src="<?php echo _URL_WWW; ?>/images/offers/template_cardOffer_back.jpg" alt="Card offer background" title="Cliquez pour afficher la carte de visite" />
 									<div class="offres-thumb-detail-text justify">
 										<div class="rougeCerise bold offres-caption-title">ePresence</div>
-										Vos clients, vos prospects, vos collaborateurs, vos partenaires, vos actionnaires, vos concurrents, vos détracteurs… Tous sont présents sur le web social, tous écoutent et sont écoutés, 24/24h, 7/7j, sur tous vos marchés. Et chacune des fonctions de votre organisation est impactée, chacune à sa manière. A vous de savoir reconnaître et exploiter les opportunités offertes par le web social.
+										Vos clients, vos prospects, vos collaborateurs, vos partenaires, vos actionnaires, vos concurrents, vos d&eacute;tracteurs… Tous sont pr&eacute;sents sur le web social, tous &eacute;coutent et sont &eacute;cout&eacute;s, 24/24h, 7/7j, sur tous vos march&eacute;s. Et chacune des fonctions de votre organisation est impact&eacute;e, chacune &acute; sa mani&egrave;re. A vous de savoir reconnaître et exploiter les opportunit&eacute;s offertes par le web social.
 										<br />
-										Le web social peut faire mal. Mais permet aussi de générer de nouveaux revenus. Nous pouvons intervenir pour vous aider à :
+										Le web social peut faire mal. Mais permet aussi de g&eacute;n&eacute;rer de nouveaux revenus. Nous pouvons intervenir pour vous aider &acute; :
 										<ul>
-											<li>gagner de nouveaux clients et intégrer leurs données à votre système CRM</li>
-											<li>améliorer votre image, vos offres, vos études, vos ventes, vos recrutements, etc.</li>
-											<li>identifier les influençeurs, destructeurs, sources-clés et conversations-clés pour optimiser vos campagnes digitales et le dévelopement de vos offres</li>
-											<li>mettre en place une gouvernance pour partager méthodologies et outils</li>
-											<li>anticiper et gérer vos crises sur le web social, et celles de vos concurrents…</li>
+											<li>gagner de nouveaux clients et int&eacute;grer leurs donn&eacute;es &acute; votre syst&egrave;me CRM</li>
+											<li>am&eacute;liorer votre image, vos offres, vos &eacute;tudes, vos ventes, vos recrutements, etc.</li>
+											<li>identifier les influen&ccedil;eurs, destructeurs, sources-cl&eacute;s et conversations-cl&eacute;s pour optimiser vos campagnes digitales et le d&eacute;velopement de vos offres</li>
+											<li>mettre en place une gouvernance pour partager m&eacute;thodologies et outils</li>
+											<li>anticiper et g&eacute;rer vos crises sur le web social, et celles de vos concurrents…</li>
 										</ul>
 									</div>
 									<div class="offres-thumb-detail-text-resume">
 										<div class="rougeCerise bold offres-caption-title">ePresence</div>
-										Vos clients, vos prospects, vos collaborateurs, vos partenaires, vos actionnaires, vos concurrents, vos détracteurs… Tous sont présents sur le web social, tous écoutent et sont écoutés, 24/24h, 7/7j, sur tous vos marchés. Et chacune des fonctions de votre organisation est impactée, chacune à sa manière. A vous de savoir reconnaître et exploiter les opportunités offertes par le web social.
+										Vos clients, vos prospects, vos collaborateurs, vos partenaires, vos actionnaires, vos concurrents, vos d&eacute;tracteurs… Tous sont pr&eacute;sents sur le web social, tous &eacute;coutent et sont &eacute;cout&eacute;s, 24/24h, 7/7j, sur tous vos march&eacute;s. Et chacune des fonctions de votre organisation est impact&eacute;e, chacune &acute; sa mani&egrave;re. A vous de savoir reconnaître et exploiter les opportunit&eacute;s offertes par le web social.
 									</div>
 								</div>
 							</div>
@@ -398,11 +398,11 @@ $baliseTitle =  dynTitle($url2parse);
 					<div class="half">
 						<article id="social-business" title="Social Business" class="offres-thumb scroll" draggable="true" ondragstart="onDragStart(this, event);">
 							<div class="offres-thumb-wrapper">
-								<img src="<?php echo _URL_WWW; ?>/images/offers/template_cardOffer_socialBusiness.jpg" alt="Social Business" title="Cliquez pour obtenir plus de détails" />
+								<img src="<?php echo _URL_WWW; ?>/images/offers/template_cardOffer_socialBusiness.jpg" alt="Social Business" title="Cliquez pour obtenir plus de d&eacute;tails" />
 								<div class="offres-caption-background">
 									<div class="offres-caption">
 										<div class="rougeCerise bold offres-caption-title">Social Business</div>
-										<div>Exploiter et Manager la richesse des médias sociaux au service des métiers de votre entreprise</div>
+										<div>Exploiter et Manager la richesse des m&eacute;dias sociaux au service des m&eacute;tiers de votre entreprise</div>
 										<div class="betteraveCGI offres-caption-information">Cliquez pour plus d'infos</div>
 									</div>
 								</div>
@@ -410,22 +410,22 @@ $baliseTitle =  dynTitle($url2parse);
 									<img src="<?php echo _URL_WWW; ?>/images/offers/template_cardOffer_back.jpg" alt="Card offer background" title="Cliquez pour afficher la carte de visite" />
 									<div class="offres-thumb-detail-text justify">
 										<div class="rougeCerise bold offres-caption-title">Social Business</div>
-										Par nos compétences et expertises certifiées sur la suite Marketing Cloud / Salesforce, notre offre Social Business se met à votre service afin de créer les nouveaux cockpits au service de vos métiers permettant :
+										Par nos comp&eacute;tences et expertises certifi&eacute;es sur la suite Marketing Cloud / Salesforce, notre offre Social Business se met &acute; votre service afin de cr&eacute;er les nouveaux cockpits au service de vos m&eacute;tiers permettant :
 										<ul>
-											<li>d’adresser vos communautés externes</li>
-											<li>de fédérer et créer vos contenus sur vos plateformes sociales, et parce que créer une relation c’est d’abord l’écoute, ce sont aussi les nouveaux cockpits d’écoute et de monitoring de la sphère Web Social jusqu’à l’interaction, l’engagement social.</li>
+											<li>d’adresser vos communaut&eacute;s externes</li>
+											<li>de f&eacute;d&eacute;rer et cr&eacute;er vos contenus sur vos plateformes sociales, et parce que cr&eacute;er une relation c’est d’abord l’&eacute;coute, ce sont aussi les nouveaux cockpits d’&eacute;coute et de monitoring de la sph&egrave;re Web Social jusqu’&acute; l’interaction, l’engagement social.</li>
 										</ul>
-										Ces cockpits  deviennent un atout indispensable aux métiers de l’entreprise digitale :
+										Ces cockpits  deviennent un atout indispensable aux m&eacute;tiers de l’entreprise digitale :
 										<ul>
 											<li>LA RH : pour mieux recruter et porter la marque employeur,</li>
-											<li>Les Ventes et le marketing : pour acquérir et fidéliser les clients, pour la veille et l’innovation</li>
-											<li>Le service client : pour augmenter la satisfaction client sur les temps de réponse ou réduire des plaintes sur les centres d’appels, coordonner les communautés d’entre-aide</li>
+											<li>Les Ventes et le marketing : pour acqu&eacute;rir et fid&eacute;liser les clients, pour la veille et l’innovation</li>
+											<li>Le service client : pour augmenter la satisfaction client sur les temps de r&eacute;ponse ou r&eacute;duire des plaintes sur les centres d’appels, coordonner les communaut&eacute;s d’entre-aide</li>
 										</ul>
-										Tout ceci afin de création d’une relation « digitale » privilégiée et affinitaire avec vos internautes, clients, prospects, ambassadeurs, influenceurs, partenaires…
+										Tout ceci afin de cr&eacute;ation d’une relation « digitale » privil&eacute;gi&eacute;e et affinitaire avec vos internautes, clients, prospects, ambassadeurs, influenceurs, partenaires…
 									</div>
 									<div class="offres-thumb-detail-text-resume">
 										<div class="rougeCerise bold offres-caption-title">Social Business</div>
-										Notre offre Social Business se met à votre service afin de créer les nouveaux cockpits au service de vos métiers permettant d’adresser vos communautés externes, de fédérer et créer vos contenus sur vos plateformes sociales, et parce que créer une relation c’est d’abord l’écoute, ce sont aussi les nouveaux cockpits d’écoute et de monitoring de la sphère Web Social jusqu’à l’interaction, l’engagement social
+										Notre offre Social Business se met &acute; votre service afin de cr&eacute;er les nouveaux cockpits au service de vos m&eacute;tiers permettant d’adresser vos communaut&eacute;s externes, de f&eacute;d&eacute;rer et cr&eacute;er vos contenus sur vos plateformes sociales, et parce que cr&eacute;er une relation c’est d’abord l’&eacute;coute, ce sont aussi les nouveaux cockpits d’&eacute;coute et de monitoring de la sph&egrave;re Web Social jusqu’&acute; l’interaction, l’engagement social
 									</div>
 								</div>
 						  </div>
@@ -441,24 +441,24 @@ $baliseTitle =  dynTitle($url2parse);
 		<section id="expertises" class="row grey expertise">
 			<div class="center">
 				<h1>Nos Expertises</h1>
-				<h2>Parce que la diversité nous enrichit</h2>
+				<h2>Parce que la diversit&eacute; nous enrichit</h2>
 				<div class="columns">
 					<div class="oneThird">
 						<div class="imgHolder fullWidth"><img src="<?php echo _URL_WWW; ?>/images/expertises_visuel.png" alt="Nos Expertises" /></div>
-						<p>Bien sûr, nous disposons de profils expérimentés en gestion de projet, maîtrise d’ouvrage et maîtrise d’œuvre, mais nous avons également à cœur que nos consultants vous apportent des expertises complémentaires que nous jugeons indispensables lorsqu’il s’agit de faire la différence pour la réussite de vos projets :</p>
+						<p>Bien sûr, nous disposons de profils exp&eacute;riment&eacute;s en gestion de projet, maîtrise d’ouvrage et maîtrise d’œuvre, mais nous avons &eacute;galement &acute; cœur que nos consultants vous apportent des expertises compl&eacute;mentaires que nous jugeons indispensables lorsqu’il s’agit de faire la diff&eacute;rence pour la r&eacute;ussite de vos projets :</p>
 					</div>
 					<div class="oneThird">
 						<ul>
 							<li>
 								<h3 class="expertise-title">Social Strategy :</h3>
-								<p>La construction des nouvelles trajectoires internes et externes, basées sur l’émergence des médias sociaux, est menée par des consultants ayant une <strong>expérience métier</strong> (RH, Marketing, Communication, Support...). Notre équipe inclut également un <strong>Sociologue</strong> afin que l’interaction dans le numérique, reste de l’interaction entre individus. L’étude des comportements dans un contexte professionnel permet de définir des trajectoires, un cycle de déploiement pour accompagner et encourager au mieux  les interactions.</p>
+								<p>La construction des nouvelles trajectoires internes et externes, bas&eacute;es sur l’&eacute;mergence des m&eacute;dias sociaux, est men&eacute;e par des consultants ayant une <strong>exp&eacute;rience m&eacute;tier</strong> (RH, Marketing, Communication, Support...). Notre &eacute;quipe inclut &eacute;galement un <strong>Sociologue</strong> afin que l’interaction dans le num&eacute;rique, reste de l’interaction entre individus. L’&eacute;tude des comportements dans un contexte professionnel permet de d&eacute;finir des trajectoires, un cycle de d&eacute;ploiement pour accompagner et encourager au mieux  les interactions.</p>
 							</li>
 							<li>
-								<h3 class="expertise-title">Définition des nouveaux usages basés sur les solutions :</h3>
-								<p>Nos Consultants avec des profils <strong>technico-fonctionnels</strong>, construirons des nouveaux usages en adéquation avec les capacités des solutions et leurs évolutions futures dans les domaines du :</p>
+								<h3 class="expertise-title">D&eacute;finition des nouveaux usages bas&eacute;s sur les solutions :</h3>
+								<p>Nos Consultants avec des profils <strong>technico-fonctionnels</strong>, construirons des nouveaux usages en ad&eacute;quation avec les capacit&eacute;s des solutions et leurs &eacute;volutions futures dans les domaines du :</p>
 								<ul>
 									<li>Collaboratifs</li>
-									<li>Réseaux sociaux</li>
+									<li>R&eacute;seaux sociaux</li>
 									<li>Content Management</li>
 									<li>Digital Asset Management</li>
 									<li>Portail</li>
@@ -471,21 +471,21 @@ $baliseTitle =  dynTitle($url2parse);
 					<div class="oneThird">
 						<ul>
 							<li>
-								<h3 class="expertise-title">Conduite des déploiements :</h3>
-								<p>Nos directeurs et chefs  de projet vous accompagnent  sur le déploiement de vos programmes de transformation avec de solides expertises sur :</p>
+								<h3 class="expertise-title">Conduite des d&eacute;ploiements :</h3>
+								<p>Nos directeurs et chefs  de projet vous accompagnent  sur le d&eacute;ploiement de vos programmes de transformation avec de solides expertises sur :</p>
 								<ul>
-									<li>Méthodologies agiles</li>
+									<li>M&eacute;thodologies agiles</li>
 									<li>People adoption</li>
 									<li>Offres de services</li>
-									<li>Usines à site</li>
+									<li>Usines &acute; site</li>
 								</ul>
-								<p>Nos Coachs, spécialisés dans la mise en place de réseaux de champions et d’ambassadeurs portent  les leviers d’influence pour réussir la transformation numérique par l’appropriation de leurs usages</p>
-								<p>Nos Community Manager assurent les règles d’engagement, d’animation, de coordination, ainsi que la montée en compétences de vos équipes.</p>
+								<p>Nos Coachs, sp&eacute;cialis&eacute;s dans la mise en place de r&eacute;seaux de champions et d’ambassadeurs portent  les leviers d’influence pour r&eacute;ussir la transformation num&eacute;rique par l’appropriation de leurs usages</p>
+								<p>Nos Community Manager assurent les r&egrave;gles d’engagement, d’animation, de coordination, ainsi que la mont&eacute;e en comp&eacute;tences de vos &eacute;quipes.</p>
 							</li>
 							<li>
 								<h3 class="expertise-title">Expertises technologiques :</h3>
-								<p>Les  experts solutions disposent de plusieurs années d’expériences et de certifications  pour vous accompagner dans la mise en oeuvre</p>
-								<p>Les architectes interviennent  pour proposer et mettre en œuvre nos recommandations autour de la plateforme digitale et sa place dans votre système d’information actuel</p>
+								<p>Les  experts solutions disposent de plusieurs ann&eacute;es d’exp&eacute;riences et de certifications  pour vous accompagner dans la mise en oeuvre</p>
+								<p>Les architectes interviennent  pour proposer et mettre en œuvre nos recommandations autour de la plateforme digitale et sa place dans votre syst&egrave;me d’information actuel</p>
 							</li>
 						</ul>
 					</div>
@@ -503,15 +503,15 @@ $baliseTitle =  dynTitle($url2parse);
 							<h3>Valeo</h3>
 							<div class="content">
 								<a href="#" class="imgHolder fullWidth"><img src="<?php echo _URL_WWW; ?>/images/clients/visuel_valeo.jpg" alt="" /></a>
-								<p>Valeo a choisi une <strong>solution collaborative sur le cloud</strong> basée sur l'offre Google Apps Entreprise de Google pour ses 33 000 collaborateurs connectés au Système d'information. <strong>Collaborer plus vite, plus efficacement</strong>, en s'appuyant sur la simplicité d'usage et la dynamique d'évolution d'une solution issue du monde internet grand public a été une des raisons majeures de ce choix. <strong>CGI Business Consulting a accompagné Valeo</strong> dans les phases de prise de décision et de mise en place de l'organisation nécessaire au déploiement de la solution. </p>
-								<p><strong>Valeo</strong><br />Valeo est un Groupe indépendant entièrement focalisé sur la conception, la fabrication et la vente de composants, de systèmes intégrés et de modules pour l'industrie automobile, principalement pour la réduction des émissions de CO<sub>2</sub>.</p>
-								<p><strong>Chiffres clés du projet</strong><p>
+								<p>Valeo a choisi une <strong>solution collaborative sur le cloud</strong> bas&eacute;e sur l'offre Google Apps Entreprise de Google pour ses 33 000 collaborateurs connect&eacute;s au Syst&egrave;me d'information. <strong>Collaborer plus vite, plus efficacement</strong>, en s'appuyant sur la simplicit&eacute; d'usage et la dynamique d'&eacute;volution d'une solution issue du monde internet grand public a &eacute;t&eacute; une des raisons majeures de ce choix. <strong>CGI Business Consulting a accompagn&eacute; Valeo</strong> dans les phases de prise de d&eacute;cision et de mise en place de l'organisation n&eacute;cessaire au d&eacute;ploiement de la solution. </p>
+								<p><strong>Valeo</strong><br />Valeo est un Groupe ind&eacute;pendant enti&egrave;rement focalis&eacute; sur la conception, la fabrication et la vente de composants, de syst&egrave;mes int&eacute;gr&eacute;s et de modules pour l'industrie automobile, principalement pour la r&eacute;duction des &eacute;missions de CO<sub>2</sub>.</p>
+								<p><strong>Chiffres cl&eacute;s du projet</strong><p>
 								<p>La solution : <strong>Google Apps</strong><br />
 								<ul class="listXML">
 									<li>+33 000 utilisateurs, 194 sites dans 28 pays</li>
-									<li>Sites & Video: +40 consultations par utilisateur par mois, +3 700 video partagées</li>
-									<li>Docs: +270 000 documents partagés, ~20 collaborateurs par document</li>
-									<li>Mail: ~20 millions reçus et envoyés</li>
+									<li>Sites & Video: +40 consultations par utilisateur par mois, +3 700 video partag&eacute;es</li>
+									<li>Docs: +270 000 documents partag&eacute;s, ~20 collaborateurs par document</li>
+									<li>Mail: ~20 millions re&ccedil;us et envoy&eacute;s</li>
 								</ul>
 							</div>
 						</div>
@@ -521,7 +521,7 @@ $baliseTitle =  dynTitle($url2parse);
 							<h3>Groupe pharmaceutique</h3>
 							<div class="content">
 								<a href="#" class="imgHolder fullWidth"><img src="<?php echo _URL_WWW; ?>/images/clients/visuel_pharma.jpg" alt="" /></a>
-								<p>Dans le cadre de la mise en place d'un <strong>programme informatique collaboratif d'envergure</strong> - qui permettra demain à nos collaborateurs d'être au <strong>centre des échanges</strong>, et de travailler de manière encore plus <strong>efficace et innovante</strong> - nous avons choisi de faire appel aux <strong>expertises ciblées de CGI Business Consulting</strong>.</p><p>Depuis fin 2010, les spécialistes de l'<strong>offre DSIN "Digital & Social Interactions"</strong> nous accompagnent à la fois sur la <strong>définition de notre stratégie de collaboration, la mise en place de projets et de leurs outils associés</strong>, mais aussi sur la <strong>communication et la conduite du changement</strong> liées à ces nouvelles méthodes de travail. Si le <strong>partage de connaissances et l'esprit collaboratif</strong> sont bel et bien au coeur de nos projets pour le groupe, ils le sont aussi dans notre manière de travailler au quotidien, avec CGI Business Consulting !</p>
+								<p>Dans le cadre de la mise en place d'un <strong>programme informatique collaboratif d'envergure</strong> - qui permettra demain &acute; nos collaborateurs d'être au <strong>centre des &eacute;changes</strong>, et de travailler de mani&egrave;re encore plus <strong>efficace et innovante</strong> - nous avons choisi de faire appel aux <strong>expertises cibl&eacute;es de CGI Business Consulting</strong>.</p><p>Depuis fin 2010, les sp&eacute;cialistes de l'<strong>offre DSIN "Digital & Social Interactions"</strong> nous accompagnent &acute; la fois sur la <strong>d&eacute;finition de notre strat&eacute;gie de collaboration, la mise en place de projets et de leurs outils associ&eacute;s</strong>, mais aussi sur la <strong>communication et la conduite du changement</strong> li&eacute;es &acute; ces nouvelles m&eacute;thodes de travail. Si le <strong>partage de connaissances et l'esprit collaboratif</strong> sont bel et bien au coeur de nos projets pour le groupe, ils le sont aussi dans notre mani&egrave;re de travailler au quotidien, avec CGI Business Consulting !</p>
 							</div>
 						</div>
 					</article>
@@ -530,12 +530,12 @@ $baliseTitle =  dynTitle($url2parse);
 							<h3>Banque d'Investissement</h3>
 							<div class="content">
 								<a href="#" class="imgHolder fullWidth"><img src="<?php echo _URL_WWW; ?>/images/clients/visuel_bank.jpg" alt="" /></a>
-								<p>Afin de <strong>réduire les risques opérationnels</strong> liés aux problèmes de capitalisation et de partage des connaissances à l'échelle locale et internationale, <strong>une grande banque d'investissement</strong> a décidé de lancer une <strong>démarche de Knowledge Management proactive</strong>.</p><p> Soutenant le déploiement d'une <strong>organisation apprenante</strong>, l'accès rapide à des informations fiables et l'identification d'expertises internes, cette démarche s'articule autour d'une <strong>plateforme collaborative paramétrée sur-mesure</strong>.</p><p>Cet outil propose un <strong>espace dédié</strong> au référentiel documentaire de l'organisme, des <strong>espaces de partage</strong> pour les projets, les équipes et les applications. Mais également des <strong>communautés de pratiques</strong> et un moteur de recherche transverse permettant de trouver des documents et des experts.</p><p>CGI Business Consulting accompagne cette banque depuis la <strong>conception</strong> de cette plateforme, jusqu'à la <strong>formation</strong> des utilisateurs et l'<strong>accompagnement du changement</strong>.</p><p>Nous avons ainsi conçu un <strong>modèle de gouvernance spécifique</strong>, construit des kits méthodologiques et une <strong>offre de services dédiée</strong> aux problématiques du KM du secteur de la banque d'investissement. </p>
-								<p><strong>Données clés du projet</strong> :</p>
+								<p>Afin de <strong>r&eacute;duire les risques op&eacute;rationnels</strong> li&eacute;s aux probl&egrave;mes de capitalisation et de partage des connaissances &acute; l'&eacute;chelle locale et internationale, <strong>une grande banque d'investissement</strong> a d&eacute;cid&eacute; de lancer une <strong>d&eacute;marche de Knowledge Management proactive</strong>.</p><p> Soutenant le d&eacute;ploiement d'une <strong>organisation apprenante</strong>, l'acc&egrave;s rapide &acute; des informations fiables et l'identification d'expertises internes, cette d&eacute;marche s'articule autour d'une <strong>plateforme collaborative param&eacute;tr&eacute;e sur-mesure</strong>.</p><p>Cet outil propose un <strong>espace d&eacute;di&eacute;</strong> au r&eacute;f&eacute;rentiel documentaire de l'organisme, des <strong>espaces de partage</strong> pour les projets, les &eacute;quipes et les applications. Mais &eacute;galement des <strong>communaut&eacute;s de pratiques</strong> et un moteur de recherche transverse permettant de trouver des documents et des experts.</p><p>CGI Business Consulting accompagne cette banque depuis la <strong>conception</strong> de cette plateforme, jusqu'&acute; la <strong>formation</strong> des utilisateurs et l'<strong>accompagnement du changement</strong>.</p><p>Nous avons ainsi con&ccedil;u un <strong>mod&egrave;le de gouvernance sp&eacute;cifique</strong>, construit des kits m&eacute;thodologiques et une <strong>offre de services d&eacute;di&eacute;e</strong> aux probl&eacute;matiques du KM du secteur de la banque d'investissement. </p>
+								<p><strong>Donn&eacute;es cl&eacute;s du projet</strong> :</p>
 								<ul>
 									<li>Solution : <strong>Sharepoint 2010</strong></li>
 									<li>Utilisateurs cibles pour 2012 : <strong>6000</strong></li>
-									<li><strong>33</strong> pays concernés</li>
+									<li><strong>33</strong> pays concern&eacute;s</li>
 								</ul>
 							</div>
 						</div>
@@ -555,9 +555,10 @@ $baliseTitle =  dynTitle($url2parse);
 									<img src="<?php echo _URL_WWW; ?>/images/experts/banner_expert.jpg" alt="Banner Paroles d'Expert"  class="imgHolder fullWidth" />
 									<p><strong>Nos derni&egrave;res interventions et vid&eacute;os vous sont accessibles</strong> en cliquant sur les liens suivants : </p>
 									<ul>
-										<li>dans le  Journal du Net : <a href="http://www.journaldunet.com/solutions/reseau-social-d-entreprise/solutions-pour-creer-un-reseau-social-d-entreprise/" onClick="window.open(this.href); return false;" class="externalLink">Comparatif des solutions de réseau social d'entreprise</a></li>
+										<li>dans le  Journal du Net : <a href="http://www.journaldunet.com/solutions/reseau-social-d-entreprise/solutions-pour-creer-un-reseau-social-d-entreprise/" onClick="window.open(this.href); return false;" class="externalLink">Comparatif des solutions de r&eacute;seau social d'entreprise</a></li>
 										<li>dans le Journal du Net : <a href="http://www.journaldunet.com/solutions/dsi/mise-en-place-reseau-social-d-entreprise/mobiliser-ses-troupes.shtml" onClick="window.open(this.href); return false;" class="externalLink">Mise en place r&eacute;seau social d'entreprise | S'assurer de l'implication des managers : un facteur cl&eacute; de r&eacute;ussite</a></li>
-										<li>sur FrenchWeb : <a href="http://frenchweb.fr/reseaux-sociaux-quelle-identite-pour-les-salaries-60854" onClick="window.open(this.href); return false;" class="externalLink">[Réseaux Sociaux] Quelle identit&eacute; pour les salari&eacute;s ?</a></li>
+										<li>sur FrenchWeb : <a href="http://frenchweb.fr/reseaux-sociaux-quelle-identite-pour-les-salaries-60854" onClick="window.open(this.href); return false;" class="externalLink">[R&eacute;seaux Sociaux] Quelle identit&eacute; pour les salari&eacute;s ?</a></li>
+										<li>sur 01Business : <a href="http://www.01net.com/editorial/596301/celio-passe-sa-messagerie-dans-le-cloud-et-ca-va-mieux/" onClick="window.open(this.href); return false;" class="externalLink">Celio passe sa messagerie dans le cloud, et &ccedil;a va mieux</a></li>
 									</ul>
 								</div>
 							</div>
@@ -602,12 +603,12 @@ $baliseTitle =  dynTitle($url2parse);
 
 		<section id="media" class="row">
 			<div class="center">
-				<h1>Nos Vidéos</h1>
-				<h2>Vidéos DSIN on the Cloud</h2>
+				<h1>Nos Vid&eacute;os</h1>
+				<h2>Vid&eacute;os DSIN on the Cloud</h2>
 				<div class="columns medias">
 					<article id="video-social-business" class="media fullWidth textCenter">
 						<p class="content">
-							<span class="underline">Pitch</span> : Découvrez comment créer une relation « digitale » privilégiée et affinitaire avec les internautes, clients, prospects, ambassadeurs, influenceurs et partenaires de l'entreprise
+							<span class="underline">Pitch</span> : D&eacute;couvrez comment cr&eacute;er une relation « digitale » privil&eacute;gi&eacute;e et affinitaire avec les internautes, clients, prospects, ambassadeurs, influenceurs et partenaires de l'entreprise
 						</p>
 						<iframe class="videoDSIN" src="https://www.youtube.com/embed/hCYBYNM-6PQ" allowfullscreen></iframe>
 					</article>
@@ -640,19 +641,19 @@ $baliseTitle =  dynTitle($url2parse);
 					<article id="office365" class="oneThird">
 						<div class="partner">
 							<img src="<?php echo _URL_WWW; ?>/images/partners/Office365.png" alt="Microsoft Office 365" />
-							<div class="content"><strong>Leader incontournable du collaboratif, des portails et de la gestion de contenu</strong>, Microsoft et CGI Business Consulting ont accompagné depuis plus de dix ans de grandes entreprises. Aujourd'hui l'offre <strong>Office 365</strong> représente une solution innovante et pertinente que les consultants de CGI Business Consulting mettent en place chez leur client.</div>
+							<div class="content"><strong>Leader incontournable du collaboratif, des portails et de la gestion de contenu</strong>, Microsoft et CGI Business Consulting ont accompagn&eacute; depuis plus de dix ans de grandes entreprises. Aujourd'hui l'offre <strong>Office 365</strong> repr&eacute;sente une solution innovante et pertinente que les consultants de CGI Business Consulting mettent en place chez leur client.</div>
 						</div>
 					</article>
 					<article id="newsgator" class="oneThird">
 						<div class="partner">
 							<img src="<?php echo _URL_WWW; ?>/images/partners/Newsgator.png" alt="Newsgator" />
-							<div class="content">Reconnu comme un <strong>add-on incontournable à Microsoft Sharepoint, Newsgator</strong> offre des fonctionnalités de média social convaincantes. CGI Business Consulting a accompagné de nombreux grands groupes dans la réflexion autour des médias sociaux pour les entreprises disposant déjà de Microsoft Sharepoint. Newsgator se propose également comme un service dans le Cloud.</div>
+							<div class="content">Reconnu comme un <strong>add-on incontournable &acute; Microsoft Sharepoint, Newsgator</strong> offre des fonctionnalit&eacute;s de m&eacute;dia social convaincantes. CGI Business Consulting a accompagn&eacute; de nombreux grands groupes dans la r&eacute;flexion autour des m&eacute;dias sociaux pour les entreprises disposant d&eacute;j&acute; de Microsoft Sharepoint. Newsgator se propose &eacute;galement comme un service dans le Cloud.</div>
 						</div>
 					</article>
 					<article id="lotus-connections" class="oneThird">
 						<div class="partner">
 							<img src="<?php echo _URL_WWW; ?>/images/partners/LotusConnection.png" alt="Lotus Connection" />
-							<div class="content">Rejoignant la liste des acteurs incontournables, l'outil <strong>Lotus Connections</strong> a été intégré et repackagé par CGI en une offre clé en main baptisée <strong>CGI Live Connections</strong>.</div>
+							<div class="content">Rejoignant la liste des acteurs incontournables, l'outil <strong>Lotus Connections</strong> a &eacute;t&eacute; int&eacute;gr&eacute; et repackag&eacute; par CGI en une offre cl&eacute; en main baptis&eacute;e <strong>CGI Live Connections</strong>.</div>
 						</div>
 					</article>
 				</div>
@@ -660,19 +661,19 @@ $baliseTitle =  dynTitle($url2parse);
 					<article id="jive" class="oneThird">
 						<div class="partner">
 							<img src="<?php echo _URL_WWW; ?>/images/partners/Jive.png" alt="JIVE" />
-							<div class="content">Editeur spécialisé dans le monde du social workplace, <strong>Jive</strong> est devenu en quelques années un <strong>leader des plateformes de collaboration d'entreprise</strong>. Depuis 2010, le <strong>partenariat avec DSIN</strong> s'est traduit par de nombreux succès pour des clients appréciant la <strong>facilité d'appréhension</strong> et <strong>les usages innovants</strong> que permet la technologie Jive.</div>
+							<div class="content">Editeur sp&eacute;cialis&eacute; dans le monde du social workplace, <strong>Jive</strong> est devenu en quelques ann&eacute;es un <strong>leader des plateformes de collaboration d'entreprise</strong>. Depuis 2010, le <strong>partenariat avec DSIN</strong> s'est traduit par de nombreux succ&egrave;s pour des clients appr&eacute;ciant la <strong>facilit&eacute; d'appr&eacute;hension</strong> et <strong>les usages innovants</strong> que permet la technologie Jive.</div>
 						</div>
 					</article>
 					<article id="salesforce-marketing-cloud" class="oneThird">
 						<div class="partner">
 							<img src="<?php echo _URL_WWW; ?>/images/partners/logo_marketingCloud.png" alt="Marketing Cloud / Salesforce" />
-							<div class="content">A l’ère des medias sociaux, Salesforce avec sa suite Marketing Cloud propose l’offre cloud la plus complète du marché dédié au social Business. Avec une équipe formée et certifiée sur les technologies Salesforce, CGI Business Consulting vous permettra d’accélérer vos projets sur les médias sociaux pour toutes les fonctions de votre entreprise.</div>
+							<div class="content">A l’&egrave;re des medias sociaux, Salesforce avec sa suite Marketing Cloud propose l’offre cloud la plus compl&egrave;te du march&eacute; d&eacute;di&eacute; au social Business. Avec une &eacute;quipe form&eacute;e et certifi&eacute;e sur les technologies Salesforce, CGI Business Consulting vous permettra d’acc&eacute;l&eacute;rer vos projets sur les m&eacute;dias sociaux pour toutes les fonctions de votre entreprise.</div>
 						</div>
 					</article>
 					<article id="google" class="oneThird">
 						<div class="partner">
 							<img src="<?php echo _URL_WWW; ?>/images/partners/GoogleApps.png" alt="Google Apps for Business" />
-							<div class="content">Parfaite illustration de services dans le Cloud, <strong>Google</strong> propose sa suite collaborative aux entreprises <strong>Google Aps for Business</strong> et CGI a mis en place depuis 2010 ans un <strong>centre de compétence dédié aux technologies Google</strong> et accompagne depuis 2007 de grands clients dans leur mise en place.</div>
+							<div class="content">Parfaite illustration de services dans le Cloud, <strong>Google</strong> propose sa suite collaborative aux entreprises <strong>Google Aps for Business</strong> et CGI a mis en place depuis 2010 ans un <strong>centre de comp&eacute;tence d&eacute;di&eacute; aux technologies Google</strong> et accompagne depuis 2007 de grands clients dans leur mise en place.</div>
 						</div>
 					</article>
 				</div>
@@ -681,7 +682,7 @@ $baliseTitle =  dynTitle($url2parse);
 					<article class="oneThird">
 						<div class="partner">
 							<img src="<?php echo _URL_WWW; ?>/images/partners/SalesforceChatter.jpg" alt="Chatter" />
-							<div class="content"><strong>Leader du CRM et fort challenger sur la collaboration d'entreprise</strong>, au travers de son produit <strong>Chatter</strong>, <strong>SalesForce</strong> peut compter depuis 2006 sur une équipe CGI dédiée aux technologies SalesForce et Force.com et avec DSIN à Chatter.</div>
+							<div class="content"><strong>Leader du CRM et fort challenger sur la collaboration d'entreprise</strong>, au travers de son produit <strong>Chatter</strong>, <strong>SalesForce</strong> peut compter depuis 2006 sur une &eacute;quipe CGI d&eacute;di&eacute;e aux technologies SalesForce et Force.com et avec DSIN &acute; Chatter.</div>
 						</div>
 					</article>
 				</div>

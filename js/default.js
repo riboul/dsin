@@ -87,14 +87,17 @@ jQuery(function (){
 	
 	// Hide Mail Confirmation
 	setTimeout(function(){
-		$('.mailConfirmation').hide()
+		$('.mailConfirmation').hide();
 	}, 3500); 
 	
 	// Submit Contact Form via Ajax
 	handleContactForm();
 	
 	// Handle URLs Rewriting
-	handleUrlsRewriting();
+	setTimeout(function(){
+		handleUrlsRewriting();
+	}, 1300);
+		
 });
 
 // Handle logo display
