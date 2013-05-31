@@ -596,6 +596,6 @@ function navigateTo(id, addingHeight, html){
 	if ($('#'+id) !== undefined){
 		var idTop = parseInt($('#'+id).offset().top);
 		var idTopFinal = parseInt(idTop) - parseInt(addingHeight);
-		html.stop().animate({scrollTop: idTop},{duration: 1000});
+		html.stop().animate({scrollTop: idTopFinal},{duration: 1000});
 	}
 }
