@@ -676,23 +676,15 @@ $baliseTitle =  dynTitle($url2parse);
 							<div class="content">Parfaite illustration de services dans le Cloud, <strong>Google</strong> propose sa suite collaborative aux entreprises <strong>Google Aps for Business</strong> et CGI a mis en place depuis 2010 ans un <strong>centre de comp&eacute;tence d&eacute;di&eacute; aux technologies Google</strong> et accompagne depuis 2007 de grands clients dans leur mise en place.</div>
 						</div>
 					</article>
+				</div>
+				<div class="columns partners">
 					<article id="adobe" class="oneThird">
 						<div class="partner">
 							<img src="<?php echo _URL_WWW; ?>/images/partners/Adobe.png" alt="Adobe" />
-							<div class="content">Acteur international reconnu pour ses logiciels de création multimédia, Adobe a en 3 ans complété son offre avec la gamme de produit « Digital Marketing ». Il est depuis 2013 le leader du Digital eXperience Management (WCM, DAM, Analytics, Targeting, Social, etc.). CGI Business Consulting accompagne depuis 2008 de Grands Comptes, de la réflexion sur les parcours client à la refonte de leurs sites Web, en passant par l’optimisation de la segmentation Client et l’architecture de plateformes Digitales</div>
-						</div>
-					</article>					
-				</div>
-				<!--
-				<div class="columns partners">
-					<article class="oneThird">
-						<div class="partner">
-							<img src="<?php echo _URL_WWW; ?>/images/partners/SalesforceChatter.jpg" alt="Chatter" />
-							<div class="content"><strong>Leader du CRM et fort challenger sur la collaboration d'entreprise</strong>, au travers de son produit <strong>Chatter</strong>, <strong>SalesForce</strong> peut compter depuis 2006 sur une &eacute;quipe CGI d&eacute;di&eacute;e aux technologies SalesForce et Force.com et avec DSIN &acute; Chatter.</div>
+							<div class="content">Acteur international reconnu pour ses logiciels de cr&eacute;ation multim&eacute;dia, Adobe a en 3 ans compl&eacute;t&eacute; son offre avec la gamme de produit « Digital Marketing ». Il est depuis 2013 le leader du Digital eXperience Management (WCM, DAM, Analytics, Targeting, Social, etc.). CGI Business Consulting accompagne depuis 2008 de Grands Comptes, de la r&eacute;flexion sur les parcours client &acute; la refonte de leurs sites Web, en passant par l’optimisation de la segmentation Client et l’architecture de plateformes Digitales</div>
 						</div>
 					</article>
 				</div>
-				-->
 			</div>
 		</section>
 
