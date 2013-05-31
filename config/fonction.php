@@ -114,6 +114,9 @@ function dynTitle($page_url) {
 		case "/nos-partenaires/google/":
 			$string2Return .= " nos partenaires : Google / ";	
 			break;	
+		case "/nos-partenaires/google/":
+			$string2Return .= " nos partenaires : Adobe / ";	
+			break;				
 		case "/contactez-nous/":
 			$string2Return .= " contactez-nous / ";	
 			break;	
